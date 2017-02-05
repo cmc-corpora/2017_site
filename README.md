@@ -1,6 +1,6 @@
 # Project Zeppelin / GDG DevFest 2014 site template
 
-[![Build Status](https://travis-ci.org/commul/cmc-corpora2017-site.svg?branch=master)][travis]
+[![Build Status](https://travis-ci.org/commul/cmc-corpora2017-site.svg)][travis]
 
 [travis]: https://travis-ci.org/commul/cmc-corpora2017-site
 
