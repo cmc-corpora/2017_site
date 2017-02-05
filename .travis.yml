@@ -1,7 +1,6 @@
 language: ruby
 
-install: gem install jekyll html-proofer jekyll-sitemap
-script: scripts/cibuild
+script: script/cibuild
 
 # branch whitelist
 branches:
@@ -16,6 +15,6 @@ env:
 deploy:
   skip_cleanup: true
   provider: script
-  script: scripts/deploy.sh
+  script: script/deploy
   on:
     branch: gh-pages
