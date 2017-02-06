@@ -1,8 +1,8 @@
 ---
 layout: post
 title:  "Call for Papers"
-date:   2017-02-01 09:00:00
-isStaticPost: false
+permalink: /cfp/
+isStaticPost: true
 ---
 The 5th conference on CMC and Social Media Corpora for the Humanities will be
 held in Bolzano/Bozen, Italy on 3-4 October 2017 and will focus on the
