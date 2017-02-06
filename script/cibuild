@@ -3,4 +3,4 @@ set -e # halt script on error
 
 bundle exec jekyll build
 # FIXME: check docu and reenable
-# bundle exec htmlproofer ./_site
+# bundle exec htmlproofer --allow-hash-href --assume-extension ./_site
