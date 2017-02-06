@@ -1,0 +1,148 @@
+- 
+  name: "Egon W."
+  surname: "Stemle"
+  affiliation: "Eurac Research, Italy"
+  link: "http://iiegn.eu/work"
+  thumbnailUrl: egonstemle.jpg
+  orgaTeam: true
+  orgaTeamChair: true
+  sciTeam: true
+- 
+  name: "Daniela"
+  surname: "Gasser"
+  affiliation: "Eurac Research, Italy"
+  link: "http://www.eurac.edu/en/services/meeting/team/Pages/staffdetails.aspx?persId=22263"
+  thumbnailUrl: danielagasser.jpg
+  orgaTeam: true
+- 
+  name: "Michael"
+  surname: "Beißwenger"
+  affiliation: "University of Duisburg-Essen, Germay"
+  link: "http://www.michael-beisswenger.de/"
+  thumbnailUrl: michaelbeisswenger.png
+  coordTeam: true
+  sciTeam: true
+  sciTeamCoChair: true
+- 
+  name: "Darja"
+  surname: "Fišer"
+  affiliation: "University of Ljubljana, Slovenia"
+  link: "http://lojze.lugos.si/darja/"
+  thumbnailUrl: darjafiser.png
+  coordTeam: true
+  sciTeam: true
+  sciTeamCoChair: true
+- 
+  name: "Ciara R."
+  surname: "Wigham"
+  affiliation: "Université Clermont Auvergne, France"
+  link: "http://icar.univ-lyon2.fr/membres/cwigham/"
+  thumbnailUrl: ciarawigham.png
+  coordTeam: true
+  sciTeam: true
+  sciTeamChair: true
+-
+  name: "Andrea"
+  surname: "Abel"
+  affiliation: "Eurac Research, Italy" 
+  link: "http://www.eurac.edu/de/research/autonomies/commul/staff/pages/staffdetails.aspx?persId=7"
+  sciTeam: true
+-
+  name: "Steven"
+  surname: "Coats"
+  affiliation: "University of Oulu, Finland" 
+  link: "http://www.oulu.fi/englishphilology/personnel/steven-coats"
+  sciTeam: true
+-
+  name: "Daria"
+  surname: "Dayter"
+  affiliation: "University of Basel, Switzerland" 
+  link: "http://unibas.academia.edu/DariaDayter"
+  sciTeam: true
+-
+  name: "Tomaž"
+  surname: "Erjavec"
+  affiliation: "Jožef Stefan Institute, Slovenia" 
+  link: "http://nl.ijs.si/et/"
+  sciTeam: true
+-
+  name: "Jennifer"
+  surname: "Frey"
+  affiliation: "Università di Bologna, Italy" 
+  link: "https://unibo.academia.edu/JenniferFrey"
+  sciTeam: true
+-
+  name: "Aivars"
+  surname: "Glaznieks"
+  affiliation: "Eurac Research, Italy" 
+  link: "http://www.eurac.edu/en/research/autonomies/commul/staff/pages/staffdetails.aspx?persId=17424"
+  sciTeam: true
+-
+  name: "Axel"
+  surname: "Herold"
+  affiliation: "Berlin-Brandenburgische Akademie der Wissenschaften, Germany" 
+  link: "http://www.bbaw.de/die-akademie/mitarbeiter/herold"
+  sciTeam: true
+-
+  name: "Dawn"
+  surname: "Knight"
+  affiliation: "Cardiff University, United Kingdom" 
+  link: "https://www.cardiff.ac.uk/people/view/142032-knight-dawn"
+  sciTeam: true
+-
+  name: "Julien"
+  surname: "Longhi"
+  affiliation: "Université de Cergy-Pontoise, France" 
+  link: "https://www.u-cergy.fr/fr/_plugins/mypage/mypage/content/jlonghi.html"
+  sciTeam: true
+-
+  name: "Harald"
+  surname: "Lüngen"
+  affiliation: "Institut für Deutsche Sprache, Germany" 
+  link: "http://www1.ids-mannheim.de/direktion/personal/luengen.html"
+  sciTeam: true
+-
+  name: "Maja"
+  surname: "Miličević"
+  affiliation: "University of Belgrade, Serbia" 
+  link: "http://www.fil.bg.ac.rs/lang/sr/katedre/opsta-lingvistika/zaposleni/maja-milicevic/"
+  sciTeam: true
+-
+  name: "María-Teresa"
+  surname: "Ortego-Antón"
+  affiliation: "Universidad Internacional de la Rioja, Spain" 
+  link: "http://www.unir.net/profesores/maria-teresa-ortego-anton/"
+  sciTeam: true
+-
+  name: "Céline"
+  surname: "Poudat"
+  affiliation: "University of Nice Sophia Antipolis, France" 
+  link: "http://poudat.fr/"
+-
+  name: "Eiríkur"
+  surname: "Rögnvaldsson"
+  affiliation: "University of Iceland, Iceland" 
+  link: "https://uni.hi.is/eirikur/enska/"
+-
+  name: "Muge"
+  surname: "Satar"
+  affiliation: "Newcastle University, United Kingdom" 
+  link: "http://www.ncl.ac.uk/linguistics/staff/profile/mugesatarnclacuk.html#background"
+  sciTeam: true
+-
+  name: "Stefania"
+  surname: "Spina"
+  affiliation: "University for Foreigners, Italy" 
+  link: "https://webclass.unistrapg.it/mod/data/view.php?d=1&rid=6"
+  sciTeam: true
+-
+  name: "Elisabeth"
+  surname: "Stark"
+  affiliation: "Universität Zürich, Switzerland" 
+  link: "http://www.rose.uzh.ch/de/seminar/personen/stark.html"
+-
+  name: "Angelika"
+  surname: "Storrer"
+  affiliation: "Universitaet Mannheim, Germany" 
+  link: "http://germanistik.uni-mannheim.de/abteilungen/germanistische_linguistik/prof_dr_angelika_storrer_engl/index.html"
+  sciTeam: true
