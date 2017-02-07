@@ -72,35 +72,16 @@ papers to be published in an edited monograph to appear in 2018.
 
 Further inquiries by email: [cmc-corpora2017@eurac.edu](mailto:cmc-corpora2017@eurac.edu)
 
+<div class="row">
+<div class="col-12 col-sm-6 col-md-4"><h5><a href="/committees">Scientific Committee</a></h5></div>
+<div class="col-12 col-sm-6 col-md-4"><h5><a href="/committees#coordteam">Coordinating Committee</a></h5></div>
+<div class="col-12 col-sm-6 col-md-4"><h5><a href="/committees#orgateam">Organizing Committee</a></h5></div>
+</div>
+
 #### Scientific Committee
 Chair
  Ciara R. Wigham (LRL, France) 
 Co-chairs
  Darja Fišer (UL, Slovenia)
  Michael Beißwenger (UDE, Germany)
-
-Members 
-Andrea Abel (Eurac Research, Italy)
-Steven Coats (University of Oulu, Finland)
-Daria Dayter (University of Basel, Switzerland)
-Tomaž Erjavec (Jožef Stefan Institute, Slovenia)
-Jennifer Frey (Università di Bologna, Italy)
-Aivars Glaznieks (Eurac Research, Italy)
-Axel Herold (Berlin-Brandenburgische Akademie der Wissenschaften, Germany)
-Dawn Knight (Cardiff University, United Kingdom)
-Julien Longhi (Université de Cergy-Pontoise, France)
-Harald Lüngen (Institut für Deutsche Sprache, Germany)
-Maja Miličević (University of Belgrade, Serbia)
-María-Teresa Ortego-Antón (Universidad Internacional de la Rioja, Spain)
-Céline Poudat (University of Nice Sophia Antipolis, France)
-Eiríkur Rögnvaldsson (University of Iceland, Iceland)
-Muge Satar (Newcastle University, United Kingdom)
-Stefania Spina (University for Foreigners, Italy)
-Elisabeth Stark (Universität Zürich, Switzerland)
-Egon W. Stemle (Eurac Research, Italy)
-Angelika Storrer (Universitaet Mannheim, Germany) 
-
-#### Organizing Committee
-Egon W. Stemle (Eurac Research, Italy)
-Daniela Gasser(Eurac Research, Italy) 
 
