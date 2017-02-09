@@ -19,9 +19,11 @@ research purposes. We invite submissions on corpus analysis of various types of
 CMC data for linguistic or applied linguistic purposes and Natural Language
 Processing. 
 
-The conference is hosted by Eurac Research and will be followed by the 4th
-Learner Corpus Research Conference, which will be held at the same venue from
-5-7 October. 
+The conference is hosted by
+[Eurac Research](http://www.eurac.edu){:target="_blank"}
+and will be followed by the 
+[4th Learner Corpus Research Conference](http://lcr2017.eurac.edu/){:target="_blank"},
+which will be held at the same venue from 5-7 October. 
 
 #### Topics of interest
 
@@ -52,36 +54,30 @@ We invite submissions for papers, posters and software/corpus demonstrations on
 any topic relevant to the above list of themes. For this conference, we are
 requesting extended abstracts (2-4 pages) in English. All abstracts will be
 peer-reviewed by the scientific committee. All submissions should follow the
-template which you can download here: MSWord and LaTeX. Please submit your
-paper via the [online conference system](https://easychair.org/conferences/?conf=cmccorpora2017). 
+template which you can download here:
+
+ - [MSWord Template](/assets/authors-kit/template_msword_cmc-corpora2017.dotx) ([Example document](/assets/authors-kit/template_msword_cmc-corpora2017.pdf))
+ - [Libre-/Openoffice Template](/assets/authors-kit/template_open-libre_cmc-corpora2017.ott) ([Example document](/assets/authors-kit/template_open-libre_cmc-corpora2017.pdf))
+ - [LaTeX Package](/assets/authors-kit/template_latex_cmc-corpora2017.tgz) (Example included)
+
+Please submit your paper via the [online conference
+system](https://easychair.org/conferences/?conf=cmccorpora2017). 
 
 Paper presentations will consist of a 20 minute talk followed by 10 minutes
 for questions and discussion.  The poster presentationand software/corpus
 demonstration session will be opened with each presenter/demonstrator giving a
-one-minute ‘teaser talk.’Accepted papers will be published in online
+one-minute ‘teaser talk.’ Accepted papers will be published in online
 proceedings before the conference. After the conference, authors of
 best-reviewed papers will be invited to submit extended versions of their
 papers to be published in an edited monograph to appear in 2018. 
 
 #### Important dates 
 
-| __1st June__          | &nbsp; Submission deadline  |
-| __5 July__            | &nbsp; Notification of acceptance  |
-| __5 August__          | &nbsp; Submission of camera-ready version  |
-| __3rd & 4th October__ | &nbsp; Conference  |
-
-Further inquiries by email: [cmc-corpora2017@eurac.edu](mailto:cmc-corpora2017@eurac.edu)
-
 <div class="row">
-<div class="col-12 col-sm-6 col-md-4"><h5><a href="/committees">Scientific Committee</a></h5></div>
-<div class="col-12 col-sm-6 col-md-4"><h5><a href="/committees#coordteam">Coordinating Committee</a></h5></div>
-<div class="col-12 col-sm-6 col-md-4"><h5><a href="/committees#orgateam">Organizing Committee</a></h5></div>
+<div class="col-xs-11 col-xs-offset-1">
+{% capture my_include %}{% include important_dates.md %}{% endcapture %}
+{{ my_include | markdownify }}
+</div>
 </div>
 
-#### Scientific Committee
-Chair
- Ciara R. Wigham (LRL, France) 
-Co-chairs
- Darja Fišer (UL, Slovenia)
- Michael Beißwenger (UDE, Germany)
-
+{% include committees.html %}
