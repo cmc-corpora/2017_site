@@ -1,0 +1,5 @@
+#!/usr/bin/env bash
+set -e # halt script on error
+
+# ./script/build
+rsync -aP --checksum --delete _site/ estemle@sdcsft02.eurac.edu:cmc-corpora2017/

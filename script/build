@@ -1,0 +1,7 @@
+#!/usr/bin/env bash
+set -e # halt script on error
+
+rm -rf _sass/.sass-cache/
+java -jar automation/minifying/yuicompressor-2.4.8.jar js/scripts.js -o '.js$:.min.js'
+bundle exec jekyll clean
+bundle exec jekyll build
