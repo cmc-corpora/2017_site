@@ -13,21 +13,21 @@ $base-font-size: 15px;
 $base-line-height: 24px;
 
 // Fixed Font
-$fixed-font-family: 'Roboto';
+$fixed-font-family: Calibri, Candara, Segoe, "Segoe UI", Optima, "Helvetica Neue", Helvetica, Arial, sans-serif !default;
 $fixed-font-size: 85%;
 $fixed-line-height: $base-line-height;
 
 // Headings
 $header-font-weight: $light;
-$h1-font-size: 5.875 * $base-font-size;
+$h1-font-size: 5.25 * $base-font-size;
 $h2-font-size: 5 * $base-font-size;
 $h3-font-size: 3.125 * $base-font-size;
-$h4-font-size: 2.3 * $base-font-size;
-$h5-font-size: 1.875 * $base-font-size;
-$h6-font-size: 1.25 * $base-font-size;
+$h4-font-size: 2.25 * $base-font-size;
+$h5-font-size: 2 * $base-font-size;
+$h6-font-size: 1.75 * $base-font-size;
 
 // Colors
-$main-color: #03a9f4;
+$main-color: #fcb338;
 $link-color: $main-color;
 $link-lighten-amount: 20%;
 $base-background-color: #fff;
