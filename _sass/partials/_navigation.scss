@@ -3,13 +3,17 @@ $nav-color-hover: #cfcfcf;
 $nav-scroll-color: rgba(0, 0, 0, .5);
 $nav-scroll-color-hover: rgba(0, 0, 0, .8);
 
+ul.navbar-nav {
+    margin-top: -15px;
+    line-height: 29px;
+}
 .top-header {
     position: fixed;
     z-index: 500;
     width: 100%;
     padding: 0 45px;
     @media (min-width: 768px) and (max-width: 991px) {
-        padding: 13px 0 0 34px;
+        padding: 13px 34px 0 34px;
     }
     &.after-scroll {
         padding-top: 0;
@@ -44,7 +48,7 @@ $nav-scroll-color-hover: rgba(0, 0, 0, .8);
         margin-right: 20px;
         transform: scale(.7);
         vertical-align: middle;
-         @media (max-width: 767px) {
+        @media (max-width: 767px) {
             transform: scale(.6);
         }
     }
