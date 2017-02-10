@@ -19,7 +19,7 @@
   surname: "Beißwenger"
   affiliation: "University of Duisburg-Essen, Germay"
   link: "http://www.michael-beisswenger.de/"
-  thumbnailUrl: michaelbeisswenger.png
+  thumbnailUrl: michaelbeisswenger.jpg
   coordTeam: true
   sciTeam: true
   sciTeamCoChair: true
@@ -28,7 +28,7 @@
   surname: "Fišer"
   affiliation: "University of Ljubljana, Slovenia"
   link: "http://lojze.lugos.si/darja/"
-  thumbnailUrl: darjafiser.png
+  thumbnailUrl: darjafiser.jpg
   coordTeam: true
   sciTeam: true
   sciTeamCoChair: true
@@ -37,7 +37,7 @@
   surname: "Wigham"
   affiliation: "Université Clermont Auvergne, France"
   link: "http://icar.univ-lyon2.fr/membres/cwigham/"
-  thumbnailUrl: ciarawigham.png
+  thumbnailUrl: ciarawigham.jpg
   coordTeam: true
   sciTeam: true
   sciTeamChair: true
