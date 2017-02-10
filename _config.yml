@@ -1,123 +1,146 @@
 # Plugins
 gems:
-- jekyll-sitemap
+    - jekyll-sitemap
+    - nokogiri
+    - text-hyphen
 safe: false
 
 # Build Settings
 markdown: kramdown
 permalink: pretty
-exclude: ['/automation/', 'README.md', 'LICENSE.txt', 'CNAME']
+exclude: 
+    - automation/
+    - README.md
+    - LICENSE.txt
+    - script/
+    - _stuff/
+    - external/
+    - Gemfile
+    - Gemfile.lock
 
+sitemap:
+  extensions:
+    - .tgz
 
-# Site Settings
-title: "GDG DevFest Season 2014"
-email: "devfest@gdg.org.ua"
-description: "GDG DevFest is a set of events all around the world"
-baseurl: "/zeppelin"
-url: "https://gdg-x.github.io"
+# Site and <head> Settings
+author: "Eurac Research & cmc-corpora"
+description: "5th Conference on CMC and Social Media Corpora for the Humanities"
+metaKeywords: "CMC Social Media Corpora Humanities Conference Eurac Research Bolzano Bozen"
+title: "cmc-corpora 2017"
+email: "cmc-corpora2017@eurac.edu"
+baseurl: ""
+url: "https://cmc-corpora2017.eurac.edu"
 permalink: "/blog/:title"
-googleAnalyticsTrackingId: "UA-43643469-5"
-googleAnalyticsSiteUrl: "gdg-x.github.io"
-siteVerification: "b9imDOrFawXaBXCC4r3uJDdswSYcalD-wWpMYhFq-no"
+piwikTrackerUrlBase: "//commul.eurac.edu/piwik/"
+googleSiteVerification: ""
+googleMapsApiKey: "AIzaSyB6hiwDZTjA2YMPP8xyCRJN4JCZW79lt7E"
 
-# Organizer Info
-organizerName: "GDG Lviv"
-organizerAlternateName: "Google Developer Group Lviv"
-organizerDescription: "Open and volunteer geek communities who create exciting projects and share experience about Google technology with passion."
-organizerEmail: "lviv@gdg.org.ua"
-organizerLogo: "/img/seo/organizer-logo.png"
-organizerLink: "http://lviv.gdg.org.ua/"
-
-# Head
-metaKeywords: "event, gdg, devfest, google, programming, android, chrome, developers, lviv"
-twitterAccount: "@DevFest"
+twitterAccount: "@eurac"
 socialImageSrcGooglePlus: "/img/seo/sharing-google-plus.png"
 socialImageSrcTwitter: "/img/seo/sharing-twitter.png"
 socialImageSrcFacebook: "/img/seo/sharing-facebook.png"
+faviconVersion: 2
+
+# Organizer Info
+organizerName: "ISCM@EURAC"
+organizerAlternateName: "Institute for Specialised Communication and Multilingualism"
+organizerDescription: "Scientific answers to current issues of language and education policy as well as to economic and social questions for South Tyrol and beyond."
+organizerEmail: "cmc-corpora2017@eurac.edu"
+organizerLogo: "/img/seo/organizer-logo.png"
+organizerLink: "http://www.eurac.edu/iscm"
+
 
 # Documents
-c4pUrl: "https://bit.ly/dfua-c4p"
-c4sponsorsUrl: "/assets/GDG_DevFest_Partnership.pdf"
+#c4pUrl: "https://bit.ly/dfua-c4p"
+#c4sponsorsUrl: "/assets/GDG_DevFest_Partnership.pdf"
 
 
 # Navigation
 navigationLinks:
  - {permalink: "/", text: "Home"}
- - {permalink: "/blog/", text: "Blog"}
- - {permalink: "/schedule/", text: "Schedule"}
- - {permalink: "/speakers/", text: "Speakers"}
- - {permalink: "/team/", text: "Team"}
- - {permalink: "/logistics/", text: "Logistics"}
- - {permalink: "/hackathon/", text: "Hackathon"}
+ - {permalink: "/cfp/", text: "Call for Papers"}
+# - {permalink: "/blog/", text: "Blog"}
+# - {permalink: "/schedule/", text: "Schedule"}
+# - {permalink: "/speakers/", text: "Speakers"}
+ - {permalink: "/committees/", text: "Committees"}
+ - {permalink: "/venue/", text: "Venue"}
+# - {permalink: "/venue/", text: "Schedule"}
+# - {permalink: "/venue/", text: "Proceedings"}
+# - {permalink: "/venue/", text: "Proceedings"}
+# - {permalink: "/venue/", text: "Proceedings"}
+# - {permalink: "/hackathon/", text: "Hackathon"}
 bottomNavigationLinks:
- - {link: "https://bit.ly/dfua-c4p", text: "Become a speaker"}
+  - {link: "http://cmc-corpora.org", text: "cmc-corpora"}
 rightNavigationButtons:
- - {link: "https://bit.ly/dfua-c4p", text: "Become a speaker"}
+  - {link: "http://cmc-corpora.org", text: "cmc-corpora"}
 
 # Hero Block
-heroImage: "hero.jpg"
-heroTitle: "GDG DevFest <typeout> 2014"
-eventDate: "September - November, 2014"
-typeoutTextValues: '"", "Season", "Ukraine", "Germany", "USA"'
-typeoutFallback: "Season"
+# heroImage: "hero.jpg"
+heroTitle: "CMC-Corpora 2017 <typeout>"
+eventDate: "October, 3-4th 2017"
+typeoutTextValues: '"", " in Bolzano/Bozen", " in South Tyrol", " in Italy", " @ Eurac Research"'
+typeoutFallback: " @ Eurac Research"
 heroButtons:
- - {link: "https://bit.ly/dfua-c4p", text: "Become a speaker"}
- - {permalink: "/#tickets", text: "Buy tickets"}
+    - {permalink: "cfp", text: "Call for Papers"}
+    # - {permalink: "/#tickets", text: "Buy tickets"}
 
 # About Block
-aboutTitle: "About GDG DevFest"
+aboutTitle: "About"
 aboutBlock:
- - {title: "Conference", image: "conference.jpg", text: "The biggest Google related event in the country carefully crafted for you by GDG community! Awesome speakers and lots of fun!" }
- - {title: "Workshops", image: "workshop.jpg", text: "Full-day of workshops, hands-on experience, hacking and debugging. Come and tame your favourite technology!" }
- - {title: "Hackathon", image: "hackathon.jpg", text: "Full-day freestyle hackathon! Want some real team building on friday? Grab your team and join our hackathon!" }
+ - {title: "Conference", image: "conference.png", text: '
+   <p>CMC and Social Media Corpora for the Humanities is the 5th edition of an annual <a href="https://sites.google.com/site/cmccorpora/conferences-2013-2016" target="_blank">conference series</a> dedicated to the collection, annotation, processing and exploitation of corpora of computer-mediated communication (CMC) and social media for research in the humanities. The conference brings together language-centered research on CMC and social media in linguistics, philologies, communication sciences, media and social sciences with research questions from the fields of corpus and computational linguistics, language technology, text technology, and machine learning.</p>
+   ' }
+ - {title: "Eurac Research", image: "eurac.jpg", text: '
+   <p>The Institute for Specialised Communication and Multilingualism aims to provide scientific answers to current issues of language and education policy as well as to economic and social questions at local and international level.</p>
+   <p>It is part of <a href="http://www.eurac.edu" target="_blank">Eurac Research</a>, an innovative centre for research and training based in South Tyrol, Italy. This private research centre founded in 1992 today hosts an international community of researchers. Interdisciplinary teams conduct research in four main subject areas: autonomies, health, mountains and technologies.</p>
+   ' }
 
-# Statistic Block
-statisticBlockImage: "statistic.jpg"
-statisticBlock:
- - {count: "350", specialCharacter: "+", info: "attendees", detail: "from everywhere"}
- - {count: "48", specialCharacter: "+", info: "hours", detail: "of pure Google technologies"}
- - {count: "20", specialCharacter: "+", info: "speakers", detail: "from country and beyond"}
- - {count: "3", specialCharacter: "", info: "parallel tracks", detail: "plus entertainment lounge"}
+   ## Statistic Block
+   #statisticBlockImage: "statistic.jpg"
+   #statisticBlock:
+   # - {count: "350", specialCharacter: "+", info: "attendees", detail: "from everywhere"}
+   # - {count: "48", specialCharacter: "+", info: "hours", detail: "of pure Google technologies"}
+   # - {count: "20", specialCharacter: "+", info: "speakers", detail: "from country and beyond"}
+   # - {count: "3", specialCharacter: "", info: "parallel tracks", detail: "plus entertainment lounge"}
 
 # Latest News Block
 latestNewsTitle: "Latest news"
 
 # Rockstar Speakers Block
 rockstarSpeakersImage: "rockstar-speakers.jpg"
-rockstarSpeakersCount: 4
+rockstarSpeakersCount: 2
 rockstarSpeakersTitle: "Rockstar speakers"
 rockstarSpeakersButtonText: "See all speakers"
 
 # Location Block
 locationBlockTitle: "Location"
-eventLocationName: "Conference Hall"
-eventLocationLink: "http://cabinet.kinopalace.lviv.ua/showtimes/"
-eventStreetAddress: "22 Teatral'na St"
-eventAddressLocality: "Lviv"
-eventAddressLocalityRegion: "Lvivska"
-eventPostalCode: "79000"
-eventAddressCountry: "Ukraine"
-eventStartTime: "2014-10-25T10:00"
+eventLocationName: "Eurac Research"
+eventLocationLink: "http://www.eurac.edu/"
+eventStreetAddress: "Viale Druso, 1 / Drususallee 1"
+eventAddressLocality: "Bolzano / Bozen"
+eventAddressLocalityRegion: "Trentino-Alto Adige / Südtirol"
+eventPostalCode: "39100"
+eventAddressCountry: "Italy"
+eventStartTime: "2017-10-03T10:00"
 eventDoorTime: "09:00"
-eventEndTime: "2014-10-25T20:00"
-eventPlaceCoordinates: "49.843237, 24.028751"
-mapCenterCoordinates: "49.842537, 24.025701"
-mapMobileCenterCoordinates: "49.841620, 24.029411"
+eventEndTime: "2017-10-04T20:00"
+eventPlaceCoordinates: "46.494439, 11.346764"
+mapCenterCoordinates: "46.4944386, 11.3445752"
+mapMobileCenterCoordinates: "46.4944386, 11.3445752"
 
 # Venue Block
 venueBlockTitle: "Venue"
-venueBigImage: "venue_0.jpg"
-venueSmallImage1: "venue_1.jpg"
-venueSmallImage2: "venue_2.jpg"
-venueSmallImage3: "venue_3.jpg"
-venueTitle: "Kinopalace Cinema"
-venueFeatures: ["3 huge cinema screens", "Doulby Digital Surround EX audio system", "Located directly in the city center"]
+venueBigImage: "conferencehall.jpg"
+venueSmallImage1: "catering_1.jpg"
+venueSmallImage2: "catering_2.jpg"
+venueTitle: "Conference Hall"
+venueFeatures: ["Two video projectors", "Full set of different microphones", "State-of-the-art room for events with up to 100 participants"]
 
 # Tweets Feed Block
 tweetsFeedImage: "twitter-feed.jpg"
 tweetsFeedTitle: "What's Up?"
-twitterHashTag: "devfest"
-twitterFeed: "http://lviv.gdg.org.ua/tweetledee/favoritesjson.php?c=10&cache_interval=8000"
+twitterHashTag: "cmccorpora2017"
+twitterFeed: ""
 
 # Partners Block
 organizersTitle: "Organizers"
@@ -130,87 +153,78 @@ subscribeTitle: "Subscribe for updates"
 subscribeAction: "https://gdg.us5.list-manage1.com/subscribe/post?u=9fc8aa205b0521b5f05fc8e1e&amp;id=ae0fb459fc"
 subscribeInfo: "Registration will be open around end of August. Number of tickets are limited. Stay tuned!"
 
-# Tickets Block
-ticketsTitle: "Pricetable"
-ticketsInfo: "Tickets grant access to all conference sections, coffee brakes, lunch and party. Accommodation is NOT included in the ticket price."
-ticketsOffers:
- -
-  name: "Early Bird"
-  price: "350"
-  priceCurrency: "UAH"
-  ticketsNumber: "150"
-  ribbon: "-5%"
-  buyButtonLink: "http://dfua.ticketforevent.com/"
-  buyButtonText: "Buy Now"
-  ticketContentList: ["Lorem ipsum is simply", "Dummy text of the printing", "Typesetting industry"]
-  validFrom: "2014-08-25T10:00"
-  validThrough: "2014-09-30T23:59"
- -
-  name: "Last Chance"
-  price: "450"
-  priceCurrency: "UAH"
-  ticketsNumber: "100"
-  ribbon: "-20%"
-  featured: true
-  buyButtonLink: "http://dfua.ticketforevent.com/"
-  buyButtonText: "Buy Now"
-  ticketContentList: ["Lorem ipsum is simply", "Dummy text of the printing", "Typesetting industry"]
-  validFrom: "2014-10-01T00:00"
-  validThrough: "2014-10-23T23:59"
-  disabled: true
- -
-  name: "Student"
-  price: "200"
-  priceCurrency: "UAH"
-  ticketsNumber: "50"
-  buyButtonLink: "http://dfua.ticketforevent.com/"
-  buyButtonText: "Buy Now"
-  additionalInfo: "Requires a valid student ID at the conference check in. Without student ID at the check in, ticket will be cancelled without refund"
-  ticketContentList: ["Lorem ipsum is simply", "Dummy text of the printing", "Typesetting industry"]
-  validFrom: "2014-08-20T10:00"
-  validThrough: "2014-10-23T23:59"
-  soldOut: true
-  soldOutText: "Sold Out"
+    ## Tickets Block
+    #ticketsTitle: "Pricetable"
+    #ticketsInfo: "Tickets grant access to all conference sections, coffee brakes, lunch and party. Accommodation is NOT included in the ticket price."
+    #ticketsOffers:
+    # -
+    #  name: "Early Bird"
+    #  price: "350"
+    #  priceCurrency: "UAH"
+    #  ticketsNumber: "150"
+    #  ribbon: "-5%"
+    #  buyButtonLink: "http://dfua.ticketforevent.com/"
+    #  buyButtonText: "Buy Now"
+    #  ticketContentList: ["Lorem ipsum is simply", "Dummy text of the printing", "Typesetting industry"]
+    #  validFrom: "2014-08-25T10:00"
+    #  validThrough: "2014-09-30T23:59"
+    # -
+    #  name: "Last Chance"
+    #  price: "450"
+    #  priceCurrency: "UAH"
+    #  ticketsNumber: "100"
+    #  ribbon: "-20%"
+    #  featured: true
+    #  buyButtonLink: "http://dfua.ticketforevent.com/"
+    #  buyButtonText: "Buy Now"
+    #  ticketContentList: ["Lorem ipsum is simply", "Dummy text of the printing", "Typesetting industry"]
+    #  validFrom: "2014-10-01T00:00"
+    #  validThrough: "2014-10-23T23:59"
+    #  disabled: true
+    # -
+    #  name: "Student"
+    #  price: "200"
+    #  priceCurrency: "UAH"
+    #  ticketsNumber: "50"
+    #  buyButtonLink: "http://dfua.ticketforevent.com/"
+    #  buyButtonText: "Buy Now"
+    #  additionalInfo: "Requires a valid student ID at the conference check in. Without student ID at the check in, ticket will be cancelled without refund"
+    #  ticketContentList: ["Lorem ipsum is simply", "Dummy text of the printing", "Typesetting industry"]
+    #  validFrom: "2014-08-20T10:00"
+    #  validThrough: "2014-10-23T23:59"
+    #  soldOut: true
+    #  soldOutText: "Sold Out"
 
 # Footer
 socialLinks:
- - {link: "https://plus.google.com/b/102444623953913144164", icon: "google-plus"}
- - {link: "https://twitter.com/intent/user?screen_name=GDGLviv", icon: "twitter"}
- - {link: "https://facebook.com/GDGLviv", icon: "facebook"}
+ - {link: "https://twitter.com/search?l=&q=%23cmccorpora%20OR%20%23cmccorpora2016%20OR%20%23cmccorpora2017&src=typd", icon: "twitter"}
+ - {link: "https://www.facebook.com/cmccorpora", icon: "facebook"}
+ - {link: "https://groups.google.com/forum/?hl=de#!forum/cmc-corpora", icon: "google-groups"}
  - {permalink: "/feed.xml", icon: "rss"}
 footerBlocks:
  -
   title: "Links"
   links:
-   - {link: "http://gdg.org.ua", text: "GDG.org.ua"}
-   - {link: "https://developers.google.com", text: "Google Developers"}
- -
-  title: "Contacts"
-  links:
-   - {link: "mailto:lviv@gdg.org.ua", text: "lviv@gdg.org.ua"}
- -
-  title: "FAQ"
-  links:
-   - {permalink: "/cod/", text: "Code of Conduct"}
+   - {link: "https://easychair.org/conferences/?conf=cmccorpora2017", text: "Submission page"}
+   - {link: "http://cmc-corpora.org", text: "cmc-corpora conference series"}
+   - {link: "mailto:cmc-corpora2017@eurac.edu", text: "e-Mail"}
 
 # Blog
 blogTitle: "Latest news"
-blogCommentsEnabled: true
-discusShortName: "devfestua"
+blogCommentsEnabled: false
+discusShortName: ""
 
 # Speakers List Block
-showSessions: true
+showSessions: false
 
 # Team Block
 teamBlockTitle: "About us"
-aboutUs: "Google's services have become synonymous with simple things online. Number of technological innovations and IT industries in which Google is creating new products is enormous. It's hard to get to know all of them, but realistic. This is why people have started to gather in small local groups and share their experience. Later, the following groups have been called Google Developer Groups. GDGs can take many forms -- from just a few people getting together to watch some videos, to large gatherings with demos, tech talks, hackathons and conferences."
+aboutUs: "Team Block - about us"
 
 # Logistics Find Way Block
 findWayTitle: "Find your way here"
 findWayDistance: "Distance"
 findWayDriving: "DRIVING"
-findWayWalking: "WALKING"
-findWayBicycling: "BICYCLING"
 findWayTransit: "TRANSIT"
 findWayFindFlight: "Find Flight"
 logisticsMapCenterCoordinates: "49.056728, 3.117289"
@@ -218,38 +232,110 @@ logisticsMapMobileCenterCoordinates: "48.335365, 23.711648"
 logisticsMapAutoDirections: false
 
 # Logistics Direction Details Block
-directionDetailsImage: "direction-details.jpg"
-directionDetailsTitle: "Get around Lviv"
+directionDetailsImage: "venue.jpg"
+directionDetailsTitle: "Conference Venue and Transportation"
 directionDetailsCards:
- - {title: "From the Airport", information: 'Airport is right at the city border. It is easily reachable by car, public transport or taxi. More information is available at <a href="http://lwo.aero/en/transport">airport website</a>.'}
- - {title: "Public Transit", information: 'Google Transit is available in Lviv. So you can find your way in Google Maps. Moreover, you can download any of the offline public transit apps available for Lviv.'}
- - {title: "Hotels", information: 'Lviv has lots of great hotels and hostels. More information will be available later.'}
+ - {title: "Accommodation", information: '
+   <p>Are you looking for a hotel in Bolzano? Please contact our <a
+   href="#partnerhotels" target="_blank">partner hotels</a>. They offer special
+   rates and a good service. To claim the special rates please indicate the
+   conference name "cmc-corpora 2017" when booking your room.</p>
+   <p>For other accommodation in Bolzano visit the official <a
+   href="http://www.bolzano-bozen.it/en/accommodation-bolzano.htm"
+   target="_blank">Tourist board</a>.</p>
+   <p>Students can find budget accommodation with <a
+   href="https://www.airbnb.com/s/Bolzano--Province-of-Bolzano-~-South-Tyrol--Italy?guests=1&checkin=&checkout=&ss_id=hsfdif78&source=bb&s_tag=EsLn-TPK"
+   target="_blank">Airbnb</a>.</p>
+   <p>For more rural accommodation, for example if you like to stay for farm
+   holidays in South Tyrol, please have a look at <a
+   href="http://www.redrooster.it/en/" target="_blank">Red Rooster: Farm
+     Holidays</a>.</p>'}
+ - {title: "Getting here by Train", information: '
+   <p>One of the best ways to get to Bolzano is by train:
+     the station of Bolzano is near the city centre and <a href="https://www.google.it/maps/dir/EURAC+Research,+Viale+Druso+Drususallee,+1,+39100+Bolzano+BZ/Bolzano+Bozen,+Bolzano,+Province+of+Bolzano+-+South+Tyrol/@46.4953347,11.3503426,17z/data=!3m1!4b1!4m13!4m12!1m5!1m1!1s0x47829c202aabf925:0x88091ac142a2771!2m2!1d11.3467639!2d46.4944386!1m5!1m1!1s0x47829e776ce75d2d:0xfe4e2377de5b2c96!2m2!1d11.3583019!2d46.4967218">a 15-minute walk</a> away from Eurac Research.
+     </p>
+     <p><h5>Travelling time by train</h5>
+     - Rome - Bolzano: 6 hours <br />
+     - Milan - Bolzano: 3.5 hours <br />
+     - Verona - Bolzano: 1.5 hours <br />
+     - Venice - Bolzano: 3 hours <br />
+     - Innsbruck - Bolzano: 2 hours <br />
+     - Munich - Bolzano: 4 hours <br />
+     </p>
+     '}
+ - {title: "Getting here by Plane", information: '
+   
+   <p>The nearest international airports are in Innsbruck in the North and
+   in Verona in the South. The other airports in Munich, Milano, Venice, Bologna, Bergamo, Treviso
+   are over 200km away (>3h by car and >4 hours by train or shuttle bus).</p>
+
+   <p><h5><a href="http://www.aeroportoverona.it/en/">
+     Verona Airport (Villafranca)
+   </a></h5>
+
+   1 1/2 hours by car <br />
+   1 hour and 45 minutes by shuttle bus
+   - <a href="http://www.altoadigebus.com/">booking required</a><br />
+   </p>
+
+
+   <p><h5><a href="https://www.innsbruck-airport.com/en">
+     Innsbruck Airport (Kranebitten)
+   </a></h5>
+   
+   1 1/2 hours by car <br />
+   2 hours by shuttle bus
+   - <a href="http://www.altoadigebus.com/">booking required</a><br />
+   </p>
+
+   <p><h5><a href="http://www.munich-airport.de/en/">
+     Munich Airport (Franz Josef Strauß)
+   </a></h5>
+
+   3 1/2 hours by car <br />
+   4 hours by shuttle bus
+   - <a href="http://www.altoadigebus.com/">booking required</a><br />
+   </p>
+
+
+   <p><h5><h5><a href="http://www.altoadigebus.com/">Shuttle Bus</a></h5>
+   A shuttle bus service connects all major airports to the city. Please note
+   that booking is mandatory.
+   </p>
+   '}
 directionDetailsWideCards:
  -
-  title: "Questions?"
+  title: "Travel Links"
   subCards:
    -
-    title: "Hotels"
+    title: 'Our <a name="partnerhotels">Partner Hotels</a>'
     links:
-     - {link: "https://plus.google.com/b/102444623953913144164", text: "InterContinental"}
-     - {link: "https://plus.google.com/b/102444623953913144164", text: "The Hotel Rex"}
-     - {link: "https://plus.google.com/b/102444623953913144164", text: "Westin Market Street"}
-     - {link: "https://plus.google.com/b/102444623953913144164", text: "Hotel Adagio"}
+     - {link: "http://www.laurin.it/en/", text: "Parkhotel Laurin ****S"}
+     - {link: "http://www.greif.it/en/", text: "Hotel Greif ****"}
+     - {link: "http://www.hotel-luna.it/en/welcome-1.html", text: "Parkhotel Luna Mondschein ****"}
+     - {link: "http://www.scalahot.com/en/index", text: "Hotel Scala Stiegl ****"}
+     - {link: "http://www.fourpointsbolzano.com/", text: "Hotel Four Points by Sheraton Bolzano ****"}
+     - {link: "http://www.hotelfierabz.com/", text: "Hotel Fiera ***"}
+     - {link: "http://www.hotel-post-gries.com/en/", text: "Hotel Post Gries ***"}
+   - 
+    title: 'Airports'
+    links:
+      - {link: "http://www.aeroportoverona.it/en/", text: "Verona (Villafranca)"}
+      - {link: "https://www.innsbruck-airport.com/en", text: "Innsbruck (Kranebitten)"}
+      - {link: "http://www.munich-airport.de/en/", text: "Munich (Franz Josef Strauß)"}
+      - {link: "http://www.milanomalpensa-airport.com/en", text: "Milan (Malpensa)"}
+      - {link: "http://www.veniceairport.it/en/", text: "Venice (Marco Polo)"}
+      - {link: "http://www.bologna-airport.it/en/", text: "Bologna (G. Marconi)"}
+      - {link: "http://www.trevisoairport.it/en/", text: "Treviso Airport"}
+      - {link: "http://www.bergamoairport.co.uk/", text: "Bergamo Airport"}
    -
-    title: "Registration"
+    title: '&nbsp;'
     links:
-     - {link: "https://plus.google.com/b/102444623953913144164", text: "InterContinental"}
-     - {link: "https://plus.google.com/b/102444623953913144164", text: "The Hotel Rex"}
-     - {link: "https://plus.google.com/b/102444623953913144164", text: "Westin Market Street"}
-     - {link: "https://plus.google.com/b/102444623953913144164", text: "Hotel Adagio"}
-   -
-    title: "Attendance Details"
-    links:
-     - {link: "https://plus.google.com/b/102444623953913144164", text: "InterContinental"}
-     - {link: "https://plus.google.com/b/102444623953913144164", text: "The Hotel Rex"}
-     - {link: "https://plus.google.com/b/102444623953913144164", text: "Westin Market Street"}
-     - {link: "https://plus.google.com/b/102444623953913144164", text: "Hotel Adagio"}
-
+      - {link: "https://www.bahn.com/en/", text: "DB (German railway company)"}
+      - {link: "https://www.oebb.at/en/", text: "ÖBB (Austrian railway comapny)"}
+      - {link: "http://www.trenitalia.com/tcom-en/", text: "Trenitalia (Italian railway comapny)"}
+      - {link: "https://www.google.it/flights/#search;f=;t=VRN,INN,MUC;d=2017-10-02;", text: "Google Flights"}
+      - {link: "http://www.bolzano-bozen.it/images/pdf/How-to-reach-South-Tyrol-2015.pdf", text: "Getting here information from the Tourist board"}
 # Hackathon
 hackathonTitle: "Hackathon"
 enableHackathon: true
