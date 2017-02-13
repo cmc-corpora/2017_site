@@ -3,3 +3,4 @@ set -e # halt script on error
 
 # ./script/build
 rsync -aP --checksum --delete _site/ estemle@sdcsft02.eurac.edu:cmc-corpora2017/
+rsync -aP --delete external/tweetledee/tweetledee estemle@sdcsft02.eurac.edu:cmc-corpora2017/
