@@ -25,6 +25,7 @@ sitemap:
 # Site and <head> Settings
 author: "Eurac Research & cmc-corpora"
 description: "5th Conference on CMC and Social Media Corpora for the Humanities, 3-4 Oct 2017 @ Eurac Research (IT)"
+shortDescription: "5th cmc-corpora conference,3-4Oct17@Eurac Research (IT)"
 metaKeywords: "CMC Social Media Corpora Humanities Conference Eurac Research Bolzano Bozen"
 title: "cmc-corpora 2017"
 email: "cmc-corpora2017@eurac.edu"
@@ -35,7 +36,7 @@ piwikTrackerUrlBase: "//commul.eurac.edu/piwik/"
 googleSiteVerification: ""
 googleMapsApiKey: "AIzaSyB6hiwDZTjA2YMPP8xyCRJN4JCZW79lt7E"
 
-twitterAccount: "@eurac"
+twitterAccount: "@cmc_corpora"
 socialImageSrcGooglePlus: "/img/seo/sharing-google-plus.png"
 socialImageSrcTwitter: "/img/seo/sharing-twitter.png"
 socialImageSrcFacebook: "/img/seo/sharing-facebook.png"
@@ -137,10 +138,10 @@ venueTitle: "Conference Hall"
 venueFeatures: ["Two video projectors", "Full set of different microphones", "State-of-the-art room for events with up to 100 participants"]
 
 # Tweets Feed Block
-tweetsFeedImage: "twitter-feed.jpg"
+#tweetsFeedImage: "twitter-feed.jpg"
 tweetsFeedTitle: "What's Up?"
-twitterHashTag: "cmccorpora2017"
-twitterFeed: ""
+twitterHashTag: "cmccorpora17"
+twitterFeed: "https://cmc-corpora2017.eurac.edu/tweetledee/searchjson.php?c=10&cache_interval=8000&q=%23cmccorpora2017%20OR%20%23cmccorpora17%20OR%20%23cmccorpora16"
 
 # Partners Block
 organizersTitle: "Organizers"
