@@ -118,6 +118,7 @@
   surname: "Poudat"
   affiliation: "University of Nice Sophia Antipolis, France" 
   link: "http://poudat.fr/"
+  sciTeam: true
 -
   name: "Eiríkur"
   surname: "Rögnvaldsson"
