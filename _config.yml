@@ -59,16 +59,12 @@ organizerLink: "http://www.eurac.edu/iscm"
 # Navigation
 navigationLinks:
  - {permalink: "/", text: "Home"}
+# - {permalink: "/schedule/", text: "Schedule"}
+ - {permalink: "/speakers/", text: "Speakers"}
  - {permalink: "/cfp/", text: "Call for Papers"}
 # - {permalink: "/blog/", text: "Blog"}
-# - {permalink: "/schedule/", text: "Schedule"}
-# - {permalink: "/speakers/", text: "Speakers"}
  - {permalink: "/committees/", text: "Committees"}
  - {permalink: "/venue/", text: "Venue"}
-# - {permalink: "/venue/", text: "Schedule"}
-# - {permalink: "/venue/", text: "Proceedings"}
-# - {permalink: "/venue/", text: "Proceedings"}
-# - {permalink: "/venue/", text: "Proceedings"}
 # - {permalink: "/hackathon/", text: "Hackathon"}
 bottomNavigationLinks:
   - {link: "http://cmc-corpora.org", text: "cmc-corpora"}
@@ -82,6 +78,7 @@ eventDate: "October, 3-4th 2017"
 typeoutTextValues: '"", " in Bolzano/Bozen", " in South Tyrol", " in Italy", " @ Eurac Research"'
 typeoutFallback: " @ Eurac Research"
 heroButtons:
+    - {permalink: "speakers", text: "Invited Speakers"}
     - {permalink: "cfp", text: "Call for Papers"}
     # - {permalink: "/#tickets", text: "Buy tickets"}
 
