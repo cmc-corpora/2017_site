@@ -1,4 +1,4 @@
-<div>
+<div class="content-wrapper text-left">
     <h4 class="text-left">Scientific Committee</h4>
 
     <h6 class="text-left">Chair</h6>
@@ -6,13 +6,13 @@
         {% assign sorted_sciTeam = site.data.committees | sort:"surname" %}
         {% for teamMember in sorted_sciTeam %}{% if teamMember.sciTeamChair != null %}
         <div class="row">
-            <div class="col-xs-5 col-xs-offset-1 col-sm-4 col-sm-offset-1">
+            <div class="col-xs-4 col-xs-offset-1 col-sm-3 col-sm-offset-1">
         <a href="{{ teamMember.link }}" target="_blank">{{ teamMember.name }}
             <span>{{ teamMember.surname }}</span>
         </a>
             </div>
             <div class="clearfix visible-xs-inline-block"></div>
-            <div class="col-xs-5 col-xs-offset-1 col-sm-7 col-sm-offset-0">
+            <div class="col-xs-6 col-xs-offset-0 col-sm-8 col-sm-offset-0">
         <span class="affiliation">({{ teamMember.affiliation }})</span>
             </div>
         </div>
@@ -24,13 +24,13 @@
         {% assign sorted_sciTeam = site.data.committees | sort:"surname" %}
         {% for teamMember in sorted_sciTeam %}{% if teamMember.sciTeamCoChair != null %}
         <div class="row">
-            <div class="col-xs-5 col-xs-offset-1 col-sm-4 col-sm-offset-1">
+            <div class="col-xs-4 col-xs-offset-1 col-sm-3 col-sm-offset-1">
         <a href="{{ teamMember.link }}" target="_blank">{{ teamMember.name }}
             <span>{{ teamMember.surname }}</span>
         </a>
             </div>
             <div class="clearfix visible-xs-inline-block"></div>
-            <div class="col-xs-5 col-xs-offset-1 col-sm-7 col-sm-offset-0">
+            <div class="col-xs-6 col-xs-offset-0 col-sm-8 col-sm-offset-0">
         <span class="affiliation">({{ teamMember.affiliation }})</span>
             </div>
         </div>
@@ -42,13 +42,13 @@
         {% assign sorted_sciTeam = site.data.committees | sort:"surname" %}
         {% for teamMember in sorted_sciTeam %}{% if teamMember.sciTeam != null and teamMember.sciTeamCoChair == null and teamMember.sciTeamChair == null %}
         <div class="row">
-            <div class="col-xs-5 col-xs-offset-1 col-sm-4 col-sm-offset-1">
+            <div class="col-xs-4 col-xs-offset-1 col-sm-3 col-sm-offset-1">
         <a href="{{ teamMember.link }}" target="_blank">{{ teamMember.name }}
             <span>{{ teamMember.surname }}</span>
         </a>
             </div>
             <div class="clearfix visible-xs-inline-block"></div>
-            <div class="col-xs-5 col-xs-offset-1 col-sm-7 col-sm-offset-0">
+            <div class="col-xs-6 col-xs-offset-0 col-sm-8 col-sm-offset-0">
         <span class="affiliation">({{ teamMember.affiliation }})</span>
             </div>
         </div>
@@ -56,7 +56,7 @@
     </div>
 </div>
 
-<div>
+<div class="content-wrapper text-center">
     <h4 class="text-left animated hiding appear-animation-trigger" data-animation="fadeInUp" data-delay="0">Coordinating Committee</h4>
     {% for teamMember in site.data.committees %}{% if teamMember.coordTeam != null %}
     <div class="effect-wrapper col-md-4 col-sm-6 col-xs-12 cols-centered appear-animation">
@@ -81,7 +81,7 @@
     </div>
     {% endif %} {% endfor %}
 </div>
-<div>
+<div class="content-wrapper text-center">
     <h4 class="text-left animated hiding appear-animation-trigger" data-animation="fadeInUp" data-delay="0">Organizing Committee</h4>
     {% for teamMember in site.data.committees %} {% if teamMember.orgaTeam != null %}
     <div class="effect-wrapper col-md-4 col-sm-6 col-xs-12 cols-centered appear-animation">
