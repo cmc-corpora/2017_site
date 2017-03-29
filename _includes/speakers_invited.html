@@ -10,6 +10,7 @@
                     <a href="{{ person.link }}" target="_blank">{{ person.name }}
                     <span>{{ person.surname }}</span>
                     </a>
+                    <br class="visible-xs">
                     {% if person.affiliation != null %}
                         <span class="affiliation">({{ person.affiliation }})</span>
                     {% endif %}
@@ -49,6 +50,6 @@
             </div>
         </div>
     </div>
-    <br />
+    <br>
     {% endif %}{% endfor %}
 </div>
