@@ -18,6 +18,9 @@ exclude:
     - Gemfile
     - Gemfile.lock
 
+sass:
+  style: :compressed
+
 sitemap:
   extensions:
     - .tgz
