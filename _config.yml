@@ -35,7 +35,8 @@ email: "cmc-corpora2017@eurac.edu"
 baseurl: ""
 url: "https://cmc-corpora2017.eurac.edu"
 permalink: "/blog/:title"
-piwikTrackerUrlBase: "//commul.eurac.edu/piwik/"
+analytics:
+  - name: "piwik"
 googleSiteVerification: ""
 googleMapsApiKey: "AIzaSyB6hiwDZTjA2YMPP8xyCRJN4JCZW79lt7E"
 
