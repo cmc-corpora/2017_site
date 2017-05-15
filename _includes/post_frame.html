@@ -1,0 +1,12 @@
+<!-- Begin Post Frame Content -->
+{% capture downcase_title %}{{ page.title | downcase }}{% endcapture %}
+{% capture var %}{{include.content | default: downcase_title}}{% endcapture %}
+{% assign content_name = {{var}} %}
+
+{% capture var %}{{content_name}}.html{% endcapture %}
+{% assign content_fn = {{var}} %}
+
+<div class="content-wrapper">
+{% include {{content_fn}} %}
+</div>
+<!-- End Post Frame Content -->
