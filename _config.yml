@@ -66,6 +66,7 @@ navigationLinks:
 # - {permalink: "/schedule/", text: "Schedule"}
  - {permalink: "/speakers/", text: "Speakers"}
  - {permalink: "/cfp/", text: "Call for Papers"}
+ - {permalink: "/registration/", text: "Registation"}
 # - {permalink: "/blog/", text: "Blog"}
  - {permalink: "/committees/", text: "Committees"}
  - {permalink: "/venue/", text: "Venue"}
