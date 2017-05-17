@@ -1,50 +1,78 @@
 - 
-  date: "2014-10-24"
-  dateReadable: "October 24"
-  tracks: 
-    - {title: "Android", color: "#90be4e"}
-    - {title: "Web & Cloud", color: "#03a9f4"}
-    - {title: "Community", color: "#e91e63"}
+  id: 0
+  date: "2017-10-02"
+  dateReadable: "October 02"
+  tracks:
+    - {title: "Pre-Conference Evening", color: "#90be4e"}
   timeslots:
     - {
-    	startTime: "10:00",
-    	endTime: "10:45",
-    	sessionIds: [002, 003, 004]
+        startTime: "19:00",
+        endTime: "22:00",
+        sessionIds: [000]
+    }
+-
+  id: 1
+  date: "2017-10-03"
+  dateReadable: "October 03"
+  tracks:
+    - {title: "CMC-Conference", color: "#90be4e"}
+  timeslots:
+    - {
+        startTime: "09:00",
+        endTime: "18:00",
+        sessionIds: [009]
     }
     - {
-        startTime: "11:00",
-        endTime: "11:45",
-        sessionIds: [003, 404, 004]
-    }
-    - {
-    	startTime: "12:00",
-    	endTime: "11:45",
-    	sessionIds: [307]
+        startTime: "19:00",
+        endTime: "23:00",
+        sessionIds: [001]
     }
 - 
-  date: "2014-10-25"
-  dateReadable: "October 25"
-  tracks: 
-    - {title: "Android", color: "#90be4e"}
-    - {title: "Web & Cloud", color: "#03a9f4"}
+  id: 2
+  date: "2017-10-04"
+  dateReadable: "October 04"
+  tracks:
+    - {title: "CMC-Conference (Half Day)", color: "#90be4e"}
   timeslots: 
     - {
-    	startTime: "10:00",
-    	endTime: "10:45",
-    	sessionIds: [404, 002]
+        startTime: "09:00",
+        endTime: "13:00",
+        sessionIds: [009]
     }
     - {
-    	startTime: "11:00",
-    	endTime: "11:45",
-    	sessionIds: [002, 003]
+        startTime: "15:00",
+        endTime: "18:30",
+        sessionIds: [901]
     }
     - {
-        startTime: "13:00",
-        endTime: "13:45",
-        sessionIds: [003]
+        startTime: "18:30",
+        endTime: "21:00",
+        sessionIds: [902]
+    }
+-
+  id: 3
+  date: "2017-10-05"
+  dateReadable: "October 05"
+  tracks:
+    - {title: "CLARIN User Involvement Event: How to use TEI for the annotation of CMC and social media resources", color: "#be4e90"}
+  timeslots:
+    - {
+        startTime: "09:30",
+        endTime: "10:30",
+        sessionIds: [903]
     }
     - {
-    	startTime: "14:00",
-    	endTime: "15:00",
-    	sessionIds: [503]
+        startTime: "10:30",
+        endTime: "11:30",
+        sessionIds: [101]
+    }
+    - {
+        startTime: "11:30",
+        endTime: "12:00",
+        sessionIds: [307]
+    }
+    - {
+        startTime: "12:00",
+        endTime: "14:00",
+        sessionIds: [102]
     }

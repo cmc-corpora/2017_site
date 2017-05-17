@@ -1,8 +1,11 @@
 - 
+  id: 1
   name: "Aivars"
   surname: "Glaznieks"
   affiliation: "Eurac Research, Italy" 
   link: "http://www.eurac.edu/en/research/autonomies/commul/staff/pages/staffdetails.aspx?persId=17424"
+  ribbon:
+    - {abbr: "homepage", title: "Homepage", url: "http://www.eurac.edu/en/research/autonomies/commul/staff/pages/staffdetails.aspx?persId=17424"}
   title: "Think global, write local – patterns of writing dialect on SNS"
   bio: ""
   abstract: "Social Network Sides (SNS) claim that they are “on a mission to connect the world”. They facilitate communication among people wherever they are located. As a consequence, users of SNS express aspects of their diverse identities to a broad and heterogenic group of friends. One aspect might be a local identity.<br />
@@ -12,7 +15,8 @@
     CMC corpora allow for a systematic analysis of the way dialect features are reflected in written communication. In my talk, I will focus on patterns of the regional dialect(s) in the DiDi Corpus, a collection of Facebook messages from around 100 South Tyrolean writers. I will provide examples of regional features, analyze the distribution of such features, and discuss challenges of identifying local writings on SNS."
   thumbnailUrl: aivarsglaznieks.jpg
   invited: true
-- 
+-
+  id: 2
   name: "A. Seza"
   surname: "Doğruöz"
   affiliation:
@@ -22,3 +26,28 @@
   abstract: "Title & Abstract: Information to appear."
   thumbnailUrl:
   invited: true
+-
+  id: 3
+  name: "Michael"
+  surname: "Beißwenger"
+  affiliation: "University of Duisburg-Essen, Germany"
+  ribbon:
+    - {abbr: "homepage", title: "http://www.michael-beisswenger.de/", url: "http://www.michael-beisswenger.de/"}
+  thumbnailUrl: michaelbeisswenger.jpg
+  bio: "Michael is member of the organizing team for the main conference. He has been working on CMC corpora and corpus encoding in several projects, and on TEI encoding for CMC in the <a href=\"https://wiki.tei-c.org/index.php?title=SIG:CMC/clarindschema\">TEI-SIG \"computer-mediated communication\"</a>."
+-
+  id: 4
+  name: "Harald"
+  surname: "Lüngen"
+  affiliation: "Institute for the German Language, Mannheim, Germany"
+  link: ""
+  thumbnailUrl:
+  bio: "Harald has been working on TEI-encoding of CMC data in the CLARIN-D curation project \"ChatCorpus2CLARIN\" and has been one of the main authors of the most recent TEI schema draft for CMC genres developed within the <a href=\"https://wiki.tei-c.org/index.php?title=SIG:CMC/clarindschema\">TEI-SIG \"computer-mediated communication\"</a>."
+-
+  id: 5
+  name: "Laura"
+  surname: "Herzberg"
+  affiliation: "University of Mannheim, Germany"
+  link: ""
+  thumbnailUrl:
+  bio: "Laura has been working on TEI-encoding of CMC data in the CLARIN-D curation project \"ChatCorpus2CLARIN\""
