@@ -188,3 +188,13 @@ $small-label-width: 80px;
 .service-description {
     margin-top: 15px;
 }
+.slot-info {
+    color: lighten($text-color, 33%);
+    background: #eee;
+}
+.link-unstyled {
+    &, &:link, &:hover {
+        color: inherit;
+        text-decoration: inherit;
+    }
+}
