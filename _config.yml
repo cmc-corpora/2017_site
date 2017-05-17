@@ -203,6 +203,7 @@ socialLinks:
  - {link: "https://twitter.com/search?l=&q=%23cmccorpora%20OR%20%23cmccorpora2016%20OR%20%23cmccorpora2017&src=typd", icon: "twitter"}
  - {link: "https://www.facebook.com/cmccorpora", icon: "facebook"}
  - {link: "https://groups.google.com/forum/?hl=de#!forum/cmc-corpora", icon: "google-groups"}
+ - {permalink: "/feed.xml", icon: "rss"}
 footerBlocks:
  -
   title: "Links"
