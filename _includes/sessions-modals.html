@@ -23,7 +23,7 @@
 						    <iframe class="embed-responsive-item" src="{{ session.video }}"></iframe>
 						</div>
 						{% endif %}
-						<p class="theme-description">{{ session.description }}</p>
+                        <p class="theme-description">{{ session.description }}{% if session.internallink %} <a href="{{ site.baseurl }}{{ session.internallink }}" taget="_blank">Read more</a>{% endif %}</p>
 						{% if session.presentation %}
 						<a class="theme-presentation" href="{{ session.presentation }}" title="Presentation" target="_blank">View presentation</a>
 						{% endif %}
