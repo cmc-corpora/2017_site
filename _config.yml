@@ -63,13 +63,13 @@ organizerLink: "http://www.eurac.edu/iscm"
 # Navigation
 navigationLinks:
  - {permalink: "/", text: "Home"}
-# - {permalink: "/schedule/", text: "Schedule"}
- - {permalink: "/speakers/", text: "Speakers"}
+ - {permalink: "/schedule/", text: "Schedule"}
  - {permalink: "/cfp/", text: "Call for Papers"}
  - {permalink: "/registration/", text: "Registation"}
-# - {permalink: "/blog/", text: "Blog"}
+ - {permalink: "/speakers/", text: "Speakers"}
  - {permalink: "/committees/", text: "Committees"}
  - {permalink: "/venue/", text: "Venue"}
+ - {permalink: "/blog/", text: "News"}
 # - {permalink: "/hackathon/", text: "Hackathon"}
 bottomNavigationLinks:
   - {link: "http://cmc-corpora.org", text: "cmc-corpora"}
