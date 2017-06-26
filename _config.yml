@@ -7,7 +7,6 @@ safe: false
 
 # Build Settings
 markdown: kramdown
-permalink: pretty
 exclude: 
     - automation/
     - README.md
@@ -34,7 +33,7 @@ title: "cmc-corpora 2017"
 email: "cmc-corpora2017@eurac.edu"
 baseurl: ""
 url: "https://cmc-corpora2017.eurac.edu"
-permalink: "/blog/:title"
+permalink: "/blog/:year:month:day_:title/"
 analytics:
   - name: "piwik"
 googleSiteVerification: ""
@@ -200,7 +199,8 @@ subscribeInfo: "Registration will be open around end of August. Number of ticket
 
 # Footer
 socialLinks:
- - {link: "https://twitter.com/search?l=&q=%23cmccorpora%20OR%20%23cmccorpora2016%20OR%20%23cmccorpora2017&src=typd", icon: "twitter"}
+ # - {link: "https://twitter.com/search?l=&q=%23cmccorpora%20OR%20%23cmccorpora2016%20OR%20%23cmccorpora2017&src=typd", icon: "twitter"}
+ - {link: "https://twitter.com/cmc_corpora", icon: "twitter"}
  - {link: "https://www.facebook.com/cmccorpora", icon: "facebook"}
  - {link: "https://groups.google.com/forum/?hl=de#!forum/cmc-corpora", icon: "google-groups"}
  - {permalink: "/feed.xml", icon: "rss"}
