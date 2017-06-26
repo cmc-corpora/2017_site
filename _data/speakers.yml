@@ -20,7 +20,8 @@
   name: "A. Seza"
   surname: "Doğruöz"
   affiliation:
-  link: ""
+  ribbon:
+    - {abbr: "homepage", title: "Homepage", url: ""}
   title: ""
   bio: ""
   abstract: "Title & Abstract: Information to appear."
@@ -32,22 +33,30 @@
   surname: "Beißwenger"
   affiliation: "University of Duisburg-Essen, Germany"
   ribbon:
-    - {abbr: "homepage", title: "http://www.michael-beisswenger.de/", url: "http://www.michael-beisswenger.de/"}
+    - {abbr: "homepage", title: "Homepage", url: "http://www.michael-beisswenger.de/"}
   thumbnailUrl: michaelbeisswenger.jpg
-  bio: "Michael is member of the organizing team for the main conference. He has been working on CMC corpora and corpus encoding in several projects, and on TEI encoding for CMC in the <a href=\"https://wiki.tei-c.org/index.php?title=SIG:CMC/clarindschema\">TEI-SIG \"computer-mediated communication\"</a>."
+  bio: "Michael is member of the organizing team for the main conference. He has been working on CMC corpora and corpus encoding in several projects, and on TEI encoding for CMC in the <a target=\"_blank\" href=\"https://wiki.tei-c.org/index.php?title=SIG:CMC/clarindschema\">TEI-SIG \"computer-mediated communication\"</a>."
 -
   id: 4
   name: "Harald"
   surname: "Lüngen"
   affiliation: "Institute for the German Language, Mannheim, Germany"
-  link: ""
+  ribbon:
+    - {abbr: "homepage", title: "Homepage", url: "http://www1.ids-mannheim.de/direktion/personal/luengen.html"}
   thumbnailUrl:
-  bio: "Harald has been working on TEI-encoding of CMC data in the CLARIN-D curation project \"ChatCorpus2CLARIN\" and has been one of the main authors of the most recent TEI schema draft for CMC genres developed within the <a href=\"https://wiki.tei-c.org/index.php?title=SIG:CMC/clarindschema\">TEI-SIG \"computer-mediated communication\"</a>."
+  bio: "Harald has been working on TEI-encoding of CMC data in the CLARIN-D curation project \"ChatCorpus2CLARIN\" and has been one of the main authors of the most recent TEI schema draft for CMC genres developed within the <a target=\"_blank\" href=\"https://wiki.tei-c.org/index.php?title=SIG:CMC/clarindschema\">TEI-SIG \"computer-mediated communication\"</a>."
 -
   id: 5
   name: "Laura"
   surname: "Herzberg"
   affiliation: "University of Mannheim, Germany"
-  link: ""
-  thumbnailUrl:
-  bio: "Laura has been working on TEI-encoding of CMC data in the CLARIN-D curation project \"ChatCorpus2CLARIN\""
+  ribbon:
+    - {abbr: "homepage", title: "Homepage", url: "http://germanistik.uni-mannheim.de/english/German%20Linguistics/Academic%20Staff/Laura%20Herzberg/"}
+  thumbnailUrl: lauraherzberg.jpg
+  bio: "
+Laura is a researcher and lecturer at the Department of German Linguistics
+(<a target=\"_blank\" href=\"http://germanistik.uni-mannheim.de/english/German%20Linguistics/Prof.%20Dr.%20Angelika%20Storrer/\">Prof. Dr. Angelika Storrer</a>), University of Mannheim, Germany.<br />
+
+Her research interests are corpus linguistics, linguistic aspects of computer-mediated communication, analysis of interaction signs in written corpora, cross-lingual analysis of Wikipedia talk pages, extraction and evaluation of CMC-language data, classifying und tagging of interaction signs, editing of chat protocols in oXygen (XML editor).<br />
+
+Laura has been working on TEI-encoding of CMC data in the CLARIN-D curation project \"ChatCorpus2CLARIN\"."
