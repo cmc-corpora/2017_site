@@ -142,7 +142,7 @@ venueFeatures: ["Two video projectors", "Full set of different microphones", "St
 #tweetsFeedImage: "twitter-feed.jpg"
 tweetsFeedTitle: "What's Up?"
 twitterHashTag: "cmccorpora17"
-twitterFeed: "https://cmc-corpora2017.eurac.edu/tweetledee/searchjson.php?c=10&cache_interval=8000&q=%23cmccorpora2017%20OR%20%23cmccorpora17%20OR%20%23cmccorpora16"
+twitterFeed: "https://cmc-corpora2017.eurac.edu/tweetledee/searchjson.php?c=10&cache_interval=8000&q=%23cmccorpora%20OR%20%23cmc_corpora%20OR%20%23cmccorpora2017%20OR%20%23cmccorpora17%20OR%20%23cmccorpora16"
 
 # Partners Block
 organizersTitle: "Organizers"
