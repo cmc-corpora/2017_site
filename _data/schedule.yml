@@ -41,14 +41,14 @@
     }
     - {
         startTime: "15:00",
-        endTime: "18:30",
+        endTime: "21:00",
         sessionIds: [901]
     }
-    - {
-        startTime: "18:30",
-        endTime: "21:00",
-        sessionIds: [902]
-    }
+    #    - {
+    #        startTime: "18:30",
+    #        endTime: "21:00",
+    #        sessionIds: [902]
+    #    }
 -
   id: 3
   date: "2017-10-05"

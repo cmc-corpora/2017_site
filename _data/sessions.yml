@@ -53,17 +53,18 @@
   complexity: "Intermediate"
 -
   id: 901
-  title: "LCR Pre-Conference Workshop"
+  title: "LCR Pre-Conference Workshop and Reception in honour of Sylviane Granger"
   place: "Room: tba"
   description: "Features a series of invited speakers whose work has greatly contributed to the development of Learner Corpus Research.
     <a href=\"http://lcr2017.eurac.edu/?page_id=6082\" target=\"_blank\">Read more</a> <br />
-    <a href=\"https://ebms.public.scientificnet.org/emc00/register.aspx?OrgCode=20&EvtID=8191&AppCode=REG&CC=117030803651\" target=\"_blank\">Registration ONLY for the LCR 2017 Pre-Conference Workshop (without attending LCR 2017 Conference).</a> <br />"
+    <a href=\"https://ebms.public.scientificnet.org/emc00/register.aspx?OrgCode=20&EvtID=8191&AppCode=REG&CC=117030803651\" target=\"_blank\">Registration: €15 for the LCR 2017 Pre-Conference Workshop and Reception (without attending the LCR 2017 Conference).</a> <br />"
   info: true
   service: true
 -
   id: 902
   title: "LCR Reception in honour of Sylviane Granger"
   place: "Room: tba"
+  description: "<a href=\"https://ebms.public.scientificnet.org/emc00/register.aspx?OrgCode=20&EvtID=8191&AppCode=REG&CC=117030803651\" target=\"_blank\">Registration: €15 for the LCR 2017 Pre-Conference Workshop and Reception (without attending the LCR 2017 Conference).</a> <br />"
   info: true
   service: true
 -
