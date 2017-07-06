@@ -8,18 +8,18 @@
   orgaTeamChair: true
   sciTeam: true
 -
-  name: "Daniela"
-  surname: "Gasser"
-  affiliation: "Eurac Research, Italy"
-  link: "http://www.eurac.edu/en/services/meeting/team/Pages/staffdetails.aspx?persId=22263"
-  thumbnailUrl: danielagasser.jpg
-  orgaTeam: true
--
   name: "Irina"
   surname: "Iokhno"
   affiliation: "Eurac Research, Italy"
   link: "http://www.eurac.edu/en/services/meeting/team/Pages/staffdetails.aspx?persId=43166"
   thumbnailUrl: irinaiokhno.jpg
+  orgaTeam: true
+-
+  name: "Daniela"
+  surname: "Gasser"
+  affiliation: "Eurac Research, Italy"
+  link: "http://www.eurac.edu/en/services/meeting/team/Pages/staffdetails.aspx?persId=22263"
+  thumbnailUrl: danielagasser.jpg
   orgaTeam: true
 -
   name: "Michael"
