@@ -1,4 +1,4 @@
-- 
+-
   name: "Egon W."
   surname: "Stemle"
   affiliation: "Eurac Research, Italy"
@@ -7,14 +7,21 @@
   orgaTeam: true
   orgaTeamChair: true
   sciTeam: true
-- 
+-
   name: "Daniela"
   surname: "Gasser"
   affiliation: "Eurac Research, Italy"
   link: "http://www.eurac.edu/en/services/meeting/team/Pages/staffdetails.aspx?persId=22263"
   thumbnailUrl: danielagasser.jpg
   orgaTeam: true
-- 
+-
+  name: "Irina"
+  surname: "Iokhno"
+  affiliation: "Eurac Research, Italy"
+  link: "http://www.eurac.edu/en/services/meeting/team/Pages/staffdetails.aspx?persId=43166"
+  thumbnailUrl: irinaiokhno.jpg
+  orgaTeam: true
+-
   name: "Michael"
   surname: "Beißwenger"
   affiliation: "University of Duisburg-Essen, Germany"
@@ -23,7 +30,7 @@
   coordTeam: true
   sciTeam: true
   sciTeamCoChair: true
-- 
+-
   name: "Darja"
   surname: "Fišer"
   affiliation: "University of Ljubljana, Slovenia"
@@ -32,7 +39,7 @@
   coordTeam: true
   sciTeam: true
   sciTeamCoChair: true
-- 
+-
   name: "Ciara R."
   surname: "Wigham"
   affiliation: "Université Clermont Auvergne, France"
