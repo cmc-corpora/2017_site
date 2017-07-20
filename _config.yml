@@ -42,7 +42,7 @@ googleMapsApiKey: "AIzaSyB6hiwDZTjA2YMPP8xyCRJN4JCZW79lt7E"
 twitterAccount: "@cmc_corpora"
 socialImageSrcGooglePlus: "/img/seo/sharing-google-plus.png"
 socialImageSrcTwitter: "/img/seo/sharing-twitter.png"
-socialImageSrcFacebook: "/img/seo/sharing-facebook.png"
+# socialImageSrcFacebook: "/img/seo/sharing-facebook.png"
 faviconVersion: 2
 
 # Organizer Info
