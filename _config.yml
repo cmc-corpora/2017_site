@@ -63,10 +63,11 @@ organizerLink: "http://www.eurac.edu/iscm"
 navigationLinks:
  - {permalink: "/", text: "Home"}
  - {permalink: "/schedule/", text: "Schedule"}
- - {permalink: "/cfp/", text: "Call for Papers"}
  - {permalink: "/registration/", text: "Registration"}
  - {permalink: "/speakers/", text: "Speakers"}
+ - {permalink: "/cfp/", text: "Call for Papers"}
  - {permalink: "/committees/", text: "Committees"}
+ - {permalink: "/uievent/", text: "CLARIN UI Event"}
  - {permalink: "/venue/", text: "Venue"}
  - {permalink: "/blog/", text: "News"}
 # - {permalink: "/hackathon/", text: "Hackathon"}
@@ -82,8 +83,9 @@ eventDate: "October, 3-4th 2017"
 typeoutTextValues: '"", " in Bolzano/Bozen", " in South Tyrol", " in Italy", " @ Eurac Research"'
 typeoutFallback: " @ Eurac Research"
 heroButtons:
-    - {permalink: "speakers", text: "Invited Speakers"}
-    - {permalink: "cfp", text: "Call for Papers"}
+    - {permalink: "registration", text: "Registration"}
+    - {permalink: "schedule", text: "Schedule"}
+    # - {permalink: "uievent", text: "CLARIN UI Event"}
     # - {permalink: "/#tickets", text: "Buy tickets"}
 
 # About Block
