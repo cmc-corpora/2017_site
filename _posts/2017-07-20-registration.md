@@ -8,7 +8,7 @@ permalink: /registration/
 ### Registration to the CMC-corpora 2017 conference and the CLARIN UI Event is now *OPEN*.
 
 
-#### Registration from
+#### Registration form
 To register, please fill out the [on-line registration
 form](https://ebms.public.scientificnet.org/emc00/register.aspx?OrgCode=20&EvtID=10405&AppCode=REG&CC=117061503651).
 
