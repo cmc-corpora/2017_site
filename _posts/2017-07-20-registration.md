@@ -27,8 +27,8 @@ process and adds 30 EUR to the fees.
 
 
 #### CLARIN UI Event
-Participation in the CLARIN UI Event is free and has to be indicated during the
-registration process. 
+Participation in the [CLARIN UI Event](/uievent) is free and has to be
+indicated during the registration process.
 For participants *only* interested in the CLARIN UI Event (without
 participation in the CMC-corpora 2017 conference) registration is mandatory.
 Please, write an e-mail to
