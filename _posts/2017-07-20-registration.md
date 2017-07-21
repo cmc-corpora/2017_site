@@ -16,7 +16,7 @@ form](https://ebms.public.scientificnet.org/emc00/register.aspx?OrgCode=20&EvtID
 #### CMC-corpora 2017 conference
 The registration fee for the CMC-corpora 2017 conference is 75 EUR and includes
 conference materials, coffee breaks and one lunch. 
-It does not include the social event, and also does **not** cover accommodation
+It does not include the social event, and also does *not* cover accommodation
 and travel costs.
 
 
