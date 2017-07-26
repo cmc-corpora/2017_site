@@ -22,9 +22,9 @@
   affiliation:
   ribbon:
     - {abbr: "homepage", title: "Homepage", url: ""}
-  title: ""
+  title: "Small vs. Big Data in Language Research: Challenges and Opportunities"
   bio: ""
-  abstract: "Title & Abstract: Information to appear."
+  abstract: "Mobile communication tools and platforms provide various opportunities for users to interact over social media. With the recent developments in computational research and machine learning, it has become possible to analyze large chunks of language related data automatically. Having worked with both small and large language related data in various forms, I will compare pros & cons of working with both types of data across media and contexts."
   thumbnailUrl:
   invited: true
 -
