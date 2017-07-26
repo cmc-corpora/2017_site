@@ -91,12 +91,6 @@
   link: "http://www.bbaw.de/die-akademie/mitarbeiter/herold"
   sciTeam: true
 -
-  name: "Dawn"
-  surname: "Knight"
-  affiliation: "Cardiff University, United Kingdom" 
-  link: "https://www.cardiff.ac.uk/people/view/142032-knight-dawn"
-  sciTeam: true
--
   name: "Julien"
   surname: "Longhi"
   affiliation: "Université de Cergy-Pontoise, France" 
@@ -127,11 +121,6 @@
   link: "http://poudat.fr/"
   sciTeam: true
 -
-  name: "Eiríkur"
-  surname: "Rögnvaldsson"
-  affiliation: "University of Iceland, Iceland" 
-  link: "https://uni.hi.is/eirikur/enska/"
--
   name: "Muge"
   surname: "Satar"
   affiliation: "Newcastle University, United Kingdom" 
@@ -143,11 +132,6 @@
   affiliation: "University for Foreigners, Italy" 
   link: "https://webclass.unistrapg.it/mod/data/view.php?d=1&rid=6"
   sciTeam: true
--
-  name: "Elisabeth"
-  surname: "Stark"
-  affiliation: "Universität Zürich, Switzerland" 
-  link: "http://www.rose.uzh.ch/de/seminar/personen/stark.html"
 -
   name: "Angelika"
   surname: "Storrer"
