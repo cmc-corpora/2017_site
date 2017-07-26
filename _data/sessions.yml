@@ -49,7 +49,7 @@
   service: true
 -
   id: 101
-  title: "Preliminary Schedule (CLARIN UI Event - Introduction to text encoding in the TEI (TEI-P5))"
+  title: "Preliminary Schedule (CLARIN UI Event - Introduction to text encoding in the TEI (TEI-P5) [Free])"
   place: "Seminar 8"
   description: "The tutorial gives a practical introduction into the annotation of language data from genres of computer-mediated communication (CMC) and social media using TEI."
   internallink: "/uievent/"
@@ -57,7 +57,7 @@
   speakers: [4, 3]
 -
   id: 102
-  title: "Preliminary Schedule (CLARIN UI Event - Hands-on session: Using TEI for representing CMC/social media data)"
+  title: "Preliminary Schedule (CLARIN UI Event - Hands-on session: Using TEI for representing CMC/social media data [Free])"
   place: "Seminar 8"
   description: "The tutorial gives a practical introduction into the annotation of language data from genres of computer-mediated communication (CMC) and social media using TEI."
   internallink: "/uievent/"
