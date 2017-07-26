@@ -1,7 +1,7 @@
 -
   id: 000
   title: "Preliminary Schedule (Pre-Conference Gathering)"
-  place: "Room: tba"
+  place: "Place: tba"
   description: "Pre-Conference Gathering"
   service: true
 -
@@ -13,40 +13,63 @@
     >Batznhäusl</a>."
   service: true
 -
-  id: 009
-  title: "Preliminary Schedule (Sessions)"
-  place: "Room: tba"
-  description: "Sessions"
-  service: true
--
-  id: 307
+  id: 004
   title: "Preliminary Schedule (Coffee Break)"
-  place: "Room: tba"
+  place: "Place: tba"
   service: true
   description: "The best time to talk with speakers and attendees"
 -
-  id: 503
-  title: "Lunch Break"
-  place: "Dining room"
+  id: 005
+  title: "Preliminary Schedule (Lunch Break)"
+  place: "Place: tba"
+  service: true
+-
+  id: 008
+  title: "Preliminary Schedule (Poster Session)"
+  place: "Room: tba"
+  description_: "Poster Session"
+  service: true
+-
+  id: 009
+  title: "Preliminary Schedule (Sessions)"
+  place: "Room: tba"
+  description_: "Sessions"
+  service: true
+-
+  id: 010
+  title: "Preliminary Schedule (Keynote)"
+  place: "Room: tba"
+  description_: "Keynote"
+  service: true
+-
+  id: 011
+  title: "Preliminary Schedule (Keynote)"
+  place: "Room: tba"
+  description_: "Keynote"
   service: true
 -
   id: 101
-  title: "Preliminary Schedule (Introduction to text encoding in the TEI (TEI-P5))"
-  place: "Room: tba"
+  title: "Preliminary Schedule (CLARIN UI Event - Introduction to text encoding in the TEI (TEI-P5))"
+  place: "Seminar 8"
   description: "The tutorial gives a practical introduction into the annotation of language data from genres of computer-mediated communication (CMC) and social media using TEI."
   internallink: "/uievent/"
-  subtype: workshop
+  subtype: tutorial
   speakers: [4, 3]
 -
   id: 102
-  title: "Preliminary Schedule (Hands-on session: Using TEI for representing CMC/social media data)"
-  place: "Room: tba"
+  title: "Preliminary Schedule (CLARIN UI Event - Hands-on session: Using TEI for representing CMC/social media data)"
+  place: "Seminar 8"
   description: "The tutorial gives a practical introduction into the annotation of language data from genres of computer-mediated communication (CMC) and social media using TEI."
   internallink: "/uievent/"
-  subtype: workshop
+  subtype: tutorial
   speakers: [4, 5]
 -
   id: 901
+  titleprefix_: "
+  <div class=\"timeslot-label\" style=\"clear:both;\">
+    <div>15<span>00</span></div>
+    <div>21<span>00</span></div>
+  </div>"
   title: "LCR Pre-Conference Workshop and Reception in honour of Sylviane Granger"
   place: "Room: tba"
   description: "Features a series of invited speakers whose work has greatly contributed to the development of Learner Corpus Research.
@@ -55,20 +78,11 @@
   info: true
   service: true
 -
-  id: 902
-  title: "LCR Reception in honour of Sylviane Granger"
-  place: "Room: tba"
-  description: "<a href=\"https://ebms.public.scientificnet.org/emc00/register.aspx?OrgCode=20&EvtID=8191&AppCode=REG&CC=117030803651\" target=\"_blank\">Registration: €15 for the LCR 2017 Pre-Conference Workshop and Reception (without attending the LCR 2017 Conference).</a> <br />"
-  info: true
-  service: true
--
   id: 903
   title: "LCR Keynote"
   place: "Room: tba"
   description: "
   <a href=\"http://lcr2017.eurac.edu/#speakers\" target=\"_blank\">Stefania Spina</a>:
-    Learner Corpus Research and the acquisition of Italian as a second language: 
-    the case of the Longitudinal Corpus of Chinese Learners of Italian (LoCCLI).
-  "
+    Learner Corpus Research and the acquisition of Italian as a second language:  the case of the Longitudinal Corpus of Chinese Learners of Italian (LoCCLI)."
   info: true
   service: true
