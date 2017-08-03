@@ -5,7 +5,13 @@ $nav-scroll-color-hover: rgba(0, 0, 0, .8);
 
 ul.navbar-nav {
     margin-top: -15px;
+    margin-bottom: 5px;
     line-height: 29px;
+}
+.navbar-nav-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
 }
 .top-header {
     position: fixed;
