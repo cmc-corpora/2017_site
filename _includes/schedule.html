@@ -2,7 +2,7 @@
 <section id="schedule" class="schedule">
     <div class="content-wrapper">
 
-<div class="schedule-table col-lg-8 col-md-10 col-md-offset-1">
+<div class="schedule-table col-md-10 col-md-offset-1">
     <h4 class="schedule-table-heading">Important Dates</h4>
     <div class="timeslot-elements flexbox-wrapper">
     <div class="track-header-slot col-xs-12 flexbox-item-height">
@@ -15,7 +15,7 @@
 </div>
 
         {% for day in site.data.schedule %}
-        <div class="schedule-table col-lg-8 col-md-10 col-md-offset-1">
+        <div class="schedule-table col-md-10 col-md-offset-1">
             <h4 class="schedule-table-heading">{{ day.dateReadable }}</h4>
             <div class="timeslot track-header stick-header">
                 <div class="track-header-label"><a class="link-unstyled" name="day{% if day.id != null %}{{ day.id }}{% else %}{{ forloop.index }}{% endif %}">Day {% if day.id != null %}{{ day.id }}{% else %}{{ forloop.index }}{% endif %}</a></div>
