@@ -1,5 +1,6 @@
 (function($) {
     $(document).ready(function() {
+        // add foo for printing
         function beforePrint () {
                 // console.log('before print');
                 $('.slot').each(function() {
@@ -27,6 +28,37 @@
 
         var mql = window.matchMedia('print');
         mql.addListener(printHandler);
+        // end: foo for printing
+
+		// add: bar for copy and pasting
+		//      remove &shy; from text
+		$(window).on("copy", function(e) {
+
+            // don't bother with very ancient browsers
+			if (typeof window.getSelection == "undefined") return;
+
+			function recursiveReplace(node, searchpat, subpat) {
+				if (node.nodeType == 3) {
+					node.nodeValue = node.nodeValue.replace(searchpat, subpat);
+				} else if (typeof node.childNodes !== "undefined") {
+                    for (child in node.childNodes) {
+                        cnode = node.childNodes[child];
+                        recursiveReplace(cnode, searchpat, subpat);
+                    }
+                }
+			};
+
+			var sel = window.getSelection();
+            var newobj = $('<div>', {html: sel.getRangeAt(0).cloneContents(),
+                style: {position: 'absolute', left:
+                    '-99999px'}}).appendTo('body');
+            var newnode = newobj[0];
+
+            // replace &shy;
+            recursiveReplace(newnode, /\u00AD/g, '');
+			sel.selectAllChildren(newnode);
+			window.setTimeout(function () { newnode.remove(); }, 100);
+		});
 
         $(window).load(function() {
             $('#st-container').removeClass('disable-scrolling');
@@ -611,5 +643,4 @@
 
         google.maps.event.addDomListener(window, 'load', initialize);
     }
-
 })(jQuery);
