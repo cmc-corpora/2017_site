@@ -1,5 +1,33 @@
 (function($) {
     $(document).ready(function() {
+        function beforePrint () {
+                // console.log('before print');
+                $('.slot').each(function() {
+                    $(".track-header.sticky").trigger("sticky_kit:detach");
+                });
+        };
+
+        function afterPrint() {
+                // console.log('after print');
+                $('.slot').each(function() {
+                    $(".track-header.sticky").trigger("sticky_kit:detach");
+                });
+        };
+
+        $(window).bind("onbeforeprint", beforePrint);
+        $(window).bind("onafterprint", afterPrint);
+
+        var printHandler = function(mql) {
+            if(mql.matches) {
+                beforePrint();
+            } else {
+                afterPrint();
+            }
+        };
+
+        var mql = window.matchMedia('print');
+        mql.addListener(printHandler);
+
         $(window).load(function() {
             $('#st-container').removeClass('disable-scrolling');
             $('#loading-animation').fadeOut();

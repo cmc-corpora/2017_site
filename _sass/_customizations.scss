@@ -1,0 +1,126 @@
+
+@media print {
+    /*
+    body {
+        width: 960px !important;
+    }
+    */
+
+    /*
+    .track-header {
+        position: relative !important;
+    }
+    */
+    .hiding {
+        opacity: 1
+    }
+}
+.footer,
+.menu-trigger,
+.logo-navbar {
+    @media print {
+        display: none;
+        visibility: hidden;
+    }
+}
+.jumbotron {
+    @media print {
+         margin: 0 0 0 0;
+         padding: 0 0 0 15px;
+    }
+}
+.section {
+    @media print {
+        padding-tpo: 0;
+        padding-bottom: 0;
+    }
+}
+.schedule {
+    @media print {
+        padding-top: 0;
+        padding-bottom: 0;
+    }
+    ul, 
+    li {
+        @media print {
+            font-size: 14px;
+        }
+    }
+    .speaker-position {
+        @media print {
+            font-size: 12px;
+        }
+    }
+}
+.schedule-table {
+    @media print {
+        margin-bottom: 30px;
+    }
+    &:last-child {
+        margin-bottom: 0;
+    }
+}
+.slot-content {
+    @media print {
+        min-height: 0;
+        padding: 10px 15px 0px;
+    }
+    .service-description {
+        @media print {
+            margin-bottom: 0;
+        }
+    }
+}
+.slot-title {
+    @media print {
+        font-size: 18px;
+    }
+}
+.slot-language {
+    @media print {
+        font-size: 11px;
+    }
+}
+time {
+    @media print {
+        display: inline;
+    }
+}
+.timeslot {
+    $schedule-border: 1px solid #e7e7e7;
+    &:last-child {
+        border-bottom: $schedule-border;
+    }
+    @media print {
+        page-break-inside: avoid;
+        clear: both;
+        border-right: 1px solid #e7e7e7;
+    }
+}
+.timeslot-elements {
+    @media print {
+        margin-left: 120px;
+    }
+}
+.timeslot-label {
+    @media print {
+        font-size: 18px;
+        padding-bottom: 0;
+        display: flex;
+        justify-content: space-between;
+        width: 120px;
+    }
+}
+.top-section {
+    @media print {
+         padding: 0 0 0 15px;
+         min-height: 0;
+    }
+}
+.track-header-label {
+    span {
+        @media print {
+            font-size: 14px;
+        }
+    }
+}
