@@ -1,5 +1,22 @@
 #!/usr/bin/env bash
 set -e # halt script on error
 
-bundle exec jekyll clean
-bundle exec jekyll serve -w -I
+rm -rf _sass/.sass-cache/
+
+bundle exec jekyll clean \
+&& bundle exec jekyll build --no-watch
+
+if [ $? -eq 0 ]; then
+    bundle exec jekyll serve --watch &
+    JEKYLL_PID=$!
+
+    sleep 3
+    wkhtmltopdf \
+        --run-script "javascript:(\$(function(){ \$('.timeslot-elements').css({'width':'745px'}) ;} ))" \
+        --print-media-type \
+        http://localhost:4000/schedule/ assets/schedule.pdf
+    trap "kill -SIGINT ${JEKYLL_PID}; exit 0" ERR INT QUIT TERM KILL
+    wait ${JEKYLL_PID}
+else
+    echo $0 FAIL.
+fi
