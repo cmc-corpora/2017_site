@@ -41,22 +41,28 @@
     @media print {
         padding-top: 0;
         padding-bottom: 0;
-    }
-    ul, 
-    li {
-        @media print {
-            font-size: 14px;
+
+        .speaker-name {
+            margin-left: 0;
+            margin-right: 48px;
         }
-    }
-    .speaker-position {
-        @media print {
+
+        .speaker-position {
             font-size: 12px;
+        }
+
+        ul,
+        li {
+            font-size: 14px;
+            margin-top: 0;
+            margin-bottom: 0;
         }
     }
 }
 .schedule-table {
     @media print {
         margin-bottom: 30px;
+        page-break-inside: avoid;
     }
     &:last-child {
         margin-bottom: 0;
@@ -66,9 +72,8 @@
     @media print {
         min-height: 0;
         padding: 10px 15px 0px;
-    }
-    .service-description {
-        @media print {
+        border-right: 5px solid #a1a1a1;
+        .service-description {
             margin-bottom: 0;
         }
     }
@@ -97,14 +102,9 @@ time {
     }
 }
 .timeslot {
-    $schedule-border: 1px solid #e7e7e7;
-    &:last-child {
-        border-bottom: $schedule-border;
-    }
     @media print {
         page-break-inside: avoid;
         clear: both;
-        border-right: 1px solid #e7e7e7;
     }
 }
 .timeslot-elements {
@@ -114,10 +114,10 @@ time {
 }
 .timeslot-label {
     @media print {
+        @include flexbox();
+        justify-content: space-between;
         font-size: 18px;
         padding-bottom: 0;
-        display: flex;
-        justify-content: space-between;
         width: 120px;
     }
 }
