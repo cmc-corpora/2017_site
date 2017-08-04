@@ -17,7 +17,9 @@
 }
 .footer,
 .menu-trigger,
-.logo-navbar {
+.logo-navbar,
+.speaker-img,
+.noprint {
     @media print {
         display: none;
         visibility: hidden;
@@ -79,6 +81,14 @@
 .slot-language {
     @media print {
         font-size: 11px;
+    }
+}
+.slot-speakers {
+    @media print {
+        @include flexbox();
+        list-style: none;
+        margin-top: 5px;
+        margin-bottom: 0;
     }
 }
 time {
