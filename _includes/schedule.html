@@ -1,8 +1,9 @@
 <!-- Begin Schedule Section -->
 <section id="schedule" class="schedule">
-    <div class="content-wrapper noprint">
-        <div class="col-md-10 col-md-offset-1 col-xs-12 col-sm-12 col-sm-offset-0">
-            <div class="row">
+    <div class="content-wrapper">
+
+        <div class="row noprint">
+            <div class="col-md-10 col-md-offset-1 col-sm-12 col-sm-offset-0 col-xs-12 noprint">
                 <div class="col-md-5 col-xs-6 pull-left"></div>
                 <div class="col-md-5 col-xs-6 pull-right" style="text-align: right;">
                     <a href="/assets/schedule.pdf">PDF version of this page</a>
@@ -71,9 +72,9 @@
                                                 {% for speaker in site.data.speakers %}
                                                     {% if session_speaker == speaker.id %}
                                                     <li itemprop="performer"><div class="speaker-img flow-img img-circle"{% if speaker.thumbnailUrl != null %} style="background-image: url({{ site.baseurl | append: '/img/people/' | append: speaker.thumbnailUrl }})"{% endif %}></div>
-                                                    <p class="speaker-name">{{ speaker.name }} {{ speaker.surname }}
-                                                        <span class="speaker-position">{{ speaker.company }}</span>
-                                                    </p>
+                                                        <p class="speaker-name">{{ speaker.name }} {{ speaker.surname }}
+                                                            <span class="speaker-position">{{ speaker.company }}</span>
+                                                        </p>
                                                     </li>
                                                     {% endif %}
                                                 {% endfor %}    
@@ -88,10 +89,10 @@
                                         <h5 class="slot-title" itemprop="name">{% if session.titleprefix %}{{ session.titleprefix }}{% endif %}{{ session.title }}</h5>
 
                                         {% if session.place != null %}
-                                        <span class="slot-place">{{session.place}}</span>
+                                            <span class="slot-place">{{session.place}}</span>
                                         {% endif %}
                                         {% if session.description != null %}
-                                        <p class="service-description">{{ session.description }}</p>
+                                            <p class="service-description">{{ session.description }}</p>
                                         {% endif %}
                                     </div>
                                 </div>
