@@ -58,6 +58,9 @@
                                     <div class="color-line" style="background: {{ day.tracks[slotIndex].color }}"></div>
                                     <div class="slot-content{% if session.info != null %} slot-info{% endif %}" style="border-right-color: {{ day.tracks[slotIndex].color }}">
                                         <h5 class="slot-title" itemprop="name">{{ session.title }}</h5>
+                                        {% if session.place != null %}
+                                        <span class="slot-place">{{session.place}}</span>
+                                        {% endif %}
                                         <span class="slot-language">{{session.language | upcase}}</span>
                                         {% if session.description != null and session.info != null %}
                                         <p class="service-description">{{ session.description }}</p>
@@ -82,7 +85,11 @@
                                 <div class="slot col-md-{{ slotColWidth }} col-xs-12 service-slot flexbox-item-height" data-slot-detail="{{ session.title }}{% if session.place != null %}, {{ session.place }}{% endif %}">
                                     <div class="color-line"></div>
                                     <div class="slot-content{% if session.info != null %} slot-info{% endif %}">
-                                        <h5 class="slot-title" itemprop="name">{{ session.title }}</h5>
+                                        <h5 class="slot-title" itemprop="name">{% if session.titleprefix %}{{ session.titleprefix }}{% endif %}{{ session.title }}</h5>
+
+                                        {% if session.place != null %}
+                                        <span class="slot-place">{{session.place}}</span>
+                                        {% endif %}
                                         {% if session.description != null %}
                                         <p class="service-description">{{ session.description }}</p>
                                         {% endif %}
