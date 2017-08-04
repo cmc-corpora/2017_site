@@ -54,6 +54,12 @@
   description_: "Keynote"
   service: true
 -
+  id: 020
+  title: "Preliminary Schedule (Coffee Break)"
+  place: "Place: Eurac Café"
+  service: true
+  description: "The best time to talk with speakers and attendees"
+-
   id: 101
   title: "Preliminary Schedule (CLARIN UI Event - Introduction to text encoding in the TEI (TEI-P5) [Free])"
   place: "Room: Seminar 8"
