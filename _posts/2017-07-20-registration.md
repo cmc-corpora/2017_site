@@ -38,3 +38,7 @@ Please, write an e-mail to
 #### Deadline and late registration
 The deadline for registration is September 25th 2017. On-site registration will
 be available for additional 15 EUR.
+
+
+### Subsequent LCR conference and LCR pre-conference workshop
+Visit the [LCR registration fees and policy page](http://lcr2017.eurac.edu/?page_id=5724){:target="_blank"} for further information.
