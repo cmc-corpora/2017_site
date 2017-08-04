@@ -18,6 +18,11 @@
     - {title: "CMC-Conference", color: "#90be4e"}
   timeslots:
     - {
+        startTime: "08:00",
+        endTime: "08:30",
+        sessionIds: [003]
+    }
+    - {
         startTime: "09:00",
         endTime: "10:00",
         sessionIds: [010]

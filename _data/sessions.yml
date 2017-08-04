@@ -13,6 +13,12 @@
     >Batznhäusl</a>."
   service: true
 -
+  id: 003
+  title: "On-Site Registration"
+  place: "Place: Eurac Research main entrance area"
+  service: true
+  description: "On-site registration will be available for additional 15 EUR."
+-
   id: 004
   title: "Preliminary Schedule (Coffee Break)"
   place: "Place: tba"
