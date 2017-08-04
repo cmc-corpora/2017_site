@@ -56,18 +56,18 @@
 -
   id: 101
   title: "Preliminary Schedule (CLARIN UI Event - Introduction to text encoding in the TEI (TEI-P5) [Free])"
-  place: "Seminar 8"
+  place: "Room: Seminar 8"
   description: "The tutorial gives a practical introduction into the annotation of language data from genres of computer-mediated communication (CMC) and social media using TEI."
   internallink: "/uievent/"
-  subtype: tutorial
+  subtype: "Tutorial"
   speakers: [4, 3]
 -
   id: 102
   title: "Preliminary Schedule (CLARIN UI Event - Hands-on session: Using TEI for representing CMC/social media data [Free])"
-  place: "Seminar 8"
+  place: "Room: Seminar 8"
   description: "The tutorial gives a practical introduction into the annotation of language data from genres of computer-mediated communication (CMC) and social media using TEI."
   internallink: "/uievent/"
-  subtype: tutorial
+  subtype: "Tutorial"
   speakers: [4, 5]
 -
   id: 901
@@ -77,7 +77,6 @@
     <div>21<span>00</span></div>
   </div>"
   title: "LCR Pre-Conference Workshop and Reception in honour of Sylviane Granger"
-  place: "Room: tba"
   description: "Features a series of invited speakers whose work has greatly contributed to the development of Learner Corpus Research.
     <a href=\"http://lcr2017.eurac.edu/?page_id=6082\" target=\"_blank\">Read more about the event.</a> <br />
     <a href=\"https://ebms.public.scientificnet.org/emc00/register.aspx?OrgCode=20&EvtID=8191&AppCode=REG&CC=117030803651\" target=\"_blank\">Link to the registration: €15 for the LCR 2017 Pre-Conference Workshop and Reception (without attending the LCR 2017 Conference).</a>  <br />
