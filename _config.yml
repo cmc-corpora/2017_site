@@ -26,7 +26,7 @@ sitemap:
 
 # Site and <head> Settings
 author: "Eurac Research & cmc-corpora"
-description: "5th Conference on CMC and Social Media Corpora for the Humanities (3-4 Oct 2017) and CLARIN UI Event (5 Oct 2017) @ Eurac Research, IT"
+description: "5th Conference on CMC and Social Media Corpora for the Humanities (3-4 Oct 2017) and CLARIN UI Event (4 Oct 2017) @ Eurac Research, IT"
 shortDescription: "5th cmc-corpora conference and CLARIN UI Event(3-5Oct17) @ Eurac Research, IT"
 metaKeywords: "CMC, Social Media, Corpora, Humanities, Conference, Eurac Research, Bolzano, Bozen, CLARIN, UI Event"
 title: "CMC-Corpora 2017 Conference and CLARIN UI Event"
@@ -93,8 +93,8 @@ aboutTitle: "About"
 aboutBlock:
  - {title: "Conference", image: "conference.png", text: '
    <p>CMC and Social Media Corpora for the Humanities is the 5th edition of an annual <a href="https://sites.google.com/site/cmccorpora/conferences-2013-2016" target="_blank">conference series</a> dedicated to the collection, annotation, processing and exploitation of corpora of computer-mediated communication (CMC) and social media for research in the humanities. The conference brings together language-centered research on CMC and social media in linguistics, philologies, communication sciences, media and social sciences with research questions from the fields of corpus and computational linguistics, language technology, text technology, and machine learning.</p>
-   <p>The conference will include a <a href="/uievent">post-conference workshop</a> on using the TEI for annotating CMC and social media resources (5 October).
-   The conference will be followed by the <a href="http://lcr2017.eurac.edu" target="_blank">4th Learner Corpus Research Conference</a>, which will be held at the same venue from 5-7 October.</p>
+   <p>The conference will include a <a href="/uievent">post-conference workshop</a> on using the TEI for annotating CMC and social media resources (4 October).
+   The conference will be followed by the <a href="http://lcr2017.eurac.edu" target="_blank">4th Learner Corpus Research Conference</a> and its preceding conference workshop, which will both be held at the same venue from 4-7 October.</p>
    ' }
  - {title: "Eurac Research", image: "eurac.jpg", text: '
    <p>The Institute for Specialised Communication and Multilingualism aims to provide scientific answers to current issues of language and education policy as well as to economic and social questions at local and international level.</p>
