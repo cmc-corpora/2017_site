@@ -1,8 +1,9 @@
 -
   id: 000
   title: "Preliminary Schedule (Pre-Conference Gathering)"
-  place: "Place: tba"
-  description: "Pre-Conference Gathering"
+  place: "Place: (likely) Muflone Rosa"
+  description: "Pre-Conference Gathering at <a target=\"_blank\"
+    href=\"https://www.google.it/maps/dir/EURAC+Research,+Viale+Druso+Drususallee,+Bolzano,+Province+of+Bolzano+-+South+Tyrol/Muflone+Rosa,+Rauschertorgasse,+Bolzano,+Province+of+Bolzano+-+South+Tyrol/@46.4973619,11.3472569,17z/data=!3m1!4b1!4m14!4m13!1m5!1m1!1s0x47829c202aabf925:0x88091ac142a2771!2m2!1d11.3467639!2d46.4944386!1m5!1m1!1s0x47829e7c79dd2943:0xf9c47bdee4c8dc98!2m2!1d11.3514999!2d46.5002608!3e2\">Muflone Rose</a>."
   service: true
 -
   id: 001
