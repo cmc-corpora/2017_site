@@ -21,36 +21,36 @@
 -
   id: 004
   title: "Preliminary Schedule (Coffee Break)"
-  place: "Place: tba"
+  place: "Place: Foyer 1-2-3"
   service: true
   description: "The best time to talk with speakers and attendees"
 -
   id: 005
   title: "Preliminary Schedule (Lunch Break)"
-  place: "Place: tba"
+  place: "Place: Foyer 1-2-3"
   service: true
 -
   id: 008
   title: "Preliminary Schedule (Poster Session)"
-  place: "Room: tba"
+  place: "Room: Foyer Auditorium"
   description_: "Poster Session"
   service: true
 -
   id: 009
   title: "Preliminary Schedule (Sessions)"
-  place: "Room: tba"
+  place: "Room: Conference Hall"
   description_: "Sessions"
   service: true
 -
   id: 010
   title: "Preliminary Schedule (Keynote)"
-  place: "Room: tba"
+  place: "Room: Conference Hall"
   description_: "Keynote"
   service: true
 -
   id: 011
   title: "Preliminary Schedule (Keynote)"
-  place: "Room: tba"
+  place: "Room: Conference Hall"
   description_: "Keynote"
   service: true
 -
@@ -92,7 +92,6 @@
 -
   id: 903
   title: "LCR Keynote"
-  place: "Room: tba"
   description: "
   <a href=\"http://lcr2017.eurac.edu/#speakers\" target=\"_blank\">Stefania Spina</a>:
     Learner Corpus Research and the acquisition of Italian as a second language:  the case of the Longitudinal Corpus of Chinese Learners of Italian (LoCCLI)."
