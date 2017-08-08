@@ -7,7 +7,7 @@ bundle exec jekyll clean \
 && bundle exec jekyll build --no-watch
 
 if [ $? -eq 0 ]; then
-    trap "kill -SIGINT ${JEKYLL_PID} && exit 0 || kill -SIGTERM ${JEKYLL_PID} && exit 1;" ERR INT QUIT TERM KILL
+    trap "kill -SIGINT ${JEKYLL_PID} && exit 0 || kill -SIGTERM ${JEKYLL_PID} ; exit 1;" ERR INT QUIT TERM KILL
     bundle exec jekyll serve --watch &
     JEKYLL_PID=$!
 
