@@ -102,7 +102,7 @@
     - {
         startTime: "14:30",
         endTime: "16:00",
-        sessionIds: [101]
+        sessionIds: [801]
     }
     - {
         startTime: "16:00",
@@ -112,7 +112,7 @@
     - {
         startTime: "16:30",
         endTime: "18:00",
-        sessionIds: [102]
+        sessionIds: [802]
     }
     - {
         startTime: "15:00",

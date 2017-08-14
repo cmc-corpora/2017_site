@@ -43,16 +43,28 @@
   service: true
 -
   id: 10
-  title: "Preliminary Schedule (Keynote)"
+  title: "Think global, write local – patterns of writing dialect on SNS"
+  title_: "Preliminary Schedule (Keynote)"
   place: "Room: Conference Hall"
   subtype: "Keynote"
   speakers: [1]
+  types:
+    - invitedtalk
+  abstract: "Social Network Sides (SNS) claim that they are “on a mission to connect the world”. They facilitate communication among people wherever they are located. As a consequence, users of SNS express aspects of their diverse identities to a broad and heterogenic group of friends. One aspect might be a local identity.<br />
+
+    Users of SNS can show their local identity linguistically by the use of a regional variety. The use of dialects in written computer-mediated communication (CMC) is one reason (amongst others) why language in CMC often differs from the respective standard language. Since no orthographic rules are usually available for writing the dialect, it is up to the users to represent their dialect in a proper but readable and comprehensible way. <br />
+
+    CMC corpora allow for a systematic analysis of the way dialect features are reflected in written communication. In my talk, I will focus on patterns of the regional dialect(s) in the DiDi Corpus, a collection of Facebook messages from around 100 South Tyrolean writers. I will provide examples of regional features, analyze the distribution of such features, and discuss challenges of identifying local writings on SNS."
 -
   id: 11
-  title: "Preliminary Schedule (Keynote)"
+  title: "Small vs. Big Data in Language Research: Challenges and Opportunities"
+  title_: "Preliminary Schedule (Keynote)"
   place: "Room: Conference Hall"
   subtype: "Keynote"
   speakers: [2]
+  types:
+    - invitedtalk
+  abstract: "Mobile communication tools and platforms provide various opportunities for users to interact over social media. With the recent developments in computational research and machine learning, it has become possible to analyze large chunks of language related data automatically. Having worked with both small and large language related data in various forms, I will compare pros & cons of working with both types of data across media and contexts."
 -
   id: 20
   title: "Preliminary Schedule (Coffee Break)"
@@ -60,7 +72,7 @@
   service: true
   description: "The best time to talk with speakers and attendees"
 -
-  id: 101
+  id: 801
   title: "Preliminary Schedule (CLARIN UI Event - Introduction to text encoding in the TEI (TEI-P5) [Free])"
   place: "Room: Seminar 8"
   description: "The tutorial gives a practical introduction into the annotation of language data from genres of computer-mediated communication (CMC) and social media using TEI."
@@ -68,7 +80,7 @@
   subtype: "Tutorial"
   speakers: [4, 3]
 -
-  id: 102
+  id: 802
   title: "Preliminary Schedule (CLARIN UI Event - Hands-on session: Using TEI for representing CMC/social media data [Free])"
   place: "Room: Seminar 8"
   description: "The tutorial gives a practical introduction into the annotation of language data from genres of computer-mediated communication (CMC) and social media using TEI."
@@ -97,3 +109,184 @@
     Learner Corpus Research and the acquisition of Italian as a second language:  the case of the Longitudinal Corpus of Chinese Learners of Italian (LoCCLI)."
   info: true
   service: true
+-
+  id: 102
+  authors: [102] 
+  title: "European Language Ecology and Bilingualism with English on Twitter"
+  types:
+    - paper
+    - talk
+  abstract: "Societal and demographic changes have contributed to increasing bi- and multilingualism in European countries in recent years, and communication on social media platforms such as Twitter reflects this linguistic diversity. While high rates of English use online have been attested for many European countries by survey research, relatively little work has quantified the extent to which English is used on social media in European contexts. In this study, English use and bilingualism with English in Europe are investigated on Twitter. 
+A large corpus of Twitter messages with geographical metadata was created by accessing the Twitter APIs. After language detection and filtering, linguistic profiles for European countries were determined and the behavior of bi- and mutlilingual users examined. The analysis supports some previous findings that suggest that a large-scale language shift towards English may be ongoing in Europe. Geographical differences shed light on the dynamics of this process."
+-
+  id: 104
+  authors: [104]
+  title: "Reliable Part-of-Speech Tagging of Low-frequency Phenomena in the Social Media Domain"
+  types:
+    - paper
+    - talk
+  abstract: "We present a series of experiments to fit a part-of-speech (PoS) tagger towards tagging extremely infrequent PoS tags of which we only have a limited amount of training data.
+The objective is to implement a tagger that tags this phenomenon with a high degree of correctness in order to be able to use it as a corpus query tool on plain text corpora, so that new instances of this phenomenon can be easily found in plain text.
+We focused on avoiding manual annotation as much as possible and experimented with altering the frequency weight of the PoS tag of interest in the small training data set we have.
+This approach was compared to adding machine tagged training data in which only the phenomenon of interest is manually corrected.
+We find that adding more training data is unavoidable but machine tagging data and hand correcting the tag of interest is sufficient. 
+Furthermore, the choice of the tagger plays an important role as some taggers are equipped to deal with rare phenomena more adequately than others.
+The best trade off between precision and recall of the phenomenon of interest was achieved by a separation of the tagging into two steps
+An evaluation of this phenomenon-fitted tagger on social media plain-text confirmed that the tagger serves as a useful corpus query tool that retrieves instances of the phenomenon including many unseen ones."
+-
+  id: 105
+  authors: [105]
+  title: "Emoticons as multifunctional and pragmatic Resources: a corpus-based Study on Twitter"
+  types:
+    - paper
+    - talk
+  abstract: "Emoticons play an important role in digital written communication: they can serve as markers either of emotions or familiarity, and they can intensify or downgrade the pragmatic force of a text. 
+The aim of this study is to investigate the use of emoticons in Twitter by Italian users, and to verify, by relying on corpus data and on statistical methodologies, some of the prevailing opinions on the use of emoticons: that they are technically-driven resources, that they are mostly used by young people, and more often by females, and that they are superficial and easy ways of expressing emotions using images instead of words. 
+A mixed-effects model analysis has shown that the use of emoticons on Twitter is affected by a complex interaction of cultural, technological, situational and sociolinguistic variables."
+-
+  id: 108
+  authors: [108]
+  title: "“You’re trolling because…” – A Corpus-based Study of Perceived Trolling and Motive Attribution in the Comment Threads of Three British Political Blogs"
+  types:
+    - paper
+    - talk
+  abstract: "This paper investigates the linguistically marked motives that participants attribute to those they call trolls in 991 comment threads of three British political blogs. The study is concerned with how these motives affect the discursive construction of trolling and trolls. Another goal of the paper is to examine whether the mainly emotional motives ascribed to trolls in the academic literature correspond with those that the participants attribute to the alleged trolls in the analysed threads. The paper identifies five broad motives ascribed to trolls: emotional/mental health-related/social reasons, financial gain, political beliefs, being employed by a political body, and unspecified political affiliation. It also points out that depending on these motives, trolling and trolls are constructed in various ways. Finally, the study argues that participants attribute motives to trolls not only to explain their behaviour but also to insult them."
+-
+  id: 109
+  authors: [109]
+  title: "The #Idéo2017 Platform"
+  types:
+    - paper
+    - talk
+  abstract: "The #Idéo2017 platform aims to propose a tool allowing to citizens to analyze by themselves the tweets of the 11 candidates at the French 2017 Presidential Election. #Idéo2017 processes the messages of the candidates by creating a corpus in almost real time. Through the use of techniques from tool-supported linguistics, #Idéo2017 is able to provide the main characteristics of the corpus and of the use of the political lexicon, and allows comparisons between the different candidates."
+-
+  id: 112
+  authors: [112]
+  title: "Modelling Non-Standard Language Use in Adolescents' CMC: The Impact and Interaction of Age, Gender and Education"
+  types:
+    - paper
+    - talk
+  abstract: "The present paper deals with Flemish adolescents' informal computer-mediated communication (CMC) in a large corpus (2.9 million tokens) of chat conversations. We analyze deviations from written standard Dutch and possible correlations with the teenagers' gender, age and educational track. The concept of non-standardness is operationalized by means of a wide range of features that serve different purposes, related to the chatspeak maxims of orality, brevity and expressiveness. It will be demonstrated how the different social variables impact on non-standard writing, and, more importantly, how they interact with each other. While the findings for age and education correspond to our expectations (more non-standard markers are used by younger adolescents and students in practice-oriented educational tracks), the results for gender (no significant difference between girls and boys) do not: they call for a more fine-grained analysis of non-standard writing, in which features relating to different chat principles are examined separately."
+-
+  id: 113
+  authors: [113]
+  title: "Corpus-Based Analysis of Demonyms in Slovene Twitter"
+  types:
+    - paper
+    - talk
+  abstract: "This paper reports on a corpus-based analysis of demonym mentions in the corpus of Slovene tweets. First, we analyze the frequency of mentions for the demonyms for the inhabitants of the European and G8 countries. Then, we focus on the representation of demonyms for residents of Slovenia’s neighboring countries: Austria, Italy, Hungary and Croatia. The main topic of the tweets mentioning Croatians, Austrians and Italians is sport, whereas Hungarians occur most often in relation to the Eurovision. Some economic and political issues are also represented, such as the selling of Slovene companies to foreign firms, the refugee crisis and the arbitration procedure between Slovenia and Croatia. A collocation analysis revealed a highly stereotypical treatment of the neighboring nations and hostility of some Slovene Twitter users to inhabitants of Slovenia’s neighboring countries."
+-
+  id: 115
+  authors: [115]
+  title: "A Comparative Study of Computer-mediated and Spoken Conversations from Pakistani and U.S. English using Multidimensional Analysis"
+  types:
+    - paper
+    - talk
+  abstract: "Present study compares four computer-mediated conversational registers – comments, FB groups, FB status and tweets – and spoken conversations from Pakistani and US English using Biber's Multidimensional Analysis framework on three dimensions of variation, i.e. (i) Interactive versus Descriptive Explanatory Discourse, (ii) Expression of Stance, and (iii) Informational Focus versus 1st Person Narrative. Spoken conversations have a high score on dimension 2, while CM conversations show register and regional variation on dimension 1 and 3. FB groups are significantly different in both regional varieties, followed by FB status, comments and tweets. Pakistani FB groups discuss self-help related topics, and appear to be slightly interactive and highly informational, while the US ones are interactive and narrative discussing community and political issues. Pakistani FB status and tweets use English mainly for informational purposes, while the US counterparts have interactive and personal orientation indicating a wider functional role of English."
+-
+  id: 118
+  authors: [118]
+  title: "Developing a protocol for collecting data in Higher Education: assessing natural language metadata for a Databank of Oral Teletandem Interactions."
+  types:
+    - paper
+    - talk
+  abstract: "The current study addresses the definition of a protocol for collecting, storing data and describing (in a simple and generic way) a databank. Particularly, the transparency of a form aimed at gathering information about the pedagogical context of oral telecollaboration for language learning named Teletandem (TT; Telles, 2006) will be tested before it is spread more widely. To uncover problems in submitting information, data-input-triggers quality and reliability have been tested interviewing professors and language instructors who will be involved in a preliminary phase of Teletandem corpus implementation. General goals of the study are to enlarge the research group, to increase data and to improve efficiency in data collection."
+-
+  id: 119
+  authors: [119]
+  title: "Investigating interaction signs across genres, media and languages: The example of OKAY."
+  types:
+    - paper
+    - talk
+  abstract: "The paper presents results of a case study that compared the usage of OKAY across genre types (Wikipedia articles vs. talk pages), across media (spoken vs. written interaction), and across languages (German vs. French CMC data from Wikipedia talk pages). The cross-genre study builds on the results of Herzberg 2016, who compared the usage of OKAY in German Wikipedia articles with its usage in Wikipedia talk pages. These results also form the basis for comparing the CMC genre of Wikipedia talk pages with occurrences of OKAY in the German spoken language corpus FOLK. Finally, we compared the results on the usage of OKAY in German Wikipedia talk pages with the usage of OKAY in French Wikipedia talk pages. With our case study, we want to demonstrate that it is worthwhile to investigate interaction signs across genres and languages, and to compare the usage in written CMC with the usage in spoken interaction."
+-
+  id: 123
+  authors: [123]
+  title: "The Impact of WhatsApp on Dutch Youths’ School Writing"
+  types:
+    - paper
+    - talk
+  abstract: "Today’s youths are continuously engaged with social media. The informal language they use in computer-mediated communication (CMC) often deviates from spelling and grammar rules of the standard language. Therefore, parents and teachers fear that social media have a negative impact on youths’ literacy skills. This paper examines whether such worries are justifiable. An experimental study was conducted with 500 Dutch youths of different educational levels and age groups, to find out if social media affect their productive or perceptive writing skills. We measured whether chatting via WhatsApp directly impacts the writing quality of Dutch youths’ narratives or their ability to detect ‘spelling errors’ (deviations from Standard Dutch) in grammaticality judgement tasks. The use of WhatsApp turned out to have no short-term effects on participants’ performances on either of the writing tasks. Thus, the present study gives no cause for great concern about any impact of WhatsApp on youths’ school writing."
+-
+  id: 126
+  authors: [126]
+  title: "Anonymisation of the Dortmund Chat Corpus 2.1"
+  types:
+    - paper
+    - talk
+  abstract: "As a consequence of a recent curation project, the Dortmund Chat Corpus is available in CLARIN-D research infrastructures for download and querying. In a legal expertise it had been recommended that standard measures of anonymisation be applied to the corpus before it could be republished. This paper reports about the anonymisation campaign that was conducted for the corpus. Anonymisation has been realised as categorisation, and the taxonomy of anonymisation categories applied is introduced and the method of applying it to the TEI files is demonstrated. The results of the anonymisation campaign as well as issues of quality management are discussed. Finally, pseudonymisation as an alternative to categorisation is discussed in general as a method of the anonymisation of CMC data, as well as possibilities of a (partial) automatisation of the process."
+-
+  id: 127
+  authors: [127]
+  title: "Fear and Loathing on Twitter: Attitudes towards Language"
+  types:
+    - paper
+    - talk
+  abstract: "The paper deals with the sociolinguistic concept of prestige imbued in the notion of standard language, and the social status connected to the inherent language skill (or lack thereof). To this end, we analyse Slovenian tweets pertaining to language use and the (in-)correctness of other users’ use of language, propose a typology, especially in cases where language use is used as an argument against someone’s qualifications or beliefs."
+-
+  id: 107
+  authors: [107]
+  title: "A corpus-driven approach to pseudonymity and the expression of emotions in Computer Mediated Communication in French and English"
+  types:
+    - paper
+    - poster
+  abstract: "The present research aims at studying the new ways of communications put at the disposal of the users with the apparition of CMC (Computer Mediated Communication), especially live conversations, in relation with pseudonymity. These ways of communication, which allow expressing emotions in a more direct and objective way (Caffi & Janney, 1994), are the following: smileys, abbreviations, repetition of letters within words, overuse of capital letters and overuse of punctuation. These five ways of communication generally allow expressing an emotion or an emotional state, which would have been expressed in oral conversations with bodily gestures, facial expressions or prosody. However, the latter, essential in oral conversations, cannot be used in CMC. Therefore, the previously listed emotional features have been integrated to CMC language progressively. 
+The purpose of the study is to observe the influence of pseudonymity on the use of these features. Indeed, pseudonymity is a new notion that appeared with CMC, linked to digital identity, which plays an important role in the way emotions are expressed from a socio-linguistic point of view. Like François Perea (2010) did, Fanny Georges (2009) divided the digital identity in three: declarative identity, effective identity and calculated identity. The declarative identity, being what information the user chooses to provide on CMC, is represented by the pseudonym (Bechar‐Israeli, 1995). On the contrary, the effective identity will be constructed by the actions the user will do on CMC. For this study, the effective identity concerns everything a user writes and shares with other users, which will add pieces of information on his personality and identity. However, in contexts where users meet for the first time, this effective identity is not developed yet and users can only rely on their declarative identity: the pseudonym. 
+Two main questions emerged from these observations: is pseudonymity a barrier for expressing emotions because of suspicion and the lack of information on the other users? Or, on the contrary: is pseudonymity a boost for expressing emotions in Computer Mediated Communications by helping to cope with shyness? 
+In order to verify these hypotheses, the occurrences of emotional features were quantitatively analysed in different intimacy contexts, and were eventually qualitatively analysed on the basis of linguistic criteria within the same intimacy contexts. The second part of the analysis also aims at observing possible differences in discourse (Dresner & Herring, 2010) and the communication strategies developed by the users based on expectations created by pseudonymity (Díaz-Pérez, 2013 & Smith, 2003). 
+The research is based on two corpora, French and English, gathering messages collected on IRC (Internet Relay Chat). The French corpus was gathered by researchers of the European project CoMeRe and presents 4 million messages on various topics with a diverse range of users. The English corpus is a chat history related to the OS Ubuntu and gathers more than 35 million messages. However, topics are more specific and discussions are more formal and technical, limiting the purely social interactions between the users. 
+The first part of the study, which can be considered as a preliminary approach, is purely quantitative. Occurrences of emotional features were counted in both corpora and the distributions of the latter for both languages were established, in order to verify if pseudonymity could influence them. Eventually, emotional features were counted in different intimacy contexts where pseudonymity plays a different role: a context where users do not know each other when the conversation starts (i.e. pseudonymity is the only information available to identify other users), and a context where users already know each other (i.e. the effective identity is developed in addition pseudonymity). These contexts were identified on the basis of discourse markers since the level of intimacy between users was not specified in the annotated corpora. 
+The second part of the study is a more qualitative and linguistic approach of the different uses of the emotional feature. Analyses were conducted on the basis of a dataset relying on different linguistic criteria associated with emotional feature, which follow: 
+-	The intimacy context (0 or 1 as described in the previous paragraph) 
+-	The emotional features analysed 
+-	The type of emotional feature (smiley, abbreviation…) 
+-	The syntactic position (its place in the message) 
+-	The pragmatic use (who uses it) 
+-	The aim (why is it used) 
+-	The redundancy (is the emotion conveyed redundant of the message) 
+-	The meaning (is it used connotatively or denotatively) 
+-	The number of words of the message 
+-	The type clause of the message accompanying it 
+These different criteria applied to emotional features cover the three linguistic aspects: syntax, semantics and pragmatics. More than 1 000 emotional features were analysed in the dataset for both French and English, and the dataset was eventually analysed with R and TimBl software. With these analyses, the influence of pseudonymity in the realisations of these criteria were analysed and also linguistics constraints were observed regarding some uses of emotional features. Furthermore, communication strategies of the users were observed depending on the direct contexts of the conversations."
+-
+  id: 114
+  authors: [114]
+  title: "MoCoDa 2.0: Creating a Database and Web Frontend for the Repeated Collec-tion of Mobile Communication (WhatsApp, SMS & Co)"
+  types:
+    - paper
+    - poster
+  abstract: "The paper reports about an ongoing project in which we create a database and web frontend for the repeated collection of CMC interactions from smartphone apps. The collection strategy and the design of the collection process is focused on involving the users of mobile phone apps such as WhatsApp, Threema and others in the creation of a database with detailed metadata which may serve as a resource not only for quantitative but also for qualitative approaches. For representation and annotation of the data the project builds on best practices from previous projects in the field. The corpus will be made available for online querying and will be successively integrated into the German Reference Corpus DEREKO at the Institute for the German Language in Mannheim."
+-
+  id: 116
+  authors: [116]
+  title: "The Language and Communicative Practices of ‘Instagirls’"
+  types:
+    - paper
+    - poster
+  abstract: "The aim of the present article is to investigate the communicative practices of so-called Instagirls, whose Instagram profiles are followed by millions of users. The Instagram posts of three Instagirls have been included in the analysis and classified into five categories, based on their content and function. The classification reveals which aspects of their lives are emphasized in their Instagram profiles and in which way their online identity is constructed. The analysis of their posts demonstrates that Instagirls employ various strategies to promote their online visibility and, consequently, to attract their prospective followers (e.g. hashtags and tagging). These strategies are thoroughly investigated and their role in the construction of online celebrity is debated. Owing to their rising popularity, the author also aims to show that the influence of online celebrities such as Instagirls is no longer limited to social media but extends to various aspects of public life."
+-
+  id: 117
+  authors: [117]
+  title: "Indexicality and Language Ideologies in the Digital Memescape: The Case of “Cash me Ousside”"
+  types:
+    - paper
+    - poster
+  abstract: "This study examines a corpus of texts related to a viral Internet phenomenon “Cash me ousside/how bah dah.” The study particularly focuses on the linguistic metacommentary generated in an original YouTube video about the viral event as well as a reaction video to explore sociolinguistic judgments of Internet users about the language performance of a teenage girl with particular emphasis on issues such as social class, educational background, and regional, ethnic and linguistic identity and affiliations. The metacommentary consisted of 363 user-generated comments from the two videos. In addition to the metacommentary, the corpus also included a selection of image macro memes related to the same event. Based on a citizen sociolinguistics approach (Rymes & Leone, 2014), the preliminary analysis indicated that language ideologies about accent and variation are reflected in similar ways both in user-generated metacommentary about language performance as well as in image macro memes. "
+-
+  id: 121
+  authors: [121]
+  title: "/l/-vocalization in Swiss German WhatsApp messages"
+  types:
+    - paper
+    - poster
+  abstract: "/l/-vocalization is a feature normally found in a rather clear cut area in the western part of Switzerland. Its geographical boundaries are well documented as well as social influences on the realisation of the variants. This study, based on a corpus of authentic WhatsApp messages, takes another approach by documenting isolated forms of /l/-vocalization outside the area traditionally attributed to the feature."
+-
+  id: 125
+  authors: [125]
+  title: "Public Service News on Facebook: Exploring Journalistic Usage Patterns and Reaction Data"
+  types:
+    - paper
+    - poster
+  abstract: "As social networking sites have become staples in everyday life an increasing number of people worldwide use social media as a source of news. To reach this audiences, news organisations and public service broadcasters have ventured on services such as Facebook, which in terms of news is by far the most important social networking site in many parts of Europe. This poster presentation explores the ways in which public service media from different European countries are delivering news on public Facebook Pages. The analysis is based on public data gathered from different Facebook pages operated by national broadcasting agencies. The data are extracted using the public Facebook Graph API. The corpus contains all the posts and comments of the Facebook Pages as well as related metadata. No personally-identifiable information is collected.
+The social media data are explored using statistical research methods to identify and compare different usage patterns and to visualise the reactions of Facebook users. This provides an overview over the different forms of content (i.e. types of posts) and the basic communicative practices that can be observed in the context of the Facebook Pages (i.e. number of comments, shares, likes and Reaction types). To allow deeper insights an exploratory case-study approach is used. Drawing upon media linguistic research the focus is on the micro level of the media texts and their multimodal design. The in-depth analysis aims to characterise different forms of news reporting via Facebook and looks at the different usage of multimodal ressources in the context of the Facebook posts and comments.
+This combination of qualitative and quantitative methods should allow a better understanding of how Facebook is used as a means of news distribution by public service media providers on a large scale and how technical affordances shape the design of news content and follow-up interactions. This knowledge is critical for the discussion of the emerging role of social media in the context of public opinion and political decision-making. The poster presents the project as work in progress and shows preliminary findings."

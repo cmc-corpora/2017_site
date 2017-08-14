@@ -3,8 +3,8 @@
     <div class="content-wrapper text-left">
         <h4 class="text-left">{{ speaker_type | capitalize }}s</h4>
 
-        {% assign sorted_data_presentations = site.data.presentations | sort:"name" %}
-        {% for presentation in sorted_data_presentations %}
+        {% assign sorted_data_sessions = site.data.sessions | sort:"name" %}
+        {% for presentation in sorted_data_sessions %}
             {% if presentation.types contains speaker_type %}
                 <div class="col-xs-12 col-sm-offset-1 col-sm-10">
                     {% for speaker in presentation.authors %}
