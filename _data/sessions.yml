@@ -45,14 +45,14 @@
   id: 10
   title: "Preliminary Schedule (Keynote)"
   place: "Room: Conference Hall"
-  description_: "Keynote"
-  service: true
+  subtype: "Keynote"
+  speakers: [1]
 -
   id: 11
   title: "Preliminary Schedule (Keynote)"
   place: "Room: Conference Hall"
-  description_: "Keynote"
-  service: true
+  subtype: "Keynote"
+  speakers: [2]
 -
   id: 20
   title: "Preliminary Schedule (Coffee Break)"
