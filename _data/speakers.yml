@@ -1,4 +1,4 @@
-- 
+-
   id: 1
   name: "Aivars"
   surname: "Glaznieks"
@@ -53,3 +53,79 @@ Laura is a researcher and lecturer at the Department of German Linguistics
 Her research interests are corpus linguistics, linguistic aspects of computer-mediated communication, analysis of interaction signs in written corpora, cross-lingual analysis of Wikipedia talk pages, extraction and evaluation of CMC-language data, classifying und tagging of interaction signs, editing of chat protocols in oXygen (XML editor).<br />
 
 Laura has been working on TEI-encoding of CMC data in the CLARIN-D curation project \"ChatCorpus2CLARIN\"."
+-
+  id: 102
+  name: "Steven"
+  surname: "Coats"
+-
+  id: 104
+  name: "Tobias"
+  surname: "Horsmann, Michael Beißwenger and Torsten Zesch"
+-
+  id: 105
+  name: "Stefania"
+  surname: "Spina"
+-
+  id: 108
+  name: "Márton"
+  surname: "Petykó"
+-
+  id: 109
+  name: "Julien"
+  surname: "Longhi, Claudia Marinica, Nader Hassine, Abdulhafiz Alkhouli and Boris Borzic"
+-
+  id: 112
+  name: "Lisa"
+  surname: "Hilte, Reinhild Vandekerckhove and Walter Daelemans"
+-
+  id: 113
+  name: "Taja"
+  surname: "Kuzman and Darja Fišer"
+-
+  id: 115
+  name: "Muhammad"
+  surname: "Shakir and Dagmar Deuber"
+-
+  id: 118
+  name: "Paola"
+  surname: "Leone"
+-
+  id: 119
+  name: "Laura"
+  surname: "Herzberg and Angelika Storrer"
+-
+  id: 123
+  name: "Lieke"
+  surname: "Verheijen and Wilbert Spooren"
+-
+  id: 126
+  name: "Harald"
+  surname: "Lüngen, Michael Beißwenger, Laura Herzberg and Cathrin Pichler"
+-
+  id: 127
+  name: "Damjan"
+  surname: "Popič and Darja Fišer"
+-
+  id: 107
+  name: "Leo"
+  surname: "Muelle"
+-
+  id: 114
+  name: "Michael"
+  surname: "Beißwenger, Marcel Fladrich, Wolfgang Imo and Evelyn Ziegler"
+-
+  id: 116
+  name: "Dominika"
+  surname: "Kovacova"
+-
+  id: 117
+  name: "Erhan"
+  authors: "Aslan and Camilla Vasquez"
+-
+  id: 121
+  name: "Simone"
+  surname: "Ueberwasser"
+-
+  id: 125
+  name: "Daniel"
+  surname: "Pfurtscheller"

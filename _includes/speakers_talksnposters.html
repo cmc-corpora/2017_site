@@ -1,0 +1,36 @@
+{% assign speaker_types = "talk|poster" | split: "|" %}
+{% for speaker_type in speaker_types %}
+    <div class="content-wrapper text-left">
+        <h4 class="text-left">{{ speaker_type | capitalize }}s</h4>
+
+        {% assign sorted_data_presentations = site.data.presentations | sort:"name" %}
+        {% for presentation in sorted_data_presentations %}
+            {% if presentation.types contains speaker_type %}
+                <div class="col-xs-12 col-sm-offset-1 col-sm-10">
+                    {% for speaker in presentation.authors %}
+                        {% assign person = site.data.speakers | where:"id", speaker | first %}
+                        <div class="row name">
+                            <h6>
+                                {{ person.name }} <span>{{ person.surname }}</span>
+                            </h6>
+                        </div>
+                    {% endfor %}
+                    {% if presentation.title %}
+                        <div class="row title">
+                            <h6><small>
+                                <span>{{ presentation.title }}</span>
+                            </small></h6>
+                        </div>
+                    {% endif %}
+                    {% if presentation.abstractt %}
+                        <div class="row abstract">
+                            <span>{{ presentation.abstract }}</span>
+                        </div>
+                    {% endif %}
+                </div>
+                <div class="clearfix"></div>
+                <br />
+            {% endif %}
+        {% endfor %}
+    </div>
+{% endfor %}
