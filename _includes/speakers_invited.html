@@ -1,55 +1,57 @@
 <div class="content-wrapper text-left">
     <h4 class="text-left">Invited Speakers</h4>
 
-    {% assign sorted_data = site.data.speakers | sort:"surname" %}
-    {% for person in sorted_data %}{% if person.invited != null %}
-    <div class="row">
-
-        <div class="col-xs-11 col-xs-offset-1 col-sm-7 col-sm-offset-1">
-            <h6>
-                    <a href="{{ person.link }}" target="_blank">{{ person.name }}
-                    <span>{{ person.surname }}</span>
-                    </a>
-                    <br class="visible-xs">
-                    {% if person.affiliation != null %}
-                        <span class="affiliation">({{ person.affiliation }})</span>
+    {% assign sorted_data_presentations = site.data.presentations | sort:"id" %}
+    {% for presentation in sorted_data_presentations %}
+        {% if presentation.types contains "invitedtalk" %}
+                <div class="col-sm-7 col-sm-offset-1">
+                    {% for speaker in presentation.speakers %}
+                        {% assign person = site.data.speakers | where:"id", speaker | first %}
+                        <div class="row name">
+                            <h6>
+                                <a href="{{ person.link }}" target="_blank">{{ person.name }}
+                                    <span>{{ person.surname }}</span>
+                                </a>
+                                <br class="visible-xs" />
+                                {% if person.affiliation != null %}
+                                    <span class="affiliation">({{ person.affiliation }})</span>
+                                {% endif %}
+                            </h6>
+                        </div>
+                    {% endfor %}
+                    {% if presentation.title %}
+                        <div class="row title">
+                            <h6><small>
+                                <span>{{ presentation.title }}</span>
+                            </small></h6>
+                        </div>
                     {% endif %}
-            </h6>
-            {% if person.title != null %}
-                <div class="title">
-                    <h6><small>
-                            <span>{{ person.title }}</span>
-                    </small></h6>
+                    {% if presentation.abstract %}
+                        <div class="row abstract">
+                            <span>{{ presentation.abstract }}</span>
+                        </div>
+                    {% endif %}
                 </div>
-            {% endif %}
-            <div class="abstract hidden-xs">
-                {% if person.abstract != null %}
-                    <span>{{ person.abstract }}</span>
-                {% endif %}
-            </div>
-        </div>
-        <div class="col-xs-10 col-xs-offset-1 col-sm-3 col-sm-offset-0">
-            {% if person.thumbnailUrl != null %}
-                {% if person.link != null %}
-                    <div class="zoe-effect">
-                        <a href="{{ person.link }}" target="_blank">
-                        {% endif %}
-                        <figure class="waves-effect waves-block waves-light" style="background-image: url({{ site.baseurl | append: '/img/people/' | append: person.thumbnailUrl }})">
-                        </figure>
-                        {% if person.link != null %}
-                        </a>
-                    </div>
-                {% endif %}
-            {% endif %}
-        </div>
-        <div class="col-xs-11 col-xs-offset-1 visible-xs">
-            <div class="abstract">
-                {% if person.abstract != null %}
-                    <span>{{ person.abstract }}</span>
-                {% endif %}
-            </div>
-        </div>
-    </div>
-    <br>
-    {% endif %}{% endfor %}
+                <div class="hidden-xs col-sm-3">
+                {% for speaker in presentation.speakers %}
+                    {% assign person = site.data.speakers | where:"id", speaker | first %}
+                    {% if person.thumbnailUrl != null %}
+                        <div class="zoe-effect">
+                            {% if person.link != null %}
+                                <a href="{{ person.link }}" target="_blank">
+                            {% endif %}
+                            <figure class="waves-effect waves-block waves-light" style="background-image: url({{ site.baseurl | append: '/img/people/' | append: person.thumbnailUrl }})">
+                            </figure>
+                            {% if person.link != null %}
+                                </a>
+                            {% endif %}
+                        </div>
+                    {% endif %}
+                {% endfor %}
+                </div>
+            <div class="clearfix"></div>
+            <br />
+        {% endif %}
+    {% endfor %}
 </div>
+<div class="clearfix"></div>

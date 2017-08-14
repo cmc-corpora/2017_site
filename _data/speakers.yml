@@ -6,13 +6,7 @@
   link: "http://www.eurac.edu/en/research/autonomies/commul/staff/pages/staffdetails.aspx?persId=17424"
   ribbon:
     - {abbr: "homepage", title: "Homepage", url: "http://www.eurac.edu/en/research/autonomies/commul/staff/pages/staffdetails.aspx?persId=17424"}
-  title: "Think global, write local – patterns of writing dialect on SNS"
   bio: ""
-  abstract: "Social Network Sides (SNS) claim that they are “on a mission to connect the world”. They facilitate communication among people wherever they are located. As a consequence, users of SNS express aspects of their diverse identities to a broad and heterogenic group of friends. One aspect might be a local identity.<br />
-
-    Users of SNS can show their local identity linguistically by the use of a regional variety. The use of dialects in written computer-mediated communication (CMC) is one reason (amongst others) why language in CMC often differs from the respective standard language. Since no orthographic rules are usually available for writing the dialect, it is up to the users to represent their dialect in a proper but readable and comprehensible way. <br />
-
-    CMC corpora allow for a systematic analysis of the way dialect features are reflected in written communication. In my talk, I will focus on patterns of the regional dialect(s) in the DiDi Corpus, a collection of Facebook messages from around 100 South Tyrolean writers. I will provide examples of regional features, analyze the distribution of such features, and discuss challenges of identifying local writings on SNS."
   thumbnailUrl: aivarsglaznieks.jpg
   invited: true
 -
@@ -23,9 +17,7 @@
   link: "http://www.asezadogruoz.com/"
   ribbon:
     - {abbr: "homepage", title: "Homepage", url: "http://www.asezadogruoz.com/"}
-  title: "Small vs. Big Data in Language Research: Challenges and Opportunities"
   bio: ""
-  abstract: "Mobile communication tools and platforms provide various opportunities for users to interact over social media. With the recent developments in computational research and machine learning, it has become possible to analyze large chunks of language related data automatically. Having worked with both small and large language related data in various forms, I will compare pros & cons of working with both types of data across media and contexts."
   thumbnailUrl:
   invited: true
 -
