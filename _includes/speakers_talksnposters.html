@@ -3,48 +3,63 @@
     <div class="content-wrapper text-left">
         <h4 class="text-left">{{ speaker_type | capitalize }}s</h4>
 
-        {% assign sorted_data_sessions = site.data.sessions | sort:"name" %}
-        {% for presentation in sorted_data_sessions %}
-            {% if presentation.types contains speaker_type %}
-                <div class="col-xs-12 col-sm-offset-1 col-sm-10">
-                    {% for speaker in presentation.authors %}
-                        {% assign person = site.data.speakers | where:"id", speaker | first %}
-                        <div class="row name">
-                            <h6>
-                                {{ person.name }} <span>{{ person.surname }}</span>
-                            </h6>
-                        </div>
-                    {% endfor %}
-                    {% if presentation.title %}
-                        <div class="row title">
-                            <h6><small>
-                                <span>{{ presentation.title }}</span>
-                            </small></h6>
-                        </div>
-                    {% endif %}
-                    {% if presentation.abstract %}
-                        {% assign abstract_pars = presentation.abstract | newline_to_br | split: '<br />' | %}
-                        {% assign abstract_pars_size = presentation.abstract | newline_to_br | split: '<br />' | size | minus: 1 %}
-                        {% assign abstract_tail = abstract_pars_size | minus: 2 %}
-                        {% if abstract_tail > 0 %}
-                            {% capture abstract %}
-                                {% for par_id in (1..2) %}
-                                    {{ abstract_pars[par_id] }}
-                                    <br />
-                                {% endfor %}
-                                ...
-                            {% endcapture %}
-                        {% else %}
-                            {% assign abstract = presentation.abstract | newline_to_br %}
+        {% capture presentationids_sorted %}
+            {% assign site_data_speakers_sorted = site.data.speakers | sort:'surname' %}
+            {% for speaker in site_data_speakers_sorted %}
+                {% for presentation in site.data.sessions %}
+                    {% if presentation.types contains speaker_type %}
+                        {% assign first_author_id = presentation.authors | first %}
+                        {% if first_author_id == speaker.id %}
+                            {% assign first_author_name = site.data.speakers | where:"id", first_author_id | first %}
+                            {{ presentation.id }}
                         {% endif %}
-                        <div class="row abstract">
-                            <span>{{ abstract }}</span>
-                        </div>
                     {% endif %}
-                </div>
-                <div class="clearfix"></div>
-                <br />
-            {% endif %}
+                {% endfor %}
+            {% endfor %}
+        {% endcapture %}
+        
+        {% assign presentationids_sorted_array = presentationids_sorted | split:' '  %}
+
+        {% for presentationid in presentationids_sorted_array %}
+            {% assign presentation = site.data.sessions | where:"id", presentationid | first %}
+            <div class="col-xs-12 col-sm-offset-1 col-sm-10">
+                {% for speaker in presentation.authors %}
+                    {% assign person = site.data.speakers | where:"id", speaker | first %}
+                    <div class="row name">
+                        <h6>
+                            {{ person.name }} <span>{{ person.surname }}</span>
+                        </h6>
+                    </div>
+                {% endfor %}
+                {% if presentation.title %}
+                    <div class="row title">
+                        <h6><small>
+                            <span>{{ presentation.title }}</span>
+                        </small></h6>
+                    </div>
+                {% endif %}
+                {% if presentation.abstract %}
+                    {% assign abstract_pars = presentation.abstract | newline_to_br | split: '<br />' | %}
+                    {% assign abstract_pars_size = presentation.abstract | newline_to_br | split: '<br />' | size | minus: 1 %}
+                    {% assign abstract_tail = abstract_pars_size | minus: 2 %}
+                    {% if abstract_tail > 0 %}
+                        {% capture abstract %}
+                            {% for par_id in (1..2) %}
+                                {{ abstract_pars[par_id] }}
+                                <br />
+                            {% endfor %}
+                            ...
+                        {% endcapture %}
+                    {% else %}
+                        {% assign abstract = presentation.abstract | newline_to_br %}
+                    {% endif %}
+                    <div class="row abstract">
+                        <span>{{ abstract }}</span>
+                    </div>
+                {% endif %}
+            </div>
+            <div class="clearfix"></div>
+            <br />
         {% endfor %}
     </div>
 {% endfor %}
