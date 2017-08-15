@@ -22,9 +22,23 @@
                             </small></h6>
                         </div>
                     {% endif %}
-                    {% if presentation.abstractt %}
+                    {% if presentation.abstract %}
+                        {% assign abstract_pars = presentation.abstract | newline_to_br | split: '<br />' | %}
+                        {% assign abstract_pars_size = presentation.abstract | newline_to_br | split: '<br />' | size | minus: 1 %}
+                        {% assign abstract_tail = abstract_pars_size | minus: 2 %}
+                        {% if abstract_tail > 0 %}
+                            {% capture abstract %}
+                                {% for par_id in (1..2) %}
+                                    {{ abstract_pars[par_id] }}
+                                    <br />
+                                {% endfor %}
+                                ...
+                            {% endcapture %}
+                        {% else %}
+                            {% assign abstract = presentation.abstract | newline_to_br %}
+                        {% endif %}
                         <div class="row abstract">
-                            <span>{{ presentation.abstract }}</span>
+                            <span>{{ abstract }}</span>
                         </div>
                     {% endif %}
                 </div>
