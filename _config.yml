@@ -66,7 +66,6 @@ navigationLinks:
  - {permalink: "/uievent/", text: "CLARIN UI Event"}
  - {permalink: "/registration/", text: "Registration"}
  - {permalink: "/speakers/", text: "Speakers"}
- - {permalink: "/cfp/", text: "Call for Papers"}
  - {permalink: "/committees/", text: "Committees"}
  - {permalink: "/venue/", text: "Venue"}
  - {permalink: "/blog/", text: "News"}
@@ -212,9 +211,18 @@ footerBlocks:
  -
   title: "Links"
   links:
-   - {link: "https://easychair.org/conferences/?conf=cmccorpora2017", text: "Submission page"}
-   - {link: "http://cmc-corpora.org", text: "cmc-corpora conference series"}
+   - {link: "https://easychair.org/conferences/?conf=cmccorpora2017", text: "Submission Page"}
+   - {permalink: "/speakers", text: "Accepted Papers"}
+   - {permalink: "/authors", text: "For Authors"}
+   - {permalink: "/cfp/", text: "Call for Papers"}
    - {link: "mailto:cmc-corpora2017@eurac.edu", text: "e-Mail"}
+ -
+  title: "&nbsp;"
+  links:
+   - {link: "http://cmc-corpora.org", text: "cmc-corpora conference series"}
+   - {link: "http://www.eurac.edu/linguistics", text: "Institute for Applied Linguistics"}
+   - {link: "http://www.eurac.edu", text: "Eurac Research"}
+   - {link: "http://lcr2017.eurac.edu", text: "4th Learner Corpus Research Conference (LCR2017)"}
 
 # Blog
 blogTitle: "Latest news"
