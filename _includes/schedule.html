@@ -60,13 +60,12 @@
                                     <div class="slot-content{% if session.info != null %} slot-info{% endif %}" style="border-right-color: {{ day.tracks[slotIndex].color }}">
                                         <h5 class="slot-title" itemprop="name">{{ session.title }}</h5>
                                         {% if session.place != null %}
-                                        <span class="slot-place">{{session.place}}</span>
+                                            <span class="slot-place">{{session.place}}</span>
                                         {% endif %}
                                         <span class="slot-language">{{session.language | upcase}}</span>
                                         {% if session.description != null and session.info != null %}
-                                        <p class="service-description">{{ session.description }}</p>
+                                            <p class="service-description">{{ session.description }}</p>
                                         {% endif %}
-
                                         <ul class="slot-speakers">
                                             {% for session_speaker in session.speakers %}
                                                 {% for speaker in site.data.speakers %}
