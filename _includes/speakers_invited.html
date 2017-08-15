@@ -28,7 +28,7 @@
                     {% endif %}
                     {% if presentation.abstract %}
                         <div class="row abstract">
-                            <span>{{ presentation.abstract }}</span>
+                            <span>{{ presentation.abstract | newline_to_br }}</span>
                         </div>
                     {% endif %}
                 </div>
