@@ -11,7 +11,10 @@ if [ $? -eq 0 ]; then
     bundle exec jekyll serve --watch &
     JEKYLL_PID=$!
 
-    sleep 3
+    until $(curl --output /dev/null --silent --head --fail http://localhost:4000/schedule/); do
+    printf '.'
+        sleep 1
+    done
     wkhtmltopdf \
         --run-script "javascript:(\$(function(){ \$('.timeslot-elements').css({'width':'745px'}) ;} ))" \
         --print-media-type \
