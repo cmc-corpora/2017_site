@@ -227,6 +227,15 @@
     - talk
   abstract: "The paper deals with the sociolinguistic concept of prestige imbued in the notion of standard language, and the social status connected to the inherent language skill (or lack thereof). To this end, we analyse Slovenian tweets pertaining to language use and the (in-)correctness of other users’ use of language, propose a typology, especially in cases where language use is used as an argument against someone’s qualifications or beliefs."
 -
+  id: 128
+  authors: [128]
+  title: "Connecting Resources: Which Issues Have to be Solved to Integrate CMC Corpora from Heterogeneous Sources and for Different Languages?"
+  types:
+    - paper
+    - talk
+  abstract: |
+    The paper reports on the results of a scientific colloquium dedicated to the creation of standards and best practices which are needed to facilitate the integration of language resources for CMC stemming from different origins and the linguistic analysis of CMC phenomena in different languages and genres. The key issue to be solved is that of interoperability – with respect to the structural representation of CMC genres, linguistic annotations metadata, and anonymization/pseudonymization schemas. The objective of the paper is to convince more projects to partake in a discussion about standards for CMC corpora and for the creation of a CMC corpus infrastructure across languages and genres. In view of the broad range of corpus projects which are currently underway all over Europe, there is a great window of opportunity for the creation of standards in a bottom-up approach.
+-
   id: 107
   authors: [107]
   title: "A corpus-driven approach to pseudonymity and the expression of emotions in Computer Mediated Communication in French and English"
