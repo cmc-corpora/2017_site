@@ -71,6 +71,7 @@
   place: "Place: Eurac Café"
   service: true
   description: "The best time to talk with speakers and attendees"
+  color: "190,78,144"
 -
   id: 801
   title: "Preliminary Schedule (CLARIN UI Event - Introduction to text encoding in the TEI (TEI-P5) [Free])"
@@ -79,6 +80,7 @@
   internallink: "/uievent/"
   subtype: "Tutorial"
   speakers: [4, 3]
+  color: "190,78,144"
 -
   id: 802
   title: "Preliminary Schedule (CLARIN UI Event - Hands-on session: Using TEI for representing CMC/social media data [Free])"
@@ -87,6 +89,7 @@
   internallink: "/uievent/"
   subtype: "Tutorial"
   speakers: [4, 5]
+  color: "190,78,144"
 -
   id: 901
   titleprefix_: "
@@ -101,6 +104,7 @@
       <a href=\"http://lcr2017.eurac.edu/?page_id=5724\">Link to more information about LCR registration fees and policy.</a><br />"
   info: true
   service: true
+  color: "78,144,190"
 -
   id: 903
   title: "LCR Keynote"
