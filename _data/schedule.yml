@@ -3,7 +3,7 @@
   date: "2017-10-02"
   dateReadable: "October 02"
   tracks:
-    - {title: "Pre-Conference Evening", color: "#90be4e"}
+    - {title: "Pre-Conference Evening", color: "144,190,78"}
   timeslots:
     - {
         startTime: "19:00",
@@ -15,7 +15,7 @@
   date: "2017-10-03"
   dateReadable: "October 03"
   tracks:
-    - {title: "CMC-Conference", color: "#90be4e"}
+    - {title: "CMC-Conference", color: "144,190,78"}
   timeslots:
     - {
         startTime: "08:00",
@@ -75,7 +75,7 @@
   date: "2017-10-04"
   dateReadable: "October 04"
   tracks:
-    - {title: "CMC-Conference and CLARIN User Involvement Event", color: "#90be4e"}
+    - {title: "CMC-Conference and CLARIN User Involvement Event", color: "144,190,78"}
   timeslots: 
     - {
         startTime: "09:00",
