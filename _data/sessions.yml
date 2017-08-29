@@ -241,6 +241,12 @@
   abstract: |
     The paper reports on the results of a scientific colloquium dedicated to the creation of standards and best practices which are needed to facilitate the integration of language resources for CMC stemming from different origins and the linguistic analysis of CMC phenomena in different languages and genres. The key issue to be solved is that of interoperability – with respect to the structural representation of CMC genres, linguistic annotations metadata, and anonymization/pseudonymization schemas. The objective of the paper is to convince more projects to partake in a discussion about standards for CMC corpora and for the creation of a CMC corpus infrastructure across languages and genres. In view of the broad range of corpus projects which are currently underway all over Europe, there is a great window of opportunity for the creation of standards in a bottom-up approach.
 -
+  id: 201
+  authors: [201]
+  title: "CLARIN Survey of CMC resources and tools"
+  types:
+    - talk
+-
   id: 107
   authors: [107]
   title: "A corpus-driven approach to pseudonymity and the expression of emotions in Computer Mediated Communication in French and English"
