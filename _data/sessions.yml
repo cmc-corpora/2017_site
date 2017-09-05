@@ -3,7 +3,7 @@
   title: "Preliminary Schedule (Pre-Conference Gathering)"
   place: "Place: (likely) Muflone Rosa"
   description: "Pre-Conference Gathering at <a target=\"_blank\"
-    href=\"https://www.google.it/maps/dir/EURAC+Research,+Viale+Druso+Drususallee,+Bolzano,+Province+of+Bolzano+-+South+Tyrol/Muflone+Rosa,+Rauschertorgasse,+Bolzano,+Province+of+Bolzano+-+South+Tyrol/@46.4973619,11.3472569,17z/data=!3m1!4b1!4m14!4m13!1m5!1m1!1s0x47829c202aabf925:0x88091ac142a2771!2m2!1d11.3467639!2d46.4944386!1m5!1m1!1s0x47829e7c79dd2943:0xf9c47bdee4c8dc98!2m2!1d11.3514999!2d46.5002608!3e2\">Muflone Rose</a>."
+    href=\"https://www.google.it/maps/dir/EURAC+Research,+Viale+Druso+Drususallee,+Bolzano,+Province+of+Bolzano+-+South+Tyrol/Muflone+Rosa,+Rauschertorgasse,+Bolzano,+Province+of+Bolzano+-+South+Tyrol/@46.4973619,11.3472569,17z/data=!3m1!4b1!4m14!4m13!1m5!1m1!1s0x47829c202aabf925:0x88091ac142a2771!2m2!1d11.3467639!2d46.4944386!1m5!1m1!1s0x47829e7c79dd2943:0xf9c47bdee4c8dc98!2m2!1d11.3514999!2d46.5002608!3e2\">Muflone Rosa</a>."
   service: true
 -
   id: 1
@@ -51,7 +51,7 @@
   types:
     - invitedtalk
   abstract: |
-    Social Network Sides (SNS) claim that they are “on a mission to connect the world”. They facilitate communication among people wherever they are located. As a consequence, users of SNS express aspects of their diverse identities to a broad and heterogenic group of friends. One aspect might be a local identity.
+    Social Network Sites (SNS) claim that they are “on a mission to connect the world”. They facilitate communication among people wherever they are located. As a consequence, users of SNS express aspects of their diverse identities to a broad and heterogenic group of friends. One aspect might be a local identity.
     Users of SNS can show their local identity linguistically by the use of a regional variety. The use of dialects in written computer-mediated communication (CMC) is one reason (amongst others) why language in CMC often differs from the respective standard language. Since no orthographic rules are usually available for writing the dialect, it is up to the users to represent their dialect in a proper but readable and comprehensible way.
     CMC corpora allow for a systematic analysis of the way dialect features are reflected in written communication. In my talk, I will focus on patterns of the regional dialect(s) in the DiDi Corpus, a collection of Facebook messages from around 100 South Tyrolean writers. I will provide examples of regional features, analyze the distribution of such features, and discuss challenges of identifying local writings on SNS.
 -
