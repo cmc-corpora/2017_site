@@ -8,7 +8,7 @@
             {% for speaker in site_data_speakers_sorted %}
                 {% for presentation in site.data.sessions %}
                     {% if presentation.types contains speaker_type %}
-                        {% assign first_author_id = presentation.authors | first %}
+                        {% assign first_author_id = presentation.speakers | first %}
                         {% if first_author_id == speaker.id %}
                             {% assign first_author_name = site.data.speakers | where:"id", first_author_id | first %}
                             {{ presentation.id }}
@@ -23,7 +23,7 @@
         {% for presentationid in presentationids_sorted_array %}
             {% assign presentation = site.data.sessions | where:"id", presentationid | first %}
             <div class="col-xs-12 col-sm-offset-1 col-sm-10">
-                {% for speaker in presentation.authors %}
+                {% for speaker in presentation.speakers %}
                     {% assign person = site.data.speakers | where:"id", speaker | first %}
                     <div class="row name">
                         <h6>
