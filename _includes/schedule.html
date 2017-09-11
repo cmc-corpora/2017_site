@@ -62,8 +62,12 @@
                                     {% endif %}
                                 {% endcapture %}
                                 {% if slot == session.id and session.service == false or session.service == null %}
+                                {% if session.info and session.link %}
+                                <a class="link-unstyled" href="{{ session.link }}">
+                                {% endif %}
+
                                 <div id="session-{{ session.id }}" class="slot col-md-{{ slotColWidth }} col-xs-12 flexbox-item-height" data-slot-detail="{{ day.tracks[slotIndex].title }}"{% if session.info == null %} data-toggle="modal" data-target="#sessionDetail-{{ session.id }}"{% endif %}>
-                                    <div class="slot-content{% if session.info != null %} slot-info{% endif %}" style="border-color: rgb({{ color }});background-color: rgba({{ color }},0.2)">
+                                    <div class="slot-content" style="border-color: rgb({{ color }});background-color: rgba({{ color }},0.2)">
                                         <h5 class="slot-title" itemprop="name">{{ session.title }}</h5>
                                         {% if session.place != null %}
                                             <span class="slot-place">{{session.place}}</span>
@@ -72,24 +76,29 @@
                                         {% if session.description != null and session.info != null %}
                                             <p class="service-description">{{ session.description }}</p>
                                         {% endif %}
-                                        <ul class="slot-speakers">
+                                        <div>
+                                        <ul class="slot-speakers list-inline">
                                             {% for session_speaker in session.speakers %}
                                                 {% for speaker in site.data.speakers %}
                                                     {% if session_speaker == speaker.id %}
                                                     <li itemprop="performer"><div class="speaker-img flow-img img-circle"{% if speaker.thumbnailUrl != null %} style="background-image: url({{ site.baseurl | append: '/img/people/' | append: speaker.thumbnailUrl }})"{% endif %}></div>
                                                         <p class="speaker-name">{{ speaker.name }} {{ speaker.surname }}
-                                                            <span class="speaker-position">{{ speaker.company }}</span>
+                                                            <span class="speaker-position">{{ speaker.affiliation}}</span>
                                                         </p>
                                                     </li>
                                                     {% endif %}
                                                 {% endfor %}    
                                             {% endfor %}
                                         </ul>
+                                        </div>
                                     </div>
                                 </div>
+                                {% if session.info and session.link %}
+                                </a>
+                                {% endif %}
                                 {% elsif slot == session.id and session.service == true %}
                                 <div class="slot col-md-{{ slotColWidth }} col-xs-12 service-slot flexbox-item-height" data-slot-detail="{{ session.title }}{% if session.place != null %}, {{ session.place }}{% endif %}">
-                                    <div class="slot-content{% if session.info != null %} slot-info{% endif %}" style="border-color: rgb({{ color }});background-color: rgba({{ color }},0.2)">
+                                    <div class="slot-content" style="border-color: rgb({{ color }});background-color: rgba({{ color }},{% if session.service-bgalpha %}{{ session.service-bgalpha }}{% endif %}0.05)">
                                         <h5 class="slot-title" itemprop="name">{% if session.titleprefix %}{{ session.titleprefix }}{% endif %}{{ session.title }}</h5>
 
                                         {% if session.place != null %}

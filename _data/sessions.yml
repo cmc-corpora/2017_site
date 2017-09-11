@@ -34,7 +34,9 @@
   title: "Poster Session"
   place: "Room: Foyer Auditorium"
   description_: "Poster Session"
-  service: true
+  speakers: [114, 116, 107, 125, 121]
+  info: true
+  link: "/speakers/#posters"
 -
   id: 9
   title: "Sessions"
@@ -105,7 +107,6 @@
     <a href=\"http://lcr2017.eurac.edu/?page_id=6082\" target=\"_blank\">Read more about the event.</a> <br />
     <a href=\"https://ebms.public.scientificnet.org/emc00/register.aspx?OrgCode=20&EvtID=8191&AppCode=REG&CC=117030803651\" target=\"_blank\">Link to the registration: €15 for the LCR 2017 Pre-Conference Workshop and Reception (without attending the LCR 2017 Conference).</a>  <br />
       <a href=\"http://lcr2017.eurac.edu/?page_id=5724\">Link to more information about LCR registration fees and policy.</a><br />"
-  info: true
   service: true
   color: "78,144,190"
 -
@@ -114,7 +115,6 @@
   description: "
   <a href=\"http://lcr2017.eurac.edu/#speakers\" target=\"_blank\">Stefania Spina</a>:
     Learner Corpus Research and the acquisition of Italian as a second language:  the case of the Longitudinal Corpus of Chinese Learners of Italian (LoCCLI)."
-  info: true
   service: true
 -
   id: 102

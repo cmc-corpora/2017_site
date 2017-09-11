@@ -33,8 +33,9 @@
 }
 .section {
     @media print {
-        padding-tpo: 0;
+        padding-top: 0;
         padding-bottom: 0;
+        min-height: 0;
     }
 }
 .schedule {
@@ -45,6 +46,8 @@
         .speaker-name {
             margin-left: 0;
             margin-right: 48px;
+            margin-bottom: 4px;
+            line-height: normal;
         }
 
         .speaker-position {
@@ -89,8 +92,12 @@
     }
 }
 .slot-speakers {
+    margin-bottom: 5px;
     @media print {
         @include flexbox();
+        display: inline-table;
+        list-style-position: inside;
+        list-style-type: circle;
         list-style: none;
         margin-top: 5px;
         margin-bottom: 0;
@@ -125,6 +132,7 @@ time {
     @media print {
          padding: 0 0 0 15px;
          min-height: 0;
+         background-color: transparent;
     }
 }
 .track-header-label {
