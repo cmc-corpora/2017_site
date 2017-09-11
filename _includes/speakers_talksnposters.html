@@ -1,7 +1,7 @@
 {% assign speaker_types = "talk|poster" | split: "|" %}
 {% for speaker_type in speaker_types %}
     <div class="content-wrapper text-left">
-        <h4 class="text-left">{{ speaker_type | capitalize }}s</h4>
+        <h4 class="text-left"><a class="link-unstyled" name="{{ speaker_type }}s">{{ speaker_type | capitalize }}s</a></h4>
 
         {% capture presentationids_sorted %}
             {% assign site_data_speakers_sorted = site.data.speakers | sort:'surname' %}
