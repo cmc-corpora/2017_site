@@ -36,7 +36,7 @@
   affiliation: "Institute for the German Language, Mannheim, Germany"
   ribbon:
     - {abbr: "homepage", title: "Homepage", url: "http://www1.ids-mannheim.de/direktion/personal/luengen.html"}
-  thumbnailUrl:
+  thumbnailUrl: empty.png
   bio: "Harald has been working on TEI-encoding of CMC data in the CLARIN-D curation project \"ChatCorpus2CLARIN\" and has been one of the main authors of the most recent TEI schema draft for CMC genres developed within the <a target=\"_blank\" href=\"https://wiki.tei-c.org/index.php?title=SIG:CMC/clarindschema\">TEI-SIG \"computer-mediated communication\"</a>."
 -
   id: 5
