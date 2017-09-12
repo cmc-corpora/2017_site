@@ -134,7 +134,7 @@ Laura has been working on TEI-encoding of CMC data in the CLARIN-D curation proj
   name: "Darja"
   surname: "Fišer"
   affiliation: |
-    Director of User Involvement within CLARIN <a href="http://ec.europa.eu/research/infrastructures/index_en.cfm?pg=eric">ERIC</a>
+    Director of User Involvement within <a href="https://www.clarin.eu">CLARIN ERIC</a>
   thumbnailUrl: darjafiser.jpg
   ribbon:
     - {abbr: "homepage", title: "Homepage", url: "http://lojze.lugos.si/darja/"}
