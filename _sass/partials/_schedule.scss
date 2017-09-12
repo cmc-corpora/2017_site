@@ -7,13 +7,16 @@ $small-label-width: 80px;
     ul {
         list-style: none;
         padding: 0;
-        margin-top: 15px;
+        margin-top: 10px;
     }
     li {
         font-size: 16px;
         margin-bottom: 5px;
         @media screen and (max-width: 767px) {
             font-size: 14px;
+        }
+        & p {
+            margin-bottom: 5px;
         }
     }
     .speaker-img {
@@ -31,8 +34,13 @@ $small-label-width: 80px;
     .speaker-position {
         color: #555;
         display: block;
-        line-height: 1;
+        line-height: normal;
         font-size: 12px;
+    }
+    .poster-title {
+        display: block;
+        font-size: 12px;
+        line-height: normal;
     }
     table tbody > tr > td:last-child {
         padding-left: 30px;
@@ -167,7 +175,7 @@ $small-label-width: 80px;
         border-top-style: solid;
         border-top-color: #ccc;
     }
-    @media all and (max-width: 767px) {
+    @media screen and (max-width: 767px) {
         padding-bottom: 8px;
         min-height: 90px;
         border-right-width: 5px;
