@@ -63,43 +63,68 @@
                                 {% endcapture %}
                                 {% if slot == session.id and session.service == false or session.service == null %}
 
-                                <div id="session-{{ session.id }}" class="slot col-md-{{ slotColWidth }} col-xs-12 flexbox-item-height" data-slot-detail="{{ day.tracks[slotIndex].title }}"{% if session.info == null %} data-toggle="modal" data-target="#sessionDetail-{{ session.id }}"{% endif %}>
-                                {% if session.info and session.link %}
-                                <a class="link-unstyled" href="{{ session.link }}">
+                                <div id="session-{{ session.id }}" class="slot col-md-{{ slotColWidth }} col-xs-12 flexbox-item-height" data-slot-detail="{{ day.tracks[slotIndex].title }}"{% unless session.internallink %} data-toggle="modal" data-target="#sessionDetail-{{ session.id }}"{% endunless %}>
+                                {% if session.internallink %}
+                                <a class="link-unstyled" href="{{ site.baseurl }}{{ session.internallink }}">
                                 {% endif %}
                                     <div class="slot-content" style="border-color: rgb({{ color }});background-color: rgba({{ color }},0.2)">
-                                        <h5 class="slot-title" itemprop="name">{{ session.title }}</h5>
+                                        <h6 class="slot-title" itemprop="name">{{ session.title }}</h6>
                                         {% if session.place != null %}
                                             <span class="slot-place">{{session.place}}</span>
                                         {% endif %}
                                         <span class="slot-language">{{session.language | upcase}}</span>
-                                        {% if session.description != null and session.info != null %}
+                                        {% if session.description %}
                                             <p class="service-description">{{ session.description }}</p>
                                         {% endif %}
                                         <div>
                                         <ul class="slot-speakers list-inline">
-                                            {% for session_speaker in session.speakers %}
-                                                {% for speaker in site.data.speakers %}
-                                                    {% if session_speaker == speaker.id %}
-                                                    <li itemprop="performer"><div class="speaker-img flow-img img-circle"{% if speaker.thumbnailUrl != null %} style="background-image: url({{ site.baseurl | append: '/img/people/' | append: speaker.thumbnailUrl }})"{% endif %}></div>
-                                                        <p class="speaker-name">{{ speaker.name }} {{ speaker.surname }}
-                                                            <span class="speaker-position">{{ speaker.affiliation}}</span>
-                                                        </p>
-                                                    </li>
-                                                    {% endif %}
-                                                {% endfor %}    
-                                            {% endfor %}
+                                            {% if session.sessions %}
+                                                {% for session_session_id in session.sessions %}
+                                                    {% for subsession in site.data.sessions %}
+                                                        {% if session_session_id == subsession.id %}
+
+                                                {% for subsession_speaker in subsession.speakers %}
+                                                    {% for speaker in site.data.speakers %}
+                                                        {% if subsession_speaker == speaker.id %}
+                                                        <li itemprop="performer"><div class="speaker-img flow-img img-circle"{% if speaker.thumbnailUrl != null %} style="background-image: url({{ site.baseurl | append: '/img/people/' | append: speaker.thumbnailUrl }})"{% endif %}></div>
+                                                            <p class="speaker-name">{{ speaker.name }} {{ speaker.surname }}
+                                                                <span class="poster-title">{{ subsession.title }}</span>
+                                                            </p>
+                                                        </li>
+                                                        {% endif %}
+                                                    {% endfor %}
+                                                {% endfor %}
+
+
+
+
+                                                        {% endif %}
+                                                    {% endfor %}
+                                                {% endfor %}
+                                            {% else %}
+                                                {% for session_speaker in session.speakers %}
+                                                    {% for speaker in site.data.speakers %}
+                                                        {% if session_speaker == speaker.id %}
+                                                        <li itemprop="performer"><div class="speaker-img flow-img img-circle"{% if speaker.thumbnailUrl != null %} style="background-image: url({{ site.baseurl | append: '/img/people/' | append: speaker.thumbnailUrl }})"{% endif %}></div>
+                                                            <p class="speaker-name">{{ speaker.name }} {{ speaker.surname }}
+                                                                <span class="speaker-position">{{ speaker.affiliation}}</span>
+                                                            </p>
+                                                        </li>
+                                                        {% endif %}
+                                                    {% endfor %}
+                                                {% endfor %}
+                                            {% endif %}
                                         </ul>
                                         </div>
                                     </div>
-                                {% if session.info and session.link %}
+                                {% if session.internallink %}
                                 </a>
                                 {% endif %}
                                 </div>
                                 {% elsif slot == session.id and session.service == true %}
                                 <div class="slot col-md-{{ slotColWidth }} col-xs-12 service-slot flexbox-item-height" data-slot-detail="{{ session.title }}{% if session.place != null %}, {{ session.place }}{% endif %}">
                                     <div class="slot-content" style="border-color: rgb({{ color }});background-color: rgba({{ color }},{% if session.service-bgalpha %}{{ session.service-bgalpha }}{% endif %}0.05)">
-                                        <h5 class="slot-title" itemprop="name">{% if session.titleprefix %}{{ session.titleprefix }}{% endif %}{{ session.title }}</h5>
+                                        <h6 class="slot-title" itemprop="name">{% if session.titleprefix %}{{ session.titleprefix }}{% endif %}{{ session.title }}</h6>
 
                                         {% if session.place != null %}
                                             <span class="slot-place">{{session.place}}</span>

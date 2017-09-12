@@ -34,9 +34,8 @@
   title: "Poster Session"
   place: "Room: Foyer Auditorium"
   description_: "Poster Session"
-  speakers: [114, 116, 107, 125, 121]
-  info: true
-  link: "/speakers/#posters"
+  sessions: [114, 116, 107, 125, 121]
+  internallink: "/speakers/#posters"
 -
   id: 9
   title: "Sessions"
