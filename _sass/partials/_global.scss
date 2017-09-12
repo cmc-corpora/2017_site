@@ -1,6 +1,9 @@
 body, html {
     font-family: $fixed-font-family, $base-font-family;
     font-size: $base-font-size;
+    @media (max-width: 767px) {
+        font-size: $base-font-size * 80 / 100;
+    }
     font-weight: $regular;
     width: 100%;
     height: 100%;
@@ -64,25 +67,25 @@ h2 {
 h3 {
     font-size: $h3-font-size;
     @media (max-width: 767px) {
-        font-size: $h3-font-size * 70 / 100;
+        font-size: $h3-font-size * 60 / 100;
     }
 }
 h4 {
     font-size: $h4-font-size;
     @media (max-width: 767px) {
-        font-size: $h4-font-size * 70 / 100;
+        font-size: $h4-font-size * 60 / 100;
     }
 }
 h5 {
     font-size: $h5-font-size;
     @media (max-width: 767px) {
-        font-size: $h5-font-size * 80 / 100;
+        font-size: $h5-font-size * 70 / 100;
     }
 }
 h6 {
     font-size: $h6-font-size;
     @media (max-width: 767px) {
-        font-size: $h6-font-size * 80 / 100;
+        font-size: $h6-font-size * 75 / 100;
     }
 }
 time {

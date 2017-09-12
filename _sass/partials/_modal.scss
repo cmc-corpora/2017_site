@@ -15,12 +15,8 @@ $modal-highlight-color: #212121;
         margin-top: -19px;
     }
     h4 {
-        font-size: 35px;
         font-weight: $regular;
         color: $modal-highlight-color;
-        @media (max-width: 767px) {
-            font-size: 29px;
-        }
     }
 }
 .modal-backdrop {
