@@ -39,7 +39,7 @@
                         </div>
                     </div>
                     
-                    <div class="post-body">{{ content | hyphenate }}</div>
+                    <div class="post-body">{% if layout.hyphenate == true and page.hyphenate != false %}{{ content | hyphenate }}{% else %}{{ content }}{% endif %}</div>
                     {% if include.isStaticPost == false %}
                         <div class="comments">
                             {% if site.blogCommentsEnabled %} {% include disqus-comments.html %} {% endif %}

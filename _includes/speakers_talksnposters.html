@@ -39,7 +39,7 @@
                     </div>
                 {% endif %}
                 {% if presentation.abstract %}
-                    {% assign abstract_pars = presentation.abstract | newline_to_br | split: '<br />' | %}
+                    {% assign abstract_pars = presentation.abstract | newline_to_br | split: '<br />' %}
                     {% assign abstract_pars_size = presentation.abstract | newline_to_br | split: '<br />' | size | minus: 1 %}
                     {% assign abstract_tail = abstract_pars_size | minus: 2 %}
                     {% if abstract_tail > 0 %}
@@ -54,7 +54,7 @@
                         {% assign abstract = presentation.abstract | newline_to_br %}
                     {% endif %}
                     <div class="row abstract">
-                        <span>{{ abstract }}</span>
+                        <span>{{ abstract | hyphenate }}</span>
                     </div>
                 {% endif %}
             </div>

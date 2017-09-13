@@ -15,8 +15,11 @@ layout: compress
     <div id="st-container" class="st-container disable-scrolling">
         <div class="st-pusher">
             <div class="st-content">
-
-                {{ content | hyphenate }} 
+                {% if page.hyphenate == true %}
+                    {{ content | hyphenate }}
+                {% else %}
+                    {{ content }}
+                {% endif %}
 
                 {% include footer.html %}
 
