@@ -35,7 +35,7 @@
 						{% endif %}
                         <p class="theme-description">{{ session.description }}{% if session.modal_internallink %} <a href="{{ site.baseurl }}{{ session.modal_internallink }}" target="_blank">Read more</a>{% endif %}</p>
                         {% if session.abstract %}
-                            <p class="theme-abstract">{{ session.abstract | newline_to_br }}</p>
+                            <p class="theme-abstract">{{ session.abstract | newline_to_br | hyphenate }}</p>
                         {% endif %}
 						{% if session.presentation %}
 						<a class="theme-presentation" href="{{ session.presentation }}" title="Presentation" target="_blank">View presentation</a>
@@ -64,7 +64,7 @@
 					                            {% endfor %}
 					                        </div>
 					                        {% endif %}
-											<p class="about">{{ speaker.bio }}</p>
+											<p class="about">{{ speaker.bio | newline_to_br | hyphenate }}</p>
 											<ul class="social">
 												{% for social in speaker.social %}
 													<li>
