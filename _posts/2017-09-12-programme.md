@@ -5,7 +5,7 @@ isStaticPost: false
 ---
 We have an exciting and full programme of presentations, posters and a workshop
 for cmc-corpora17. The final programme, as it will appear in the proceedings
-handbook, is now online.
+handbook, is now [online](/schedule).
 
 If there are any changes or cancellations they will be communicated in our
 [news](/blog) thread and during the conference itself.
