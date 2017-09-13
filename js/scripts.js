@@ -79,7 +79,7 @@
         if ($(window).height() < 512) {
             $('#bottom-navlinks').removeClass('bottom-navlinks').addClass('bottom-navlinks-small');
         }
-        if ($(window).scrollTop() >= 75) {
+        if ($(window).scrollTop() >= 70) {
             $('#top-header').addClass('after-scroll');
             $('#logo-header .logo').removeClass('logo-light').addClass('logo-dark');
             $('#logo-xs').removeClass('logo-light').addClass('logo-dark');
@@ -93,7 +93,7 @@
             var buyButton = $('.right-nav-button');
             var topOffset = header.height() + $('.track-header').height();
 
-            if (scroll >= 75) {
+            if (scroll >= 70) {
                 header.addClass('after-scroll');
                 logo.removeClass('logo-light').addClass('logo-dark');
                 logo_xs.removeClass('logo-light').addClass('logo-dark');
