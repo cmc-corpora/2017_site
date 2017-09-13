@@ -4,7 +4,7 @@
 		<div class="modal fade text-left people-modal" id="sessionDetail-{{ session.id }}" tabindex="-1" role="dialog" aria-labelledby="sessionDetailLabel-{{ session.id }}" aria-hidden="true">
 			<div class="modal-dialog">
 				<div class="modal-content">
-					<div class="modal-body">
+                    <div class="modal-header">
 						<div class="close">
 							<svg class="icon icon-cross" viewBox="0 0 32 32">
 								<use xlink:href="{{ site.baseurl }}/img/sprites/sprites.svg#icon-cross"></use>
@@ -12,6 +12,8 @@
 							<div class="close-mask" data-dismiss="modal"></div>
 						</div>
 						<h4>{{ session.title }}</h4>
+                    </div>
+					<div class="modal-body">
 						{% if session.place != null %}
 						<span class="theme-metadata">{{ session.place }}</span>
 						{% endif %}
