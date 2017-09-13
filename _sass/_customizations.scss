@@ -116,6 +116,7 @@ time {
     }
 }
 .timeslot-label {
+    padding-bottom: 0;
     @media print {
         @include flexbox();
         justify-content: space-between;

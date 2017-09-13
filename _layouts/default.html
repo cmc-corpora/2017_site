@@ -135,9 +135,13 @@ layout: compress
         <script type="text/javascript">
             $(document).ready(function () {
                 var navHeight = $('#top-header').height();
-                var headerHeight = $('.track-header').first().height();
                 $('.stick-header').stick_in_parent({sticky_class: 'sticky', offset_top: navHeight});
-                $('.stick-label').stick_in_parent({offset_top: navHeight + headerHeight});
+
+                $('.stick-label').each(function() {
+                    var headerHeight = $(this).closest('.schedule-table').find('.timeslot-elements').first().height();
+                    $(this).stick_in_parent({offset_top: navHeight + headerHeight});
+                });
+
             });
         </script>
     {% endif %}
