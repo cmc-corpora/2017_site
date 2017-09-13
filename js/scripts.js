@@ -109,6 +109,7 @@
                 buyButton.addClass('right-nav-button-hidden');
             }
 
+            /*
             $('.slot').each(function() {
                 var currentPosition = $(this).offset().top - scroll;
                 var offsetActivator = topOffset + $(this).find('.slot-title').height();
@@ -116,6 +117,7 @@
                     $('.track-header.sticky').find('.slot-detail').html($(this).data('slotDetail'));
                 }
             });
+            */
         });
 
         $(window).resize(function() {
