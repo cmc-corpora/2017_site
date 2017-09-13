@@ -63,9 +63,9 @@
                                 {% endcapture %}
                                 {% if slot == session.id and session.service == false or session.service == null %}
 
-                                <div id="session-{{ session.id }}" class="slot col-md-{{ slotColWidth }} col-xs-12 flexbox-item-height" data-slot-detail="{{ day.tracks[slotIndex].title }}"{% unless session.internallink %} data-toggle="modal" data-target="#sessionDetail-{{ session.id }}"{% endunless %}>
-                                {% if session.internallink %}
-                                <a class="link-unstyled" href="{{ site.baseurl }}{{ session.internallink }}">
+                                <div id="session-{{ session.id }}" class="slot col-md-{{ slotColWidth }} col-xs-12 flexbox-item-height" data-slot-detail="{{ day.tracks[slotIndex].title }}"{% unless session.session_internallink %} data-toggle="modal" data-target="#sessionDetail-{{ session.id }}"{% endunless %}>
+                                {% if session.session_internallink %}
+                                <a class="link-unstyled" href="{{ site.baseurl }}{{ session.session_internallink }}">
                                 {% endif %}
                                     <div class="slot-content" style="border-color: rgb({{ color }});background-color: rgba({{ color }},0.2)">
                                         <h6 class="slot-title" itemprop="name">{{ session.title }}</h6>
@@ -117,7 +117,7 @@
                                         </ul>
                                         </div>
                                     </div>
-                                {% if session.internallink %}
+                                {% if session.session_internallink %}
                                 </a>
                                 {% endif %}
                                 </div>

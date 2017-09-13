@@ -35,7 +35,7 @@
   place: "Room: Foyer Auditorium"
   description_: "Poster Session"
   sessions: [114, 116, 107, 125, 121]
-  internallink: "/speakers/#posters"
+  session_internallink: "/speakers/#posters"
 -
   id: 9
   title: "Sessions"
@@ -81,7 +81,7 @@
   title: "CLARIN UI Event - Introduction to text encoding in the TEI (TEI-P5) [Free]"
   place: "Room: Seminar 8"
   description: "The tutorial gives a practical introduction into the annotation of language data from genres of computer-mediated communication (CMC) and social media using TEI."
-  internallink: "/uievent/"
+  modal_internallink: "/uievent/"
   subtype: "Tutorial"
   speakers: [4, 3]
   color: "190,78,144"
@@ -90,7 +90,7 @@
   title: "CLARIN UI Event - Hands-on session: Using TEI for representing CMC/social media data [Free]"
   place: "Room: Seminar 8"
   description: "The tutorial gives a practical introduction into the annotation of language data from genres of computer-mediated communication (CMC) and social media using TEI."
-  internallink: "/uievent/"
+  modal_internallink: "/uievent/"
   subtype: "Tutorial"
   speakers: [4, 5]
   color: "190,78,144"
