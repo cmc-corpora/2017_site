@@ -13,6 +13,11 @@
   href=\"https://www.google.it/maps/dir/EURAC+Research,+Viale+Druso+Drususallee,+Bolzano,+Province+of+Bolzano+-+South+Tyrol/Batzenh%C3%A4usl,+Via+Andreas+Hofer,+30,+39100+Bolzano+BZ/@46.4978967,11.3477076,16z/data=!3m1!4b1!4m14!4m13!1m5!1m1!1s0x47829c202aabf925:0x88091ac142a2771!2m2!1d11.3467639!2d46.4944386!1m5!1m1!1s0x47829e7a95e2a6b5:0xedba5dbeef8cc957!2m2!1d11.3574074!2d46.5013383!3e2\">Batznhäusl</a>."
   service: true
 -
+  id: 2
+  title: "Closing"
+  place: "Room: Conference Hall"
+  service: true
+-
   id: 3
   title: "Registration"
   place: "Place: Eurac Research main entrance area"
@@ -29,6 +34,7 @@
   title: "Lunch Break"
   place: "Place: Foyer 1-2-3"
   service: true
+  description: "We will start in the Eurac Research garden and take a group photo."
 -
   id: 6
   title: "Welcome Address"
@@ -129,6 +135,7 @@
   id: 102
   speakers: [102]
   title: "European Language Ecology and Bilingualism with English on Twitter"
+  place: "Room: Conference Hall"
   types:
     - paper
     - talk
@@ -139,6 +146,7 @@
   id: 104
   speakers: [104]
   title: "Reliable Part-of-Speech Tagging of Low-frequency Phenomena in the Social Media Domain"
+  place: "Room: Conference Hall"
   types:
     - paper
     - talk
@@ -155,6 +163,7 @@
   id: 105
   speakers: [105]
   title: "Emoticons as multifunctional and pragmatic Resources: a corpus-based Study on Twitter"
+  place: "Room: Conference Hall"
   types:
     - paper
     - talk
@@ -166,6 +175,7 @@
   id: 108
   speakers: [108]
   title: "“You’re trolling because…” – A Corpus-based Study of Perceived Trolling and Motive Attribution in the Comment Threads of Three British Political Blogs"
+  place: "Room: Conference Hall"
   types:
     - paper
     - talk
@@ -175,6 +185,7 @@
   id: 109
   speakers: [109]
   title: "The #Idéo2017 Platform"
+  place: "Room: Conference Hall"
   types:
     - paper
     - talk
@@ -184,6 +195,7 @@
   id: 112
   speakers: [112]
   title: "Modeling Non-Standard Language Use in Adolescents' CMC: The Impact and Interaction of Age, Gender and Education"
+  place: "Room: Conference Hall"
   types:
     - paper
     - talk
@@ -193,6 +205,7 @@
   id: 113
   speakers: [113]
   title: "Corpus-Based Analysis of Demonyms in Slovene Twitter"
+  place: "Room: Conference Hall"
   types:
     - paper
     - talk
@@ -202,6 +215,7 @@
   id: 115
   speakers: [115]
   title: "A Comparative Study of Computer-mediated and Spoken Conversations from Pakistani and U.S. English using Multidimensional Analysis"
+  place: "Room: Conference Hall"
   types:
     - paper
     - talk
@@ -211,6 +225,7 @@
   id: 118
   speakers: [118]
   title: "Developing a protocol for collecting data in Higher Education: assessing natural language metadata for a Databank of Oral Teletandem Interactions"
+  place: "Room: Conference Hall"
   types:
     - paper
     - talk
@@ -220,6 +235,7 @@
   id: 119
   speakers: [119]
   title: "Investigating Interaction Signs across Genres, Modes and Languages: The Example of OKAY"
+  place: "Room: Conference Hall"
   types:
     - paper
     - talk
@@ -229,6 +245,7 @@
   id: 123
   speakers: [123]
   title: "The Impact of WhatsApp on Dutch Youths’ School Writing"
+  place: "Room: Conference Hall"
   types:
     - paper
     - talk
@@ -238,6 +255,7 @@
   id: 126
   speakers: [126]
   title: "Anonymisation of the Dortmund Chat Corpus 2.1"
+  place: "Room: Conference Hall"
   types:
     - paper
     - talk
@@ -247,6 +265,7 @@
   id: 127
   speakers: [127]
   title: "Fear and Loathing on Twitter: Attitudes towards Language"
+  place: "Room: Conference Hall"
   types:
     - paper
     - talk
@@ -256,6 +275,7 @@
   id: 128
   speakers: [128]
   title: "Connecting Resources: Which Issues Have to be Solved to Integrate CMC Corpora from Heterogeneous Sources and for Different Languages?"
+  place: "Room: Conference Hall"
   types:
     - paper
     - talk
@@ -265,6 +285,7 @@
   id: 201
   speakers: [201]
   title: "CLARIN Survey of CMC Resources and Tools"
+  place: "Room: Conference Hall"
   types:
     - talk
   abstract: |
@@ -277,6 +298,7 @@
   id: 107
   speakers: [107]
   title: "A corpus-driven approach to pseudonymity and the expression of emotions in Computer Mediated Communication in French and English"
+  place: "Room: Conference Hall"
   types:
     - paper
     - poster
@@ -303,6 +325,7 @@
   id: 114
   speakers: [114]
   title: "MoCoDa 2.0: Creating a Database and Web Frontend for the Repeated Collec-tion of Mobile Communication (WhatsApp, SMS & Co)"
+  place: "Room: Conference Hall"
   types:
     - paper
     - poster
@@ -312,6 +335,7 @@
   id: 116
   speakers: [116]
   title: "The Language and Communicative Practices of ‘Instagirls’"
+  place: "Room: Conference Hall"
   types:
     - paper
     - poster
@@ -321,6 +345,7 @@
   id: 121
   speakers: [121]
   title: "The graphic realization of /l/-vocalization in Swiss German WhatsApp messages"
+  place: "Room: Conference Hall"
   types:
     - paper
     - poster
@@ -330,6 +355,7 @@
   id: 125
   speakers: [125]
   title: "Public Service News on Facebook: Exploring Journalistic Usage Patterns and Reaction Data"
+  place: "Room: Conference Hall"
   types:
     - paper
     - poster
