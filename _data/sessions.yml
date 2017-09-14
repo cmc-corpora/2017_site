@@ -14,10 +14,10 @@
   service: true
 -
   id: 3
-  title: "On-Site Registration"
+  title: "Registration"
   place: "Place: Eurac Research main entrance area"
   service: true
-  description: "On-site registration will be available for additional 15 EUR."
+  description: "On-site registration will be available from 8.00 to 8.30 for additional 15 EUR."
 -
   id: 4
   title: "Coffee Break"
@@ -28,6 +28,16 @@
   id: 5
   title: "Lunch Break"
   place: "Place: Foyer 1-2-3"
+  service: true
+-
+  id: 6
+  title: "Welcome Address"
+  place: "Room: Conference Hall"
+  service: true
+-
+  id: 7
+  title: "Book Launch"
+  place: "Room: Conference Hall"
   service: true
 -
   id: 8
