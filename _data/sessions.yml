@@ -50,7 +50,7 @@
   title: "Poster Session"
   place: "Room: Foyer Auditorium"
   description_: "Poster Session"
-  sessions: [114, 116, 107, 125, 121]
+  sessions: [114, 107, 125, 121]
   session_internallink: "/speakers/#posters"
 -
   id: 9
@@ -331,16 +331,6 @@
     - poster
   abstract: |
     The paper reports about an ongoing project in which we create a database and web frontend for the repeated collection of CMC interactions from smartphone apps. The collection strategy and the design of the collection process is focused on involving the users of mobile phone apps such as WhatsApp, Threema and others in the creation of a database with detailed metadata which may serve as a resource not only for quantitative but also for qualitative approaches. For representation and annotation of the data the project builds on best practices from previous projects in the field. The corpus will be made available for online querying and will be successively integrated into the German Reference Corpus DEREKO at the Institute for the German Language in Mannheim.
--
-  id: 116
-  speakers: [116]
-  title: "The Language and Communicative Practices of ‘Instagirls’"
-  place: "Room: Conference Hall"
-  types:
-    - paper
-    - poster
-  abstract: |
-    The aim of the present article is to investigate the communicative practices of so-called Instagirls, whose Instagram profiles are followed by millions of users. The Instagram posts of three Instagirls have been included in the analysis and classified into five categories, based on their content and function. The classification reveals which aspects of their lives are emphasized in their Instagram profiles and in which way their online identity is constructed. The analysis of their posts demonstrates that Instagirls employ various strategies to promote their online visibility and, consequently, to attract their prospective followers (e.g. hashtags and tagging). These strategies are thoroughly investigated and their role in the construction of online celebrity is debated. Owing to their rising popularity, the author also aims to show that the influence of online celebrities such as Instagirls is no longer limited to social media but extends to various aspects of public life.
 -
   id: 121
   speakers: [121]
