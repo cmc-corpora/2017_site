@@ -16,6 +16,7 @@ exclude:
     - external/
     - Gemfile
     - Gemfile.lock
+    - tmp/
 
 sass:
   style: :compressed
