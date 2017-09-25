@@ -74,9 +74,8 @@
                                         {% endif %}
                                             {{ session.title }}</h6>
 
-                                        {% if session.place != null %}
-                                            <span class="slot-place">{{session.place}}</span>
-                                        {% endif %}
+                                        <span class="slot-place">{{session.place}}</span>
+                                        <span class="slot-info">{{ session.info }}</span>
                                         <span class="slot-language">{{session.language | upcase}}</span>
                                         {% if session.description %}
                                             <p class="service-description">{{ session.description }}</p>

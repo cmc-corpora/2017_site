@@ -65,7 +65,7 @@
   place: "Room: Conference Hall"
   subtype: "Keynote"
   speakers: [1]
-  info: ["Chair: Ciara Wigham"]
+  info: "Chair: Ciara Wigham"
   types:
     - invitedtalk
   abstract: |
@@ -80,7 +80,7 @@
   place: "Room: Conference Hall"
   subtype: "Keynote"
   speakers: [2]
-  info: ["Chair: Michael Beißwenger"]
+  info: "Chair: Michael Beißwenger"
   types:
     - invitedtalk
   abstract: |
@@ -136,7 +136,7 @@
 -
   id: 102
   speakers: [102]
-  info: ["Chair: Laura Herzberg"]
+  info: "Chair: Laura Herzberg"
   title: "European Language Ecology and Bilingualism with English on Twitter"
   place: "Room: Conference Hall"
   types:
@@ -148,7 +148,7 @@
 -
   id: 104
   speakers: [104]
-  info: ["Chair: Laura Herzberg"]
+  info: "Chair: Laura Herzberg"
   title: "Reliable Part-of-Speech Tagging of Low-frequency Phenomena in the Social Media Domain"
   place: "Room: Conference Hall"
   types:
@@ -166,7 +166,7 @@
 -
   id: 105
   speakers: [105]
-  info: ["Chair: Laura Herzberg"]
+  info: "Chair: Laura Herzberg"
   title: "Emoticons as multifunctional and pragmatic Resources: a corpus-based Study on Twitter"
   place: "Room: Conference Hall"
   types:
@@ -179,7 +179,7 @@
 -
   id: 108
   speakers: [108]
-  infos: ["Chair: Harold Lüngen"]
+  info: "Chair: Harald Lüngen"
   title: "“You’re trolling because…” – A Corpus-based Study of Perceived Trolling and Motive Attribution in the Comment Threads of Three British Political Blogs"
   place: "Room: Conference Hall"
   types:
@@ -190,7 +190,7 @@
 -
   id: 109
   speakers: [109]
-  info: ["Chair: Darja Fišer"]
+  info: "Chair: Darja Fišer"
   title: "The #Idéo2017 Platform"
   place: "Room: Conference Hall"
   types:
@@ -201,7 +201,7 @@
 -
   id: 112
   speakers: [112]
-  info: ["Chair: Steven Coats"]
+  info: "Chair: Steven Coats"
   title: "Modeling Non-Standard Language Use in Adolescents' CMC: The Impact and Interaction of Age, Gender and Education"
   place: "Room: Conference Hall"
   types:
@@ -212,7 +212,7 @@
 -
   id: 113
   speakers: [113]
-  info: ["Chair: Laura Herzberg"]
+  info: "Chair: Laura Herzberg"
   title: "Corpus-Based Analysis of Demonyms in Slovene Twitter"
   place: "Room: Conference Hall"
   types:
@@ -223,7 +223,7 @@
 -
   id: 115
   speakers: [115]
-  info: ["Chair: Harold Lüngen"]
+  info: "Chair: Harald Lüngen"
   title: "A Comparative Study of Computer-mediated and Spoken Conversations from Pakistani and U.S. English using Multidimensional Analysis"
   place: "Room: Conference Hall"
   types:
@@ -234,7 +234,7 @@
 -
   id: 118
   speakers: [118]
-  info: ["Chair: Darja Fišer"]
+  info: "Chair: Darja Fišer"
   title: "Developing a protocol for collecting data in Higher Education: assessing natural language metadata for a Databank of Oral Teletandem Interactions"
   place: "Room: Conference Hall"
   types:
@@ -245,7 +245,7 @@
 -
   id: 119
   speakers: [119]
-  info: ["Chair: Steven Coats"]
+  info: "Chair: Steven Coats"
   title: "Investigating Interaction Signs across Genres, Modes and Languages: The Example of OKAY"
   place: "Room: Conference Hall"
   types:
@@ -256,7 +256,7 @@
 -
   id: 123
   speakers: [123]
-  info: ["Chair: Steven Coats"]
+  info: "Chair: Steven Coats"
   title: "The Impact of WhatsApp on Dutch Youths’ School Writing"
   place: "Room: Conference Hall"
   types:
@@ -267,7 +267,7 @@
 -
   id: 126
   speakers: [126]
-  info: ["Chair: Steven Coats"]
+  info: "Chair: Steven Coats"
   title: "Anonymisation of the Dortmund Chat Corpus 2.1"
   place: "Room: Conference Hall"
   types:
@@ -278,7 +278,7 @@
 -
   id: 127
   speakers: [127]
-  infos: ["Chair: Harold Lüngen"]
+  info: "Chair: Harald Lüngen"
   title: "Fear and Loathing on Twitter: Attitudes towards Language"
   place: "Room: Conference Hall"
   types:
@@ -289,7 +289,7 @@
 -
   id: 128
   speakers: [128]
-  info: ["Chair: Stefania Spina"]
+  info: "Chair: Stefania Spina"
   title: "Connecting Resources: Which Issues Have to be Solved to Integrate CMC Corpora from Heterogeneous Sources and for Different Languages?"
   place: "Room: Conference Hall"
   types:
@@ -300,7 +300,7 @@
 -
   id: 201
   speakers: [201]
-  info: ["Chair: Stefania Spina"]
+  info: "Chair: Stefania Spina"
   title: "CLARIN Survey of CMC Resources and Tools"
   place: "Room: Conference Hall"
   types:

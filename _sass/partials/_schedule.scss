@@ -183,9 +183,12 @@ $small-label-width: 80px;
         border-right-color: #ccc;
     }
 }
+.slot-info {
+    margin-left: 48px;
+}
 .slot-language {
     position: absolute;
-    font-size: 11px;
+    font-size: 12px;
     right: 15px;
     top: 20px;
 }
