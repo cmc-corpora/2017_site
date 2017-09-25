@@ -36,7 +36,7 @@ Please, write an e-mail to
 
 
 #### Deadline and late registration
-The deadline for registration is September 25th 2017. On-site registration will
+The deadline for registration is September 24th 2017. On-site registration will
 be available for additional 15 EUR.
 
 
