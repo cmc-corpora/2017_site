@@ -91,7 +91,7 @@
                                                     {% for speaker in site.data.speakers %}
                                                         {% if subsession_speaker == speaker.id %}
                                                         <li itemprop="performer"><div class="speaker-img flow-img img-circle"{% if speaker.thumbnailUrl != null %} style="background-image: url({{ site.baseurl | append: '/img/people/' | append: speaker.thumbnailUrl }})"{% endif %}></div>
-                                                            <p class="speaker-name">{{ speaker.name }} {{ speaker.surname }}
+                                                            <p class="speaker-name">{{ speaker.name }} {% if speaker.short_surname %}{{ speaker.short_surname }}{% else %}{{ speaker.surname }}{% endif %}
                                                                 <span class="poster-title">{{ subsession.title }}</span>
                                                             </p>
                                                         </li>
@@ -110,7 +110,7 @@
                                                     {% for speaker in site.data.speakers %}
                                                         {% if session_speaker == speaker.id %}
                                                         <li itemprop="performer"><div class="speaker-img flow-img img-circle"{% if speaker.thumbnailUrl != null %} style="background-image: url({{ site.baseurl | append: '/img/people/' | append: speaker.thumbnailUrl }})"{% endif %}></div>
-                                                            <p class="speaker-name">{{ speaker.name }} {{ speaker.surname }}
+                                                            <p class="speaker-name">{{ speaker.name }} {% if speaker.short_surname %}{{ speaker.short_surname }}{% else %}{{ speaker.surname }}{% endif %}
                                                                 <span class="speaker-position">{{ speaker.affiliation}}</span>
                                                             </p>
                                                         </li>
