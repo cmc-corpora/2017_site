@@ -44,7 +44,7 @@
                     {% assign abstract_tail = abstract_pars_size | minus: 2 %}
                     {% if abstract_tail > 0 %}
                         {% capture abstract %}
-                            {% for par_id in (1..2) %}
+                            {% for par_id in (0..2) %}
                                 {{ abstract_pars[par_id] }}
                                 <br />
                             {% endfor %}
