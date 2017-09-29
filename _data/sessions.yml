@@ -327,16 +327,16 @@
     The research is based on two corpora, French and English, gathering messages collected on IRC (Internet Relay Chat). The French corpus was gathered by researchers of the European project CoMeRe and presents 4 million messages on various topics with a diverse range of users. The English corpus is a chat history related to the OS Ubuntu and gathers more than 35 million messages. However, topics are more specific and discussions are more formal and technical, limiting the purely social interactions between the users.
     The first part of the study, which can be considered as a preliminary approach, is purely quantitative. Occurrences of emotional features were counted in both corpora and the distributions of the latter for both languages were established, in order to verify if pseudonymity could influence them. Eventually, emotional features were counted in different intimacy contexts where pseudonymity plays a different role: a context where users do not know each other when the conversation starts (i.e. pseudonymity is the only information available to identify other users), and a context where users already know each other (i.e. the effective identity is developed in addition pseudonymity). These contexts were identified on the basis of discourse markers since the level of intimacy between users was not specified in the annotated corpora.
     The second part of the study is a more qualitative and linguistic approach of the different uses of the emotional feature. Analyses were conducted on the basis of a dataset relying on different linguistic criteria associated with emotional feature, which follow:
-    -   The intimacy context (0 or 1 as described in the previous paragraph)
-    -   The emotional features analysed
-    -   The type of emotional feature (smiley, abbreviation…)
-    -   The syntactic position (its place in the message)
-    -   The pragmatic use (who uses it)
-    -   The aim (why is it used)
-    -   The redundancy (is the emotion conveyed redundant of the message)
-    -   The meaning (is it used connotatively or denotatively)
-    -   The number of words of the message
-    -   The type clause of the message accompanying it
+    - The intimacy context (0 or 1 as described in the previous paragraph)
+    - The emotional features analysed
+    - The type of emotional feature (smiley, abbreviation…)
+    - The syntactic position (its place in the message)
+    - The pragmatic use (who uses it)
+    - The aim (why is it used)
+    - The redundancy (is the emotion conveyed redundant of the message)
+    - The meaning (is it used connotatively or denotatively)
+    - The number of words of the message
+    - The type clause of the message accompanying it
     These different criteria applied to emotional features cover the three linguistic aspects: syntax, semantics and pragmatics. More than 1 000 emotional features were analysed in the dataset for both French and English, and the dataset was eventually analysed with R and TimBl software. With these analyses, the influence of pseudonymity in the realisations of these criteria were analysed and also linguistics constraints were observed regarding some uses of emotional features. Furthermore, communication strategies of the users were observed depending on the direct contexts of the conversations.
 -
   id: 114
