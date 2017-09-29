@@ -66,7 +66,6 @@ navigationLinks:
  - {permalink: "/", text: "Home"}
  - {permalink: "/schedule/", text: "Schedule"}
  - {permalink: "/uievent/", text: "CLARIN UI Event"}
- - {permalink: "/registration/", text: "Registration"}
  - {permalink: "/speakers/", text: "Speakers"}
  - {permalink: "/committees/", text: "Committees"}
  - {permalink: "/venue/", text: "Venue"}
@@ -213,7 +212,7 @@ footerBlocks:
  -
   title: "Links"
   links:
-   - {link: "https://easychair.org/conferences/?conf=cmccorpora2017", text: "Submission Page"}
+   - {permalink: "/registration/", text: "Registration"}
    - {permalink: "/speakers", text: "Accepted Papers"}
    - {permalink: "/authors", text: "For Authors"}
    - {permalink: "/cfp/", text: "Call for Papers"}
