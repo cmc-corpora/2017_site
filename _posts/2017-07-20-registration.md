@@ -2,7 +2,6 @@
 layout: post
 title:  "Registration OPEN"
 isStaticPost: false
-permalink: /registration/
 ---
 
 ### Registration to the CMC-corpora 2017 conference and the CLARIN UI Event is now *OPEN*.
