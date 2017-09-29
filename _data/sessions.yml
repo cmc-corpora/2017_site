@@ -95,6 +95,14 @@
   description: "The best time to talk with speakers and attendees"
   color: "190,78,144"
 -
+  id: 800
+  title: "CLARIN UI Event"
+  place: "Room: Seminar 8"
+  description: "The tutorial gives a practical introduction into the annotation of language data from genres of computer-mediated communication (CMC) and social media using TEI."
+  subtype: "Tutorial"
+  speakers: [4, 3, 5]
+  color: "190,78,144"
+-
   id: 801
   title: "CLARIN UI Event - Introduction to text encoding in the TEI (TEI-P5) [Free]"
   place: "Room: Seminar 8"

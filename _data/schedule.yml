@@ -10,6 +10,7 @@
         endTime: "22:00",
         sessionIds: [0]
     }
+  hide_on_print: true
 -
   id: 1
   date: "2017-10-03"
@@ -191,21 +192,31 @@
     }
     - {
         startTime: "14:30",
+        endTime: "18:00",
+        sessionIds: [800],
+        hide_on_screen: true
+    }
+    - {
+        startTime: "14:30",
         endTime: "16:00",
-        sessionIds: [801]
+        sessionIds: [801],
+        hide_on_print: true
     }
     - {
         startTime: "16:00",
         endTime: "16:30",
-        sessionIds: [20]
+        sessionIds: [20],
+        hide_on_print: true
     }
     - {
         startTime: "16:30",
         endTime: "18:00",
-        sessionIds: [802]
+        sessionIds: [802],
+        hide_on_print: true
     }
     - {
         startTime: "15:00",
         endTime: "21:00",
-        sessionIds: [901]
+        sessionIds: [901],
+        hide_on_print: true
     }

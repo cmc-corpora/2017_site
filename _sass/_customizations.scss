@@ -23,6 +23,12 @@
     @media print {
         display: none;
         visibility: hidden;
+        clip-path: polygon(0px 0px,0px 0px,0px 0px,0px 0px);
+    }
+}
+.noscreen {
+    @media screen {
+        clip-path: polygon(0px 0px,0px 0px,0px 0px,0px 0px);
     }
 }
 .jumbotron {

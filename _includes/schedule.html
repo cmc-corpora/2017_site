@@ -23,6 +23,9 @@
         </div>
 
         {% for day in site.data.schedule %}
+        {% if day.hide_on_print %}
+        <div class="noprint">
+        {% endif %}
         <div class="schedule-table col-md-10 col-md-offset-1">
             <h4 class="schedule-table-heading">{{ day.dateReadable }}</h4>
             <div class="timeslot track-header stick-header">
@@ -37,6 +40,12 @@
                 </div>
             </div>
             {% for timeslot in day.timeslots %}
+            {% if timeslot.hide_on_screen %}
+            <div class="noscreen">
+            {% endif %}
+            {% if timeslot.hide_on_print %}
+            <div class="noprint">
+            {% endif %}
             <div class="timeslot" itemtype="http://schema.org/subEvent">
                 <div class="timeslot-label">
                     <time class="start-time" itemprop="startDate" datetime="{{ day.dateReadable }}T{{ timeslot.startTime }}">
@@ -146,7 +155,13 @@
                     {% endfor %}
                 </div>
             </div>
+            {% if timeslot.hide_on_screen or timeslot.hide_on_print %}
+            </div>
+            {% endif %}
             {% endfor %}
+        {% if day.hide_on_print %}
+        </div>
+        {% endif %}
         </div>
         {% endfor %}
     </div>
