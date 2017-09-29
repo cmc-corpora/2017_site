@@ -1,22 +1,23 @@
 # Plugins
 gems:
-    - jekyll-sitemap
-    - nokogiri
-    - text-hyphen
+  - jekyll-sitemap
+  - nokogiri
+  - text-hyphen
 safe: false
 
 # Build Settings
 markdown: kramdown
 exclude: 
-    - automation/
-    - README.md
-    - LICENSE.txt
-    - script/
-    - _stuff/
-    - external/
-    - Gemfile
-    - Gemfile.lock
-    - tmp/
+  - automation/
+  - README.md
+  - LICENSE.txt
+  - script/
+  - _stuff/
+  - external/
+  - Gemfile
+  - Gemfile.lock
+  - tmp/
+  - external/
 
 sass:
   style: :compressed
