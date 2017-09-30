@@ -50,7 +50,7 @@
   title: "Poster Session"
   place: "Room: Foyer Auditorium"
   description_: "Poster Session"
-  sessions: [114, 107, 125, 121]
+  sessions: [114, 125, 121]
   session_internallink: "/speakers/#posters"
 -
   id: 9
@@ -319,33 +319,6 @@
     The first step in this direction was an <a href="https://www.clarin.eu/event/2017/clarin-plus-workshop-creation-and-use-social-media-resources">interdisciplinary workshop</a> on the creation and use of social media which was organized within the Horizon 2020 CLARIN-PLUS project on 18 and 19 May 2017 in Kaunas, Lithuania. The aims of the workshop were to demonstrate the possibilities of social media resources and natural language processing tools for researchers with a diverse research background and an interest in empirical research of language and social practices in computer-mediated communication, to promote interdisciplinary cooperation possibilities, and to initiate a discussion on the various approaches to social media data collection and processing.
     The workshop also served as a platform to conduct a <a href="https://office.clarin.eu/v/CE-2017-1064-Resources-for-computer-mediated-communication.docx">survey</a> of corpora, datasets and tools of computer-mediated communication in the languages spoken in countries that are members and observers of CLARIN ERIC. Apart from identifying the existing resources and tools, our motivation was to establish to which extent they are accessible through the CLARIN infrastructure and how the information and accessibility of them could be further optimized from a user perspective.
     In this talk, we will give an overview of the identified corpora, the smaller, more focused datasets and tools that are tailored to processing computer-mediated communication. The focus of the talk will be on the comprehensiveness of the provided metadata, level of availability and accessibility of the identified resources and tools and the degree of their actual or potential inclusion in the CLARIN infrastructure. We will also discuss the simple and long-term possibilities of enriching the current state of the infrastructure and provide guidelines for creating and depositing CMC resources with a CLARIN center.
--
-  id: 107
-  speakers: [107]
-  title: "A corpus-driven approach to pseudonymity and the expression of emotions in Computer Mediated Communication in French and English"
-  place: "Room: Conference Hall"
-  types:
-    - paper
-    - poster
-  abstract: |
-    The present research aims at studying the new ways of communications put at the disposal of the users with the apparition of CMC (Computer Mediated Communication), especially live conversations, in relation with pseudonymity. These ways of communication, which allow expressing emotions in a more direct and objective way (Caffi & Janney, 1994), are the following: smileys, abbreviations, repetition of letters within words, overuse of capital letters and overuse of punctuation. These five ways of communication generally allow expressing an emotion or an emotional state, which would have been expressed in oral conversations with bodily gestures, facial expressions or prosody. However, the latter, essential in oral conversations, cannot be used in CMC. Therefore, the previously listed emotional features have been integrated to CMC language progressively.
-    The purpose of the study is to observe the influence of pseudonymity on the use of these features. Indeed, pseudonymity is a new notion that appeared with CMC, linked to digital identity, which plays an important role in the way emotions are expressed from a socio-linguistic point of view. Like François Perea (2010) did, Fanny Georges (2009) divided the digital identity in three: declarative identity, effective identity and calculated identity. The declarative identity, being what information the user chooses to provide on CMC, is represented by the pseudonym (Bechar‐Israeli, 1995). On the contrary, the effective identity will be constructed by the actions the user will do on CMC. For this study, the effective identity concerns everything a user writes and shares with other users, which will add pieces of information on his personality and identity. However, in contexts where users meet for the first time, this effective identity is not developed yet and users can only rely on their declarative identity: the pseudonym.
-    Two main questions emerged from these observations: is pseudonymity a barrier for expressing emotions because of suspicion and the lack of information on the other users? Or, on the contrary: is pseudonymity a boost for expressing emotions in Computer Mediated Communications by helping to cope with shyness?
-    In order to verify these hypotheses, the occurrences of emotional features were quantitatively analysed in different intimacy contexts, and were eventually qualitatively analysed on the basis of linguistic criteria within the same intimacy contexts. The second part of the analysis also aims at observing possible differences in discourse (Dresner & Herring, 2010) and the communication strategies developed by the users based on expectations created by pseudonymity (Díaz-Pérez, 2013 & Smith, 2003).
-    The research is based on two corpora, French and English, gathering messages collected on IRC (Internet Relay Chat). The French corpus was gathered by researchers of the European project CoMeRe and presents 4 million messages on various topics with a diverse range of users. The English corpus is a chat history related to the OS Ubuntu and gathers more than 35 million messages. However, topics are more specific and discussions are more formal and technical, limiting the purely social interactions between the users.
-    The first part of the study, which can be considered as a preliminary approach, is purely quantitative. Occurrences of emotional features were counted in both corpora and the distributions of the latter for both languages were established, in order to verify if pseudonymity could influence them. Eventually, emotional features were counted in different intimacy contexts where pseudonymity plays a different role: a context where users do not know each other when the conversation starts (i.e. pseudonymity is the only information available to identify other users), and a context where users already know each other (i.e. the effective identity is developed in addition pseudonymity). These contexts were identified on the basis of discourse markers since the level of intimacy between users was not specified in the annotated corpora.
-    The second part of the study is a more qualitative and linguistic approach of the different uses of the emotional feature. Analyses were conducted on the basis of a dataset relying on different linguistic criteria associated with emotional feature, which follow:
-    - The intimacy context (0 or 1 as described in the previous paragraph)
-    - The emotional features analysed
-    - The type of emotional feature (smiley, abbreviation…)
-    - The syntactic position (its place in the message)
-    - The pragmatic use (who uses it)
-    - The aim (why is it used)
-    - The redundancy (is the emotion conveyed redundant of the message)
-    - The meaning (is it used connotatively or denotatively)
-    - The number of words of the message
-    - The type clause of the message accompanying it
-    These different criteria applied to emotional features cover the three linguistic aspects: syntax, semantics and pragmatics. More than 1 000 emotional features were analysed in the dataset for both French and English, and the dataset was eventually analysed with R and TimBl software. With these analyses, the influence of pseudonymity in the realisations of these criteria were analysed and also linguistics constraints were observed regarding some uses of emotional features. Furthermore, communication strategies of the users were observed depending on the direct contexts of the conversations.
 -
   id: 114
   speakers: [114]
