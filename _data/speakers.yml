@@ -133,3 +133,10 @@ Laura has been working on TEI-encoding of CMC data in the CLARIN-D curation proj
     - {abbr: "homepage", title: "Homepage", url: "http://lojze.lugos.si/darja/"}
   bio: |
     Darja Fišer is Assistant Professor at the Faculty of Arts, University of Ljubljana, currently active in the fields of computer-mediated communication and lexical semantics using corpus-linguistics methods and natural language processing. She is a member of the Management Committee of CLARIN.SI where she is in charge of user involvement at the national level and also a member of the CLARIN ERIC User Involvement Working Group.
+-
+  id: 202
+  name: "Alexander"
+  surname: "König and CLARIN-IT colleagues"
+  sortkey: "Z"
+  affiliation: Eurac Research
+  thumbnailUrl: alexanderkoenig.jpg

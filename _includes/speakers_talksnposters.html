@@ -4,7 +4,7 @@
         <h4 class="text-left"><a class="link-unstyled" name="{{ speaker_type }}s">{{ speaker_type | capitalize }}s</a></h4>
 
         {% capture presentationids_sorted %}
-            {% assign site_data_speakers_sorted = site.data.speakers | sort:'surname' %}
+            {% assign site_data_speakers_sorted = site.data.speakers | sort:'surname'  | sort:'sortkey' %}
             {% for speaker in site_data_speakers_sorted %}
                 {% for presentation in site.data.sessions %}
                     {% if presentation.types contains speaker_type %}
