@@ -17,7 +17,6 @@ exclude:
   - Gemfile
   - Gemfile.lock
   - tmp/
-  - external/
 
 sass:
   style: :compressed
@@ -213,6 +212,7 @@ footerBlocks:
  -
   title: "Links"
   links:
+   - {permalink: "/twitter-moment/", text: "Twitter Moment"}
    - {permalink: "/proceedings/", text: "Proceedings"}
    - {permalink: "/registration/", text: "Registration"}
    - {permalink: "/speakers", text: "Accepted Papers"}
