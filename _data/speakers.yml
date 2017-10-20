@@ -36,7 +36,7 @@
   affiliation: "Institute for the German Language, Mannheim, Germany"
   ribbon:
     - {abbr: "homepage", title: "Homepage", url: "http://www1.ids-mannheim.de/direktion/personal/luengen.html"}
-  thumbnailUrl: empty.png
+  thumbnailUrl: haraldluengen.jpg
   bio: "Harald has been working on TEI-encoding of CMC data in the CLARIN-D curation project \"ChatCorpus2CLARIN\" and has been one of the main authors of the most recent TEI schema draft for CMC genres developed within the <a target=\"_blank\" href=\"https://wiki.tei-c.org/index.php?title=SIG:CMC/clarindschema\">TEI-SIG \"computer-mediated communication\"</a>."
 -
   id: 5
@@ -57,6 +57,7 @@ Laura has been working on TEI-encoding of CMC data in the CLARIN-D curation proj
   id: 102
   name: "Steven"
   surname: "Coats"
+  thumbnailUrl: steven.jpg
 -
   id: 104
   name: "Tobias"
@@ -65,63 +66,78 @@ Laura has been working on TEI-encoding of CMC data in the CLARIN-D curation proj
   id: 105
   name: "Stefania"
   surname: "Spina"
+  thumbnailUrl: stefania.jpg
 -
   id: 108
   name: "Márton"
   surname: "Petykó"
+  thumbnailUrl: marton.jpg
 -
   id: 109
   name: "Julien"
   surname: "Longhi, Claudia Marinica, Nader Hassine, Abdulhafiz Alkhouli and Boris Borzic"
+  thumbnailUrl: julien.jpg
 -
   id: 112
   name: "Lisa"
   surname: "Hilte, Reinhild Vandekerckhove and Walter Daelemans"
+  thumbnailUrl: lisa.jpg
 -
   id: 113
   name: "Taja"
   surname: "Kuzman and Darja Fišer"
+  thumbnailUrl: taja.jpg
 -
   id: 115
   name: "Muhammad"
   surname: "Shakir and Dagmar Deuber"
+  thumbnailUrl: muhammad.jpg
 -
   id: 118
   name: "Paola"
   surname: "Leone"
+  thumbnailUrl: paola.jpg
 -
   id: 119
   name: "Laura"
   surname: "Herzberg and Angelika Storrer"
+  thumbnailUrl: laura.jpg
 -
   id: 123
   name: "Lieke"
   surname: "Verheijen and Wilbert Spooren"
+  thumbnailUrl: lieke.jpg
 -
   id: 126
   name: "Harald"
   surname: "Lüngen, Michael Beißwenger, Laura Herzberg and Cathrin Pichler"
+  thumbnailUrl: harald.jpg
 -
   id: 127
   name: "Damjan"
   surname: "Popič and Darja Fišer"
+  thumbnailUrl: darja.jpg
 -
   id: 128
   name: "Michael"
   surname: "Beißwenger, Ciara R. Wigham, Carole Etienne, Darja Fišer, Holger Grumt Suárez, Laura Herzberg, Erhard Hinrichs, Tobias Horsmann, Natali Karlova-Bourbonus, Lothar Lemnitzer, Julien Longhi, Harald Lüngen, Lydia-Mai Ho-Dac, Christophe Parisse, Céline Poudat, Thomas Schmidt, Egon Stemle, Angelika Storrer and Torsten Zesch"
   short_surname: "Beißwenger, Ciara R. Wigham and colleagues"
+  thumbnailUrl: ciara.jpg
 -
   id: 114
   name: "Michael"
   surname: "Beißwenger, Marcel Fladrich, Wolfgang Imo and Evelyn Ziegler"
+  thumbnailUrl: michael.jpg
 -
   id: 121
   name: "Simone"
   surname: "Ueberwasser"
+  thumbnailUrl: simone.jpg
 -
   id: 125
   name: "Daniel"
   surname: "Pfurtscheller"
+  thumbnailUrl: daniel.jpg
 -
   id: 201
   name: "Darja"
