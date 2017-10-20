@@ -84,7 +84,8 @@ typeoutTextValues: '"", " in Bolzano/Bozen", " in South Tyrol", " in Italy", " @
 typeoutFallback: " @ Eurac Research"
 heroButtons:
     - {permalink: "schedule", text: "Schedule"}
-    - {permalink: "registration", text: "Registration"}
+    - {permalink: "proceedings", text: "Proceedings"}
+    # - {permalink: "registration", text: "Registration"}
     # - {permalink: "cfp", text: "Call for Papers"}
     # - {permalink: "uievent", text: "CLARIN UI Event"}
 
@@ -212,6 +213,7 @@ footerBlocks:
  -
   title: "Links"
   links:
+   - {permalink: "/proceedings/", text: "Proceedings"}
    - {permalink: "/registration/", text: "Registration"}
    - {permalink: "/speakers", text: "Accepted Papers"}
    - {permalink: "/authors", text: "For Authors"}
