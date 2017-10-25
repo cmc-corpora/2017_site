@@ -93,7 +93,7 @@
     - {
         startTime: "15:00",
         endTime: "15:30",
-        sessionIds: [104]
+        sessionIds: [7]
       }
     - {
         startTime: "15:30",
@@ -133,11 +133,11 @@
   tracks:
     - {title: "CMC-Conference and CLARIN User Involvement Event", color: "144,190,78"}
   timeslots: 
-    - {
-        startTime: "08:45",
-        endTime: "09:00",
-        sessionIds: [7]
-    }
+    #- {
+    #    startTime: "08:45",
+    #    endTime: "09:00",
+    #    sessionIds: [7]
+    #}
     - {
         startTime: "09:00",
         endTime: "10:00",
