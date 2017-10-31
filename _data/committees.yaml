@@ -7,6 +7,8 @@
   orgaTeam: true
   orgaTeamChair: true
   sciTeam: true
+  sciTeam2: true
+  sciTeam2Editor: true
 -
   name: "Irina"
   surname: "Iokhno"
@@ -29,6 +31,7 @@
   thumbnailUrl: michaelbeisswenger.jpg
   coordTeam: true
   sciTeam: true
+  sciTeam2: true
   sciTeamCoChair: true
 -
   name: "Darja"
@@ -38,6 +41,7 @@
   thumbnailUrl: darjafiser.jpg
   coordTeam: true
   sciTeam: true
+  sciTeam2: true
   sciTeamCoChair: true
 -
   name: "Ciara R."
@@ -48,6 +52,7 @@
   coordTeam: true
   sciTeam: true
   sciTeamChair: true
+  sciTeam2Editor: true
 -
   name: "Andrea"
   surname: "Abel"
@@ -84,6 +89,7 @@
   affiliation: "Eurac Research, Italy" 
   link: "http://www.eurac.edu/en/research/autonomies/commul/staff/pages/staffdetails.aspx?persId=17424"
   sciTeam: true
+  sciTeam2: true
 -
   name: "Axel"
   surname: "Herold"
@@ -96,12 +102,14 @@
   affiliation: "Université de Cergy-Pontoise, France" 
   link: "https://www.u-cergy.fr/fr/_plugins/mypage/mypage/content/jlonghi.html"
   sciTeam: true
+  sciTeam2: true
 -
   name: "Harald"
   surname: "Lüngen"
   affiliation: "Institut für Deutsche Sprache, Germany" 
   link: "http://www1.ids-mannheim.de/direktion/personal/luengen.html"
   sciTeam: true
+  sciTeam2: true
 -
   name: "Maja"
   surname: "Miličević"
@@ -120,6 +128,7 @@
   affiliation: "University of Nice Sophia Antipolis, France" 
   link: "http://poudat.fr/"
   sciTeam: true
+  sciTeam2: true
 -
   name: "Muge"
   surname: "Satar"

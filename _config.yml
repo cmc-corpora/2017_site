@@ -63,7 +63,8 @@ organizerLink: "http://www.eurac.edu/iscm"
 # Navigation
 navigationLinks:
  - {permalink: "/", text: "Home"}
- - {permalink: "proceedings", text: "Proceedings"}
+ - {permalink: "/cfp/", text: "Call for Papers (Monograph)"}
+ - {permalink: "/proceedings/", text: "Proceedings"}
  - {permalink: "/schedule/", text: "Schedule"}
  - {permalink: "/uievent/", text: "CLARIN UI Event"}
  - {permalink: "/speakers/", text: "Speakers"}
@@ -81,10 +82,10 @@ eventDate: "October, 3-4th 2017"
 typeoutTextValues: '"", " in Bolzano/Bozen", " in South Tyrol", " in Italy", " @ Eurac Research"'
 typeoutFallback: " @ Eurac Research"
 heroButtons:
-    - {permalink: "proceedings", text: "Proceedings"}
+    - {permalink: "cfp", text: "Call for Papers (Monograph)"}
+    - {permalink: "proceedings", text: "Proceedings Online"}
     - {permalink: "twitter-moment", text: "Twitter Moment"}
     # - {permalink: "registration", text: "Registration"}
-    # - {permalink: "cfp", text: "Call for Papers"}
     # - {permalink: "uievent", text: "CLARIN UI Event"}
 
 # About Block
@@ -211,13 +212,14 @@ footerBlocks:
  -
   title: "Links"
   links:
+   - {permalink: "/cfp/", text: "Call for Papers (Monograph)"}
    - {permalink: "/twitter-moment/", text: "Twitter Moment"}
    - {permalink: "/proceedings/", text: "Proceedings"}
    - {permalink: "/venue/", text: "Venue"}
    - {permalink: "/registration/", text: "Registration"}
-   - {permalink: "/speakers", text: "Accepted Papers"}
-   - {permalink: "/authors", text: "For Authors"}
-   - {permalink: "/cfp/", text: "Call for Papers"}
+   - {permalink: "/speakers/", text: "Accepted Papers (Conference)"}
+   - {permalink: "/authors_proceedings/", text: "For Authors (Proceedings)"}
+   - {permalink: "/cfp_proceedings/", text: "Call for Papers (Proceedings)"}
    - {link: "mailto:cmc-corpora2017@eurac.edu", text: "e-Mail"}
  -
   title: "&nbsp;"

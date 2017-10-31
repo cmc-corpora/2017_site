@@ -149,3 +149,9 @@ time {
     max-height: 85vh;
     overflow-y: auto;
 }
+
+.post-section {
+    table tbody > tr > td:last-child {
+        padding-left: 30px;
+    }
+}

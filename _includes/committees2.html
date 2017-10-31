@@ -1,0 +1,67 @@
+<!--
+<div class="content-wrapper text-center">
+    <h4 class="text-left animated hiding appear-animation-trigger" data-animation="fadeInUp" data-delay="0">Editors</h4>
+    {% for teamMember in site.data.committees %}{% if teamMember.sciTeam2Editor != null %}
+    <div class="effect-wrapper col-md-4 col-sm-6 col-xs-12 cols-centered appear-animation">
+        <div class="zoe-effect" data-toggle="modal" data-target="#speakerDetail-{{ forloop.index }}">
+            {% if teamMember.link != null %}
+            <a href="{{ teamMember.link }}" target="_blank">
+            {% endif %}
+            <figure class="waves-effect waves-block waves-light" style="background-image: url({{ site.baseurl | append: '/img/people/' | append: teamMember.thumbnailUrl }})">
+                <div class="overlay solid-overlay"></div>
+                <figcaption>
+                    <div class="col-md-12 col-xs-12 text-left">
+                        <h2 class="name">{{ teamMember.name }} <span>{{ teamMember.surname }}</span></h2>
+                        <div class="clearfix"></div>
+                        <span class="position">{{ teamMember.affiliation }}</span>
+                    </div>
+                </figcaption>
+            </figure>
+            {% if teamMember.link != null %}
+            </a>
+            {% endif %}
+        </div>
+    </div>
+    {% endif %} {% endfor %}
+</div>
+-->
+
+<div class="content-wrapper text-left">
+    <h4 class="text-left">Scientific Committee</h4>
+
+    <h6 class="text-left">Editors</h6>
+    <div class="text-left">
+        {% assign sorted_sciTeam = site.data.committees | sort:"surname" %}
+        {% for teamMember in sorted_sciTeam %}{% if teamMember.sciTeam2Editor != null %}
+        <div class="row">
+            <div class="col-xs-4 col-xs-offset-1 col-sm-3 col-sm-offset-1">
+        <a href="{{ teamMember.link }}" target="_blank">{{ teamMember.name }}
+            <span>{{ teamMember.surname }}</span>
+        </a>
+            </div>
+            <div class="clearfix visible-xs-inline-block"></div>
+            <div class="col-xs-6 col-xs-offset-0 col-sm-8 col-sm-offset-0">
+        <span class="affiliation">({{ teamMember.affiliation }})</span>
+            </div>
+        </div>
+        {% endif %}{% endfor %}
+    </div>
+
+    <h6 class="text-left">Members (to be completed)</h6>
+    <div class="text-left">
+        {% assign sorted_sciTeam = site.data.committees | sort:"surname" %}
+        {% for teamMember in sorted_sciTeam %}{% if teamMember.sciTeam2 != null and teamMember.sciTeam2Editor == null %}
+        <div class="row">
+            <div class="col-xs-4 col-xs-offset-1 col-sm-3 col-sm-offset-1">
+        <a href="{{ teamMember.link }}" target="_blank">{{ teamMember.name }}
+            <span>{{ teamMember.surname }}</span>
+        </a>
+            </div>
+            <div class="clearfix visible-xs-inline-block"></div>
+            <div class="col-xs-6 col-xs-offset-0 col-sm-8 col-sm-offset-0">
+        <span class="affiliation">({{ teamMember.affiliation }})</span>
+            </div>
+        </div>
+        {% endif %}{% endfor %}
+    </div>
+</div>
