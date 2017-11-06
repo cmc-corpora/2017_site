@@ -68,6 +68,8 @@
   info: "Chair: Ciara Wigham"
   types:
     - invitedtalk
+  doihtmls:
+    - Paper: '<a href="https://doi.org/10.5281/zenodo.1041850" target="_blank"><img src="https://zenodo.org/badge/DOI/10.5281/zenodo.1041850.svg" alt="DOI"></a>'
   abstract: |
     Social Network Sites (SNS) claim that they are "on a mission to connect the world". They facilitate communication among people wherever they are located. Consequently, many users of SNS communicate with a broad and heterogenic group of friends on different occasions and thereby express various aspects of their identities (such as gender, age, ethnic background etc.). One aspect may also be a local identity.
     Users of SNS can show their local identity linguistically by using a regional variety. Sometimes, the use of single regionally marked words or sporadic regiolectal spellings are sufficient to identify the regional background of the writer; in other cases entire text messages and conversations appear in dialectal spellings meaning that the dialect appears as the main variety of the conversation. The extent of dialect use in computer-mediated communication (CMC) may depend on various factors such as the individual dialect skills, the vividness and prestige of the respective dialect in the community, emotional involvement in the given topic, age, gender, the intended recipient, and other factors probably interacting with each other.
@@ -83,6 +85,8 @@
   info: "Chair: Michael Beißwenger"
   types:
     - invitedtalk
+  doihtmls:
+    - Paper: '<a href="https://doi.org/10.5281/zenodo.1041892" target="_blank"><img src="https://zenodo.org/badge/DOI/10.5281/zenodo.1041892.svg" alt="DOI"></a>'
   abstract: |
     Mobile communication tools and platforms provide various opportunities for users to interact over social media. With the recent developments in computational research and machine learning, it has become possible to analyze large chunks of language related data automatically and fast. However, these tools are not readily available to handle data in all languages and there are also challenges handling social media data. Even when these issues are resolved, asking the right research question to the right set and amount of data becomes crucially important.
     Both qualitative and quantitative methods have attracted respectable researchers in language related areas of research. When tackling similar research problems, there is need for both top-down and bottom-up data-based approaches to reach a solution. Sometimes, this solution is hidden under an in-depth analysis of a small data set and sometimes it is revealed only through analyzing and experimenting with large amounts of data. However, in most cases, there is need for linking the findings of small data sets to understand the bigger picture revealed through patterns in large sets.
@@ -150,6 +154,8 @@
   types:
     - paper
     - talk
+  doihtmls:
+    - Paper: '<a href="https://doi.org/10.5281/zenodo.1041878" target="_blank"><img src="https://zenodo.org/badge/DOI/10.5281/zenodo.1041878.svg" alt="DOI"></a>'
   abstract: |
     Societal and demographic changes have contributed to increasing bi- and multilingualism in European countries in recent years, and communication on social media platforms such as Twitter reflects this linguistic diversity. While high rates of English use online have been attested for many European countries by survey research, relatively little work has quantified the extent to which English is used on social media in European contexts. In this study, English use and bilingualism with English in Europe are investigated on Twitter. 
     A large corpus of Twitter messages with geographical metadata was created by accessing the Twitter APIs. After language detection and filtering, linguistic profiles for European countries were determined and the behavior of bi- and mutlilingual users examined. The analysis supports some previous findings that suggest that a large-scale language shift towards English may be ongoing in Europe. Geographical differences shed light on the dynamics of this process.
@@ -162,6 +168,8 @@
   types:
     - paper
     - talk
+  doihtmls:
+    - Paper: '<a href="https://doi.org/10.5281/zenodo.1041880" target="_blank"><img src="https://zenodo.org/badge/DOI/10.5281/zenodo.1041880.svg" alt="DOI"></a>'
   abstract: |
     We present a series of experiments to fit a part-of-speech (PoS) tagger towards tagging extremely infrequent PoS tags of which we only have a limited amount of training data.
     The objective is to implement a tagger that tags this phenomenon with a high degree of correctness in order to be able to use it as a corpus query tool on plain text corpora, so that new instances of this phenomenon can be easily found in plain text.
@@ -180,6 +188,8 @@
   types:
     - paper
     - talk
+  doihtmls:
+    - Paper: '<a href="https://doi.org/10.5281/zenodo.1041882" target="_blank"><img src="https://zenodo.org/badge/DOI/10.5281/zenodo.1041882.svg" alt="DOI"></a>'
   abstract: |
     Emoticons play an important role in digital written communication: they can serve as markers either of emotions or familiarity, and they can intensify or downgrade the pragmatic force of a text.
     The aim of this study is to investigate the use of emoticons in Twitter by Italian users, and to verify, by relying on corpus data and on statistical methodologies, some of the prevailing opinions on the use of emoticons: that they are technically-driven resources, that they are mostly used by young people, and more often by females, and that they are superficial and easy ways of expressing emotions using images instead of words.
@@ -193,6 +203,8 @@
   types:
     - paper
     - talk
+  doihtmls:
+    - Paper: '<a href="https://doi.org/10.5281/zenodo.1041884" target="_blank"><img src="https://zenodo.org/badge/DOI/10.5281/zenodo.1041884.svg" alt="DOI"></a>'
   abstract: |
     This paper investigates the linguistically marked motives that participants attribute to those they call trolls in 991 comment threads of three British political blogs. The study is concerned with how these motives affect the discursive construction of trolling and trolls. Another goal of the paper is to examine whether the mainly emotional motives ascribed to trolls in the academic literature correspond with those that the participants attribute to the alleged trolls in the analysed threads. The paper identifies five broad motives ascribed to trolls: emotional/mental health-related/social reasons, financial gain, political beliefs, being employed by a political body, and unspecified political affiliation. It also points out that depending on these motives, trolling and trolls are constructed in various ways. Finally, the study argues that participants attribute motives to trolls not only to explain their behaviour but also to insult them.
 -
@@ -204,6 +216,8 @@
   types:
     - paper
     - talk
+  doihtmls:
+    - Paper: '<a href="https://doi.org/10.5281/zenodo.1041886" target="_blank"><img src="https://zenodo.org/badge/DOI/10.5281/zenodo.1041886.svg" alt="DOI"></a>'
   abstract: |
     The #Idéo2017 platform allows citizens to analyze the tweets of the 11 candidates at the French 2017 Presidential Election. #Idéo2017 processes the messages of the candidates by creating a corpus in almost real time. By using techniques from linguistics supplied with tools, #Idéo2017 is able to provide the main characteristics of the corpus and of the employment of the political lexicon, and allows comparisons between the different candidates.
 -
@@ -215,6 +229,8 @@
   types:
     - paper
     - talk
+  doihtmls:
+    - Paper: '<a href="https://doi.org/10.5281/zenodo.1041854" target="_blank"><img src="https://zenodo.org/badge/DOI/10.5281/zenodo.1041854.svg" alt="DOI"></a>'
   abstract: |
     The present paper deals with Flemish adolescents' informal computer-mediated communication (CMC) in a large corpus (2.9 million tokens) of chat conversations. We analyze deviations from written standard Dutch and possible correlations with the teenagers' gender, age and educational track. The concept of non-standardness is operationalized by means of a wide range of features that serve different purposes, related to the chatspeak maxims of orality, brevity and expressiveness. It will be demonstrated how the different social variables impact on non-standard writing, and, more importantly, how they interact with each other. While the findings for age and education correspond to our expectations (more non-standard markers are used by younger adolescents and students in practice-oriented educational tracks), the results for gender (no significant difference between girls and boys) do not: they call for a more fine-grained analysis of non-standard writing, in which features relating to different chat principles are examined separately.
 -
@@ -226,6 +242,8 @@
   types:
     - paper
     - talk
+  doihtmls:
+    - Paper: '<a href="https://doi.org/10.5281/zenodo.1041856" target="_blank"><img src="https://zenodo.org/badge/DOI/10.5281/zenodo.1041856.svg" alt="DOI"></a>'
   abstract: |
     This paper reports on a corpus-based analysis of demonym mentions in the corpus of Slovene tweets. First, we analyze the frequency of mentions for the demonyms for the inhabitants of the European and G8 countries. Then, we focus on the representation of demonyms for residents of Slovenia’s neighboring countries: Austria, Italy, Hungary and Croatia. The main topic of the tweets mentioning Croatians, Austrians and Italians is sport, whereas Hungarians occur most often in relation to the Eurovision. Some economic and political issues are also represented, such as the selling of Slovene companies to foreign firms, the refugee crisis and the arbitration procedure between Slovenia and Croatia. A collocation analysis revealed a highly stereotypical treatment of the neighboring nations and hostility of some Slovene Twitter users to inhabitants of Slovenia’s neighboring countries.
 -
@@ -237,6 +255,8 @@
   types:
     - paper
     - talk
+  doihtmls:
+    - Paper: '<a href="https://doi.org/10.5281/zenodo.1041890" target="_blank"><img src="https://zenodo.org/badge/DOI/10.5281/zenodo.1041890.svg" alt="DOI"></a>'
   abstract: |
     Present study compares four computer-mediated conversational registers – comments, FB groups, FB status and tweets – and spoken conversations from Pakistani and US English using Biber's Multidimensional Analysis framework on three dimensions of variation, i.e. (i) Interactive versus Descriptive Explanatory Discourse, (ii) Expression of Stance, and (iii) Informational Focus versus 1st Person Narrative. Spoken conversations have a high score on dimension 2, while CM conversations show register and regional variation on dimension 1 and 3. FB groups are significantly different in both regional varieties, followed by FB status, comments and tweets. Pakistani FB groups discuss self-help related topics, and appear to be slightly interactive and highly informational, while the US ones are interactive and narrative discussing community and political issues. Pakistani FB status and tweets use English mainly for informational purposes, while the US counterparts have interactive and personal orientation indicating a wider functional role of English.
 -
@@ -248,6 +268,8 @@
   types:
     - paper
     - talk
+  doihtmls:
+    - Paper: '<a href="https://doi.org/10.5281/zenodo.1041862" target="_blank"><img src="https://zenodo.org/badge/DOI/10.5281/zenodo.1041862.svg" alt="DOI"></a>'
   abstract: |
     The current study addresses the definition of a protocol for collecting, storing data and describing (in a simple and generic way) a databank. Particularly, the transparency of a form aimed at gathering information about the pedagogical context of oral telecollaboration for language learning named Teletandem (TT; Telles, 2006) will be tested before it is spread more widely. To uncover problems in submitting information, data-input-triggers quality and reliability have been tested interviewing professors and language instructors who will be involved in a preliminary phase of Teletandem corpus implementation. General goals of the study are to enlarge the research group, to increase data and to improve efficiency in data collection.
 -
@@ -259,6 +281,8 @@
   types:
     - paper
     - talk
+  doihtmls:
+    - Paper: '<a href="https://doi.org/10.5281/zenodo.1041864" target="_blank"><img src="https://zenodo.org/badge/DOI/10.5281/zenodo.1041864.svg" alt="DOI"></a>'
   abstract: |
     The paper presents results of a case study that compared the usage of OKAY across genre types (Wikipedia articles vs. talk pages), across media (spoken vs. written interaction), and across languages (German vs. French CMC data from Wikipedia talk pages). The cross-genre study builds on the results of Herzberg 2016, who compared the usage of OKAY in German Wikipedia articles with its usage in Wikipedia talk pages. These results also form the basis for comparing the CMC genre of Wikipedia talk pages with occurrences of OKAY in the German spoken language corpus FOLK. Finally, we compared the results on the usage of OKAY in German Wikipedia talk pages with the usage of OKAY in French Wikipedia talk pages. With our case study, we want to demonstrate that it is worthwhile to investigate interaction signs across genres and languages, and to compare the usage in written CMC with the usage in spoken interaction.
 -
@@ -270,6 +294,8 @@
   types:
     - paper
     - talk
+  doihtmls:
+    - Paper: '<a href="https://doi.org/10.5281/zenodo.1041868" target="_blank"><img src="https://zenodo.org/badge/DOI/10.5281/zenodo.1041868.svg" alt="DOI"></a>'
   abstract: |
     Today’s youths are continuously engaged with social media. The informal language they use in computer-mediated communication (CMC) often deviates from spelling and grammar rules of the standard language. Therefore, parents and teachers fear that social media have a negative impact on youths’ literacy skills. This paper examines whether such worries are justifiable. An experimental study was conducted with 500 Dutch youths of different educational levels and age groups, to find out if social media affect their productive or perceptive writing skills. We measured whether chatting via WhatsApp directly impacts the writing quality of Dutch youths’ narratives or their ability to detect ‘spelling errors’ (deviations from Standard Dutch) in grammaticality judgement tasks. The use of WhatsApp turned out to have no short-term effects on participants’ performances on either of the writing tasks. Thus, the present study gives no cause for great concern about any impact of WhatsApp on youths’ school writing.
 -
@@ -281,6 +307,8 @@
   types:
     - paper
     - talk
+  doihtmls:
+    - Paper: '<a href="https://doi.org/10.5281/zenodo.1041872" target="_blank"><img src="https://zenodo.org/badge/DOI/10.5281/zenodo.1041872.svg" alt="DOI"></a>'
   abstract: |
     As a consequence of a recent curation project, the Dortmund Chat Corpus is available in CLARIN-D research infrastructures for download and querying. In a legal expertise it had been recommended that standard measures of anonymisation be applied to the corpus before it could be republished. This paper reports about the anonymisation campaign that was conducted for the corpus. Anonymisation has been realised as categorisation, and the taxonomy of anonymisation categories applied is introduced and the method of applying it to the TEI files is demonstrated. The results of the anonymisation campaign as well as issues of quality management are discussed. Finally, pseudonymisation as an alternative to categorisation is discussed in general as a method of the anonymisation of CMC data, as well as possibilities of a (partial) automatisation of the process.
 -
@@ -292,6 +320,8 @@
   types:
     - paper
     - talk
+  doihtmls:
+    - Paper: '<a href="https://doi.org/10.5281/zenodo.1041874" target="_blank"><img src="https://zenodo.org/badge/DOI/10.5281/zenodo.1041874.svg" alt="DOI"></a>'
   abstract: |
     The paper deals with the sociolinguistic concept of prestige imbued in the notion of standard language, and the social status connected to the inherent language skill (or lack thereof). To this end, we analyse Slovenian tweets pertaining to language use and the (in-)correctness of other users’ use of language, propose a typology, especially in cases where language use is used as an argument against someone’s qualifications or beliefs.
 -
@@ -303,6 +333,8 @@
   types:
     - paper
     - talk
+  doihtmls:
+    - Paper: '<a href="https://doi.org/10.5281/zenodo.1041876" target="_blank"><img src="https://zenodo.org/badge/DOI/10.5281/zenodo.1041876.svg" alt="DOI"></a>'
   abstract: |
     The paper reports on the results of a scientific colloquium dedicated to the creation of standards and best practices which are needed to facilitate the integration of language resources for CMC stemming from different origins and the linguistic analysis of CMC phenomena in different languages and genres. The key issue to be solved is that of interoperability – with respect to the structural representation of CMC genres, linguistic annotations metadata, and anonymization/pseudonymization schemas. The objective of the paper is to convince more projects to partake in a discussion about standards for CMC corpora and for the creation of a CMC corpus infrastructure across languages and genres. In view of the broad range of corpus projects which are currently underway all over Europe, there is a great window of opportunity for the creation of standards in a bottom-up approach.
 -
@@ -313,6 +345,8 @@
   place: "Room: Conference Hall"
   types:
     - talk
+  doihtmls:
+    - Paper: '<a href="https://doi.org/10.5281/zenodo.1041848" target="_blank"><img src="https://zenodo.org/badge/DOI/10.5281/zenodo.1041848.svg" alt="DOI"></a>'
   abstract: |
     With the growing volume and importance of computer-mediated communication, the need to understand its linguistic and social dimensions, along with CMC-robust language technologies is on the rise as well. This is reflected in the increasing number of conferences, projects and positions involving analysis of CMC in a wide range of disciplines in Digital Humanities, Social Sciences and Computer Science. As a result, a number of valuable CMC corpora, datasets and tools are being developed but unfortunately, due to non-negligible technical, legal and ethical obstacles, not many are being shared and reused.
     Since it is the mission of CLARIN to create and maintain an infrastructure to support the sharing, use and sustainability of language data and tools for researchers in Digital Humanities and Social Sciences, it is our goal to have a good overview of the available resources and tools, to offer support to their developers to overcome the technical, legal and ethical obstacles and deposit them to the CLARIN infrastructure, as well as to the researchers with diverse backgrounds, such as linguistics, media studies, psychology etc., but also to interested parties from the educational, commercial, political, medical and legal sectors of the society who are interested in using them.
@@ -337,6 +371,8 @@
   types:
     - paper
     - poster
+  doihtmls:
+    - Paper: '<a href="https://doi.org/10.5281/zenodo.1041894" target="_blank"><img src="https://zenodo.org/badge/DOI/10.5281/zenodo.1041894.svg" alt="DOI"></a>'
   abstract: |
     The poster reports about intermediate results of MoCoDa 2, an ongoing project funded by the Ministry for Innovation, Science, Research and Technology of the German federal state North Rhine-Westphalia in which we are developing a database and web frontend for the repeated, donation-based collection of CMC interactions from smartphone messaging apps like WhatsApp. The database shall serve as a resource not only for quantitative but also for qualitative approaches in the analysis of CMC. MoCoDa 2 builds on experiences from the preceding project MoCoDa which has collected a (relatively small) set of 2,198 interactions with 19,161 user posts or ca.~193,000 tokens since 2012. For MoCoDa 2 the database and web frontend will be re-implemented from the scratch and expanded with additional functions and features:
     - A form for donating and editing the data, which involves the donators into the editing and anonymization process and assists them with capturing metadata on the context and topic of the donated sequences as well as on the interlocutors and their social relations. Anonymization will follow an anonymization guideline developed in the CLARIN-D curation project ChatCorpus2CLARIN.
@@ -351,6 +387,8 @@
   types:
     - paper
     - poster
+  doihtmls:
+    - Paper: '<a href="https://doi.org/10.5281/zenodo.1041866" target="_blank"><img src="https://zenodo.org/badge/DOI/10.5281/zenodo.1041866.svg" alt="DOI"></a>'
   abstract: |
     /l/-vocalization is a feature normally found in a rather clear cut area in the western part of Switzerland. Its geographical boundaries are well documented as well as social influences on the realisation of the variants. This study, based on a corpus of authentic WhatsApp messages, takes another approach by documenting isolated forms of /l/-vocalization outside the area traditionally attributed to the feature.
 -
@@ -361,6 +399,8 @@
   types:
     - paper
     - poster
+  doihtmls:
+    - Paper: '<a href="https://doi.org/10.5281/zenodo.1041870" target="_blank"><img src="https://zenodo.org/badge/DOI/10.5281/zenodo.1041870.svg" alt="DOI"></a>'
   abstract: |
     As social networking sites have become staples in everyday life an increasing number of people worldwide use social media as a source of news. To reach this audiences, news organisations and public service broadcasters have ventured on services such as Facebook, which in terms of news is by far the most important social networking site in many parts of Europe. This poster presentation explores the ways in which public service media from different European countries are delivering news on public Facebook Pages. The analysis is based on public data gathered from different Facebook pages operated by national broadcasting agencies. The data are extracted using the public Facebook Graph API. The corpus contains all the posts and comments of the Facebook Pages as well as related metadata. No personally-identifiable information is collected.
     The social media data are explored using statistical research methods to identify and compare different usage patterns and to visualise the reactions of Facebook users. This provides an overview over the different forms of content (i.e. types of posts) and the basic communicative practices that can be observed in the context of the Facebook Pages (i.e. number of comments, shares, likes and Reaction types). To allow deeper insights an exploratory case-study approach is used. Drawing upon media linguistic research the focus is on the micro level of the media texts and their multimodal design. The in-depth analysis aims to characterise different forms of news reporting via Facebook and looks at the different usage of multimodal ressources in the context of the Facebook posts and comments.
