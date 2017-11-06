@@ -8,4 +8,7 @@ permalink: /proceedings/
 ### Pre-conference proceedings
 
 The pre-conference proceedings are available for download from:
-[https://cmc-corpora2017.eurac.edu/proceedings/cmccorpora17-proceedings.pdf](https://cmc-corpora2017.eurac.edu/proceedings/cmccorpora17-proceedings.pdf)
+[hal.archives-ouvertes](https://hal.archives-ouvertes.fr/hal-01614310) and
+[zenodo](https://doi.org/10.5281/zenodo.1040713).
+
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.1040713.svg)](https://doi.org/10.5281/zenodo.1040713)
