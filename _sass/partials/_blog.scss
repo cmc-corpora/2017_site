@@ -38,8 +38,11 @@
     h4 {
         margin-top: 40px;
     }
-    iframe, img {
+    iframe {
         display: block;
+        margin: 16px 0;
+    }
+    img {
         margin: 16px 0;
     }
 }
