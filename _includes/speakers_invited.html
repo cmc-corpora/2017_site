@@ -20,10 +20,19 @@
                         </div>
                     {% endfor %}
                     {% if presentation.title %}
-                        <div class="row title">
-                            <h6><small>
+                        <div class="row">
+                            <div class="title">
                                 <span>{{ presentation.title }}</span>
-                            </small></h6>
+                            </div>
+                            {% if presentation.doihtmls %}
+                                <div>
+                                {% for doiobj in presentation.doihtmls %}
+                                    {% for doi in doiobj %}
+                                    <span>{{ doi[0] }}: {{ doi[1] }}</span>
+                                    {% endfor %}
+                                {% endfor %}
+                                </div>
+                            {% endif %}
                         </div>
                     {% endif %}
                     {% if presentation.abstract %}
