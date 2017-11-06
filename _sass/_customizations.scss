@@ -105,6 +105,14 @@
         margin-bottom: 0;
     }
 }
+.speakers {
+    .title {
+        font-size: $h6-font-size * 80 / 100;
+        @media (max-width: 767px) {
+            font-size: $h6-font-size * 60 / 100;
+        }
+    }
+}
 time {
     @media print {
         display: inline;
