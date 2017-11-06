@@ -63,7 +63,7 @@ organizerLink: "http://www.eurac.edu/iscm"
 # Navigation
 navigationLinks:
  - {permalink: "/", text: "Home"}
- - {permalink: "/cfp/", text: "Call for Papers (Monograph)"}
+ - {permalink: "/cfp/", text: "CFP (Monograph)"}
  - {permalink: "/proceedings/", text: "Proceedings"}
  - {permalink: "/schedule/", text: "Schedule"}
  - {permalink: "/uievent/", text: "CLARIN UI Event"}
