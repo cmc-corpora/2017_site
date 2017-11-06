@@ -22,6 +22,12 @@
 						<span class="theme-metadata">Type: {{ session.subtype }}</span>
 						{% endif %}
 
+                        {% for doiobj in session.doihtmls %}
+                            {% for doi in doiobj %}
+                            <span class="theme-metadata">{{ doi[0] }}: {{ doi[1] }}</span>
+                            {% endfor %}
+                        {% endfor %}
+
 						{% if session.language != null %}
 						<span class="theme-metadata"><span class="caption">Language: </span>{{ session.language }}</span>
 						{% endif %}
