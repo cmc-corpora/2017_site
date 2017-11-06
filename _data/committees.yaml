@@ -83,6 +83,7 @@
   affiliation: "Università di Bologna, Italy" 
   link: "https://unibo.academia.edu/JenniferFrey"
   sciTeam: true
+  sciTeam2: true
 -
   name: "Aivars"
   surname: "Glaznieks"
@@ -122,6 +123,7 @@
   affiliation: "University of Valladolid, Spain"
   link: "http://www.unir.net/profesores/maria-teresa-ortego-anton/"
   sciTeam: true
+  sciTeam2: true
 -
   name: "Céline"
   surname: "Poudat"
@@ -135,15 +137,18 @@
   affiliation: "Newcastle University, United Kingdom" 
   link: "http://www.ncl.ac.uk/linguistics/staff/profile/mugesatarnclacuk.html#background"
   sciTeam: true
+  sciTeam2: true
 -
   name: "Stefania"
   surname: "Spina"
   affiliation: "University for Foreigners, Italy" 
   link: "https://webclass.unistrapg.it/mod/data/view.php?d=1&rid=6"
   sciTeam: true
+  sciTeam2: true
 -
   name: "Angelika"
   surname: "Storrer"
   affiliation: "Universitaet Mannheim, Germany" 
   link: "http://germanistik.uni-mannheim.de/abteilungen/germanistische_linguistik/prof_dr_angelika_storrer_engl/index.html"
   sciTeam: true
+  sciTeam2: true
