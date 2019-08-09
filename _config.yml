@@ -66,7 +66,7 @@ organizerLink: "http://www.eurac.edu/iscm"
 # Navigation
 navigationLinks:
  - {permalink: "/", text: "Home"}
- - {permalink: "/cfp/", text: "CFP (Monograph)"}
+ - {permalink: "/volume/", text: "Monograph"}
  - {permalink: "/proceedings/", text: "Proceedings"}
  - {permalink: "/schedule/", text: "Schedule"}
  - {permalink: "/uievent/", text: "CLARIN UI Event"}
@@ -85,7 +85,7 @@ eventDate: "October, 3-4th 2017"
 typeoutTextValues: '"", " in Bolzano/Bozen", " in South Tyrol", " in Italy", " @ Eurac Research"'
 typeoutFallback: " @ Eurac Research"
 heroButtons:
-    - {permalink: "cfp", text: "Call for Papers (Monograph)"}
+    - {permalink: "volume", text: "Post-conference Volume Online"}
     - {permalink: "proceedings", text: "Proceedings Online"}
     - {permalink: "twitter-moment", text: "Twitter Moment"}
     # - {permalink: "registration", text: "Registration"}
@@ -215,22 +215,22 @@ footerBlocks:
  -
   title: "Links"
   links:
-   - {permalink: "/cfp/", text: "Call for Papers (Monograph)"}
-   - {permalink: "/twitter-moment/", text: "Twitter Moment"}
+   - {permalink: "/volume/", text: "Post-conference Volume (Monograph)"}
    - {permalink: "/proceedings/", text: "Proceedings"}
    - {permalink: "/venue/", text: "Venue"}
-   - {permalink: "/registration/", text: "Registration"}
+   # - {permalink: "/registration/", text: "Registration"}
    - {permalink: "/speakers/", text: "Accepted Papers (Conference)"}
    - {permalink: "/authors_proceedings/", text: "For Authors (Proceedings)"}
    - {permalink: "/cfp_proceedings/", text: "Call for Papers (Proceedings)"}
-   - {link: "mailto:cmc-corpora2017@eurac.edu", text: "e-Mail"}
  -
   title: "&nbsp;"
   links:
-   - {link: "http://cmc-corpora.org", text: "cmc-corpora conference series"}
+   - {permalink: "/twitter-moment/", text: "Twitter Moment"}
+   - {link: "http://cmc-corpora.org", text: "cmc-corpora Conference Series"}
    - {link: "http://www.eurac.edu/linguistics", text: "Institute for Applied Linguistics"}
    - {link: "http://www.eurac.edu", text: "Eurac Research"}
    - {link: "http://lcr2017.eurac.edu", text: "4th Learner Corpus Research Conference (LCR2017)"}
+   - {link: "mailto:cmc-corpora2017@eurac.edu", text: "e-Mail"}
 
 # Blog
 blogTitle: "Latest news"
