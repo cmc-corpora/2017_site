@@ -41,7 +41,7 @@ permalink: "/blog/:year:month:day_:title/"
 analytics:
   - name: "piwik"
 googleSiteVerification: ""
-googleMapsApiKey: "AIzaSyB6hiwDZTjA2YMPP8xyCRJN4JCZW79lt7E"
+googleMapsApiKey: ""
 
 twitterAccount: "@cmc_corpora"
 socialImageSrcGooglePlus: "/img/seo/sharing-google-plus.png"

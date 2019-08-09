@@ -2,13 +2,14 @@
 set -e # halt script on error
 
 rm -rf _sass/.sass-cache/
+rm -f css/main.css
 
 bundle exec jekyll clean \
-&& bundle exec jekyll build --no-watch
+&& bundle exec jekyll build --no-watch --config _config.yml,_config-secrets.yml
 
 if [ $? -eq 0 ]; then
     trap "kill -SIGINT ${JEKYLL_PID} && exit 0 || kill -SIGTERM ${JEKYLL_PID} ; exit 1;" ERR INT QUIT TERM KILL
-    bundle exec jekyll serve --watch &
+    bundle exec jekyll serve --watch --config _config.yml,_config-secrets.yml &
     JEKYLL_PID=$!
 
     until $(curl --output /dev/null --silent --head --fail http://localhost:4000/schedule/); do
@@ -16,7 +17,8 @@ if [ $? -eq 0 ]; then
         sleep 1
     done
     wkhtmltopdf \
-        --run-script "javascript:(\$(function(){ \$('.timeslot-elements').css({'width':'745px'}) ;} ))" \
+        --javascript-delay 3000 \
+        --run-script "javascript:(\$(function(){ \$('.timeslot-elements').css({'width':'745px'}) ; \$('.end-time').css({'padding-left':'15px'}) ;  } ))" \
         --print-media-type \
         http://localhost:4000/schedule/ assets/schedule.pdf
     wait ${JEKYLL_PID}
