@@ -7,8 +7,16 @@ rm -f css/main.css
 bundle exec jekyll clean \
 && bundle exec jekyll build --no-watch --config _config.yml,_config-secrets.yml
 
+end_jekyll()
+{
+    # echo ${JEKYLL_PID}
+    kill -SIGINT ${JEKYLL_PID} && exit 0 || kill -SIGTERM ${JEKYLL_PID}
+    exit 1
+}
+
+JEKYLL_PID=""
 if [ $? -eq 0 ]; then
-    trap "kill -SIGINT ${JEKYLL_PID} && exit 0 || kill -SIGTERM ${JEKYLL_PID} ; exit 1;" ERR INT QUIT TERM KILL
+    trap end_jekyll ERR INT QUIT TERM KILL
     bundle exec jekyll serve --watch --config _config.yml,_config-secrets.yml &
     JEKYLL_PID=$!
 
