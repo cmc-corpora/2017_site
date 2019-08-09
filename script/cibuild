@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 set -e # halt script on error
 
-bundle exec jekyll build --config _config.yml,_config-secrets.yml
+bundle exec jekyll build --config _config.yml,_config-secrets.dist.yml
 # FIXME: check docu and reenable
 # bundle exec htmlproofer --allow-hash-href --assume-extension ./_site
