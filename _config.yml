@@ -23,7 +23,10 @@ sass:
 
 sitemap:
   extensions:
-    - .tgz
+    - tar.gz
+    # must not be tgz (the author's-kit),
+    # see: https://moz.com/blog/unwritten-google-webmaster-guideline-dont-end-urls-in-0
+    # FIXME: must not be empty - error in the extension code
 
 # Site and <head> Settings
 author: "Eurac Research & cmc-corpora"
